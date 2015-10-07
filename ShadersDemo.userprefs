@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GPGPU\Scripts\GPUParticleSystem.cs">
+    <Files>
+      <File FileName="Assets\GPGPU\Scripts\GPUParticleSystem.cs" Line="128" Column="1" />
+      <File FileName="Assets\GPGPU\Resources\GPUParticleShader.shader" Line="64" Column="7" />
+      <File FileName="Assets\GPGPU\Resources\GPUParticleUpdater.compute" Line="63" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
