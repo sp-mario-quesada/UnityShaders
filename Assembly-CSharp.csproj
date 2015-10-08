@@ -45,15 +45,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GPGPU\Scripts\GPGPUDemo.cs" />
-     <Compile Include="Assets\GPGPU\Scripts\GPUParticleSystem.cs" />
-     <Compile Include="Assets\GPGPUOther\CameraRender.cs" />
-     <Compile Include="Assets\GPGPUOther\TestParticle.cs" />
-     <None Include="Assets\Resources\Shaders\TestComputeShader.compute" />
-     <None Include="Assets\GPGPUOther\particle.shader" />
-     <None Include="Assets\GPGPU\Resources\GPUParticleShader.shader" />
-     <None Include="Assets\GPGPU\Resources\GPUParticleUpdater.compute" />
-     <None Include="Assets\GPGPUOther\moveParticle.compute" />
+     <Compile Include="Assets\GPGPUDemo\Scripts\GPGPUDemo.cs" />
+     <Compile Include="Assets\GPGPUDemo\Scripts\GPUParticleSystem.cs" />
+     <Compile Include="Assets\GlowDemo\Scripts\GlowPostProcess.cs" />
+     <None Include="Assets\GlowDemo\Resources\GlowFilterPostProcess.shader" />
+     <None Include="Assets\GlowDemo\Resources\GlowMergePostProcess.shader" />
+     <None Include="Assets\GPGPUDemo\Resources\GPUParticleShader.shader" />
+     <None Include="Assets\GPGPUDemo\Resources\GPUParticleUpdater.compute" />
+     <None Include="Assets\GlowDemo\Resources\GlowObjectShader.shader" />
+     <None Include="Assets\GlowDemo\Resources\GlowScalePostProcess.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Apps/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

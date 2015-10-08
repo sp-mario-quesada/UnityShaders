@@ -1,0 +1,48 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel KernelMoveParticles
+#pragma kernel KernelResizeVertices
+#pragma kernel KernelMeltVertices
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+
+struct Particle
+{
+	float3 position;
+	float3 velocity;
+	float3 size;
+};
+
+float _Width;
+float _Height;
+
+RWStructuredBuffer<Particle> _ParticlesBuffer;
+
+float _DeltaTime;
+float _Time;
+
+//---- Helpers
+int getIdxFromId(uint3 id)
+{
+	return id.x + id.y * _Width;
+}
+
+//---- Kernels
+[numthreads(16,16,1)]
+void KernelMoveParticles (uint3 id : SV_DispatchThreadID)
+{
+	uint idx = getIdxFromId(id);
+	
+	float3 prevPos = _ParticlesBuffer[idx].position;
+	float3 nextPos = prevPos;
+
+	nextPos += _ParticlesBuffer[idx].velocity * 20.0 * _DeltaTime * sign(sin(_Time * 0.1));
+	nextPos.y = sin(_ParticlesBuffer[idx].position.x * 0.05 + _Time * 0.7) * 4;
+	nextPos.y *= sin(_ParticlesBuffer[idx].position.z * 0.08 + _Time * 0.2) * 5;
+	
+	float3 dir = normalize(nextPos - prevPos);
+	_ParticlesBuffer[idx].position = nextPos;
+	
+	_ParticlesBuffer[idx].size.xyz += float3(1, 1, 1) * 0.4 * _DeltaTime * sign(sin(_Time * 0.1));
+	
+}

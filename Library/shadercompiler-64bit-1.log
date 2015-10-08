@@ -1,1122 +1,811 @@
 Base path: D:/Apps/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-17292
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-14644
 Cmd: getPlatforms
 Cmd: preprocess
-  insize=1816 outsize=308 ok=1
+  insize=1605 outsize=308 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1807 outsize=2265 kw= pd= ok=1
+  error: 1 plat 4 at (57): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
+  api=4 type=0 insize=1596 outsize=2428 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1807 outsize=1136 kw= pd= ok=1
-Cmd: compileCompute
-  api=4 insize=653 outsize=765 ok=1
-Cmd: compileCompute
-  api=4 insize=653 outsize=765 ok=1
-Cmd: compileCompute
-  api=15 insize=653 outsize=1765 ok=1
-Cmd: compileCompute
-  api=9 insize=653 outsize=1665 ok=1
-Cmd: compileCompute
-  api=4 insize=603 outsize=861 ok=1
-Cmd: compileCompute
-  api=4 insize=603 outsize=861 ok=1
-Cmd: compileCompute
-  api=15 insize=603 outsize=2009 ok=1
-Cmd: compileCompute
-  api=9 insize=603 outsize=1913 ok=1
+  api=4 type=1 insize=1596 outsize=1136 kw= pd= ok=1
 Cmd: preprocess
-  insize=1886 outsize=308 ok=1
+  insize=1655 outsize=307 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1877 outsize=1973 kw= pd= ok=1
+  error: 1 plat 4 at (57): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
+  api=4 type=0 insize=1646 outsize=2582 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1877 outsize=1136 kw= pd= ok=1
+  api=4 type=1 insize=1646 outsize=1136 kw= pd= ok=1
 Cmd: preprocess
-  insize=1884 outsize=308 ok=1
+  insize=1660 outsize=308 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1875 outsize=2078 kw= pd= ok=1
+  error: 1 plat 4 at (57): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
+  api=4 type=0 insize=1651 outsize=2452 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1875 outsize=1136 kw= pd= ok=1
-Cmd: compileCompute
-  api=4 insize=610 outsize=845 ok=1
-Cmd: compileCompute
-  api=4 insize=610 outsize=845 ok=1
-Cmd: compileCompute
-  api=15 insize=610 outsize=2045 ok=1
-Cmd: compileCompute
-  api=9 insize=610 outsize=1961 ok=1
-Cmd: compileCompute
-  api=4 insize=650 outsize=945 ok=1
-Cmd: compileCompute
-  api=4 insize=650 outsize=945 ok=1
-Cmd: compileCompute
-  api=15 insize=650 outsize=2097 ok=1
-Cmd: compileCompute
-  api=9 insize=650 outsize=1997 ok=1
-Cmd: compileCompute
-  api=4 insize=650 outsize=977 ok=1
-Cmd: compileCompute
-  api=4 insize=650 outsize=977 ok=1
-Cmd: compileCompute
-  api=15 insize=650 outsize=2137 ok=1
-Cmd: compileCompute
-  api=9 insize=650 outsize=2037 ok=1
-Cmd: compileCompute
-  api=4 insize=683 outsize=1009 ok=1
-Cmd: compileCompute
-  api=4 insize=683 outsize=1009 ok=1
-Cmd: compileCompute
-  api=15 insize=683 outsize=2165 ok=1
-Cmd: compileCompute
-  api=9 insize=683 outsize=2065 ok=1
-Cmd: compileCompute
-  api=4 insize=793 outsize=1457 ok=1
-Cmd: compileCompute
-  api=4 insize=793 outsize=1457 ok=1
-Cmd: compileCompute
-  api=15 insize=793 outsize=3097 ok=1
-Cmd: compileCompute
-  api=9 insize=793 outsize=2873 ok=1
-Cmd: compileCompute
-  api=4 insize=837 outsize=1481 ok=1
-Cmd: compileCompute
-  api=4 insize=837 outsize=1481 ok=1
-Cmd: compileCompute
-  api=15 insize=837 outsize=3153 ok=1
-Cmd: compileCompute
-  api=9 insize=837 outsize=2925 ok=1
-Cmd: compileCompute
-  api=4 insize=841 outsize=985 ok=1
-Cmd: compileCompute
-  api=4 insize=841 outsize=985 ok=1
-Cmd: compileCompute
-  api=15 insize=841 outsize=2097 ok=1
-Cmd: compileCompute
-  api=9 insize=841 outsize=1949 ok=1
-Cmd: compileCompute
-  api=4 insize=841 outsize=957 ok=1
-Cmd: compileCompute
-  api=4 insize=841 outsize=957 ok=1
-Cmd: compileCompute
-  api=15 insize=841 outsize=2065 ok=1
-Cmd: compileCompute
-  api=9 insize=841 outsize=1921 ok=1
-Cmd: compileCompute
-  api=4 insize=841 outsize=985 ok=1
-Cmd: compileCompute
-  api=4 insize=841 outsize=985 ok=1
-Cmd: compileCompute
-  api=15 insize=841 outsize=2089 ok=1
-Cmd: compileCompute
-  api=9 insize=841 outsize=1941 ok=1
-Cmd: compileCompute
-  api=4 insize=839 outsize=1457 ok=1
-Cmd: compileCompute
-  api=4 insize=839 outsize=1457 ok=1
-Cmd: compileCompute
-  api=15 insize=839 outsize=3089 ok=1
-Cmd: compileCompute
-  api=9 insize=839 outsize=2865 ok=1
-Cmd: compileCompute
-  api=4 insize=837 outsize=1517 ok=1
-Cmd: compileCompute
-  api=4 insize=837 outsize=1517 ok=1
-Cmd: compileCompute
-  api=15 insize=837 outsize=3005 ok=1
-Cmd: compileCompute
-  api=9 insize=837 outsize=2785 ok=1
-Cmd: compileCompute
-  api=4 insize=866 outsize=1501 ok=1
-Cmd: compileCompute
-  api=4 insize=866 outsize=1501 ok=1
-Cmd: compileCompute
-  api=15 insize=866 outsize=2957 ok=1
-Cmd: compileCompute
-  api=9 insize=866 outsize=2729 ok=1
-Cmd: compileCompute
-  api=4 insize=866 outsize=1501 ok=1
-Cmd: compileCompute
-  api=4 insize=866 outsize=1501 ok=1
-Cmd: compileCompute
-  api=15 insize=866 outsize=2965 ok=1
-Cmd: compileCompute
-  api=9 insize=866 outsize=2737 ok=1
-Cmd: compileCompute
-  api=4 insize=1128 outsize=1501 ok=1
-Cmd: compileCompute
-  api=4 insize=1128 outsize=1501 ok=1
-Cmd: compileCompute
-  api=15 insize=1128 outsize=2965 ok=1
-Cmd: compileCompute
-  api=9 insize=1128 outsize=2741 ok=1
-Cmd: compileCompute
-  api=4 insize=1162 outsize=2321 ok=1
-Cmd: compileCompute
-  api=4 insize=1162 outsize=2321 ok=1
-Cmd: compileCompute
-  api=15 insize=1162 outsize=4609 ok=1
-Cmd: compileCompute
-  api=9 insize=1162 outsize=4281 ok=1
-Cmd: compileCompute
-  api=4 insize=1156 outsize=2321 ok=1
-Cmd: compileCompute
-  api=4 insize=1156 outsize=2321 ok=1
-Cmd: compileCompute
-  api=15 insize=1156 outsize=4609 ok=1
-Cmd: compileCompute
-  api=9 insize=1156 outsize=4277 ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1235 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1235 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=15 insize=1235 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=9 insize=1235 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1235 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1236 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1236 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=15 insize=1236 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=9 insize=1236 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1236 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1232 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1232 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=15 insize=1232 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=9 insize=1232 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1232 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1234 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1234 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=15 insize=1234 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=9 insize=1234 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(37): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1234 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(38): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1236 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(38): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1236 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(38): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=15 insize=1236 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(38): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=9 insize=1236 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(38): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1236 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'idx'
-  api=4 insize=1277 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'idx'
-  api=4 insize=1277 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'idx'
-  api=15 insize=1277 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'idx'
-  api=9 insize=1277 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'idx'
-  api=4 insize=1277 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(30): race condition writing to shared resource detected, consider making this write conditional.
-  api=4 insize=1313 outsize=1773 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(30): race condition writing to shared resource detected, consider making this write conditional.
-  api=4 insize=1313 outsize=1773 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(30): race condition writing to shared resource detected, consider making this write conditional.
-  api=15 insize=1313 outsize=3501 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(30): race condition writing to shared resource detected, consider making this write conditional.
-  api=9 insize=1313 outsize=3501 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(30): race condition writing to shared resource detected, consider making this write conditional.
-  api=4 insize=1313 outsize=1773 ok=0
-Cmd: compileCompute
-  api=4 insize=1315 outsize=2689 ok=1
-Cmd: compileCompute
-  api=4 insize=1315 outsize=2689 ok=1
-Cmd: compileCompute
-  api=15 insize=1315 outsize=4769 ok=1
-Cmd: compileCompute
-  api=9 insize=1315 outsize=4477 ok=1
-Cmd: compileCompute
-  api=4 insize=1332 outsize=2565 ok=1
-Cmd: compileCompute
-  api=4 insize=1332 outsize=2565 ok=1
-Cmd: compileCompute
-  api=15 insize=1332 outsize=4761 ok=1
-Cmd: compileCompute
-  api=9 insize=1332 outsize=4457 ok=1
-Cmd: compileCompute
-  api=4 insize=1315 outsize=2689 ok=1
-Cmd: compileCompute
-  api=4 insize=1315 outsize=2689 ok=1
-Cmd: compileCompute
-  api=15 insize=1315 outsize=4769 ok=1
-Cmd: compileCompute
-  api=9 insize=1315 outsize=4477 ok=1
-Cmd: compileCompute
-  api=4 insize=1317 outsize=2641 ok=1
-Cmd: compileCompute
-  api=4 insize=1317 outsize=2641 ok=1
-Cmd: compileCompute
-  api=15 insize=1317 outsize=4857 ok=1
-Cmd: compileCompute
-  api=9 insize=1317 outsize=4573 ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(28): undeclared identifier 'getIdxFromId'
-  api=4 insize=1412 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(28): undeclared identifier 'getIdxFromId'
-  api=4 insize=1412 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(28): undeclared identifier 'getIdxFromId'
-  api=15 insize=1412 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(28): undeclared identifier 'getIdxFromId'
-  api=9 insize=1412 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(28): undeclared identifier 'getIdxFromId'
-  api=4 insize=1412 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(28): invalid subscript 'y'
-  api=4 insize=1414 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(28): invalid subscript 'y'
-  api=4 insize=1414 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(28): invalid subscript 'y'
-  api=15 insize=1414 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(28): invalid subscript 'y'
-  api=9 insize=1414 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(28): invalid subscript 'y'
-  api=4 insize=1414 outsize=97 ok=0
-Cmd: compileCompute
-  api=4 insize=1415 outsize=2641 ok=1
-Cmd: compileCompute
-  api=4 insize=1415 outsize=2641 ok=1
-Cmd: compileCompute
-  api=15 insize=1415 outsize=4857 ok=1
-Cmd: compileCompute
-  api=9 insize=1415 outsize=4565 ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(30): undeclared identifier 'getIdxFromId'
-  api=4 insize=1415 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(30): undeclared identifier 'getIdxFromId'
-  api=4 insize=1415 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(30): undeclared identifier 'getIdxFromId'
-  api=15 insize=1415 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(30): undeclared identifier 'getIdxFromId'
-  api=9 insize=1415 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(30): undeclared identifier 'getIdxFromId'
-  api=4 insize=1415 outsize=97 ok=0
-Cmd: compileCompute
-  api=4 insize=1414 outsize=2641 ok=1
-Cmd: compileCompute
-  api=4 insize=1414 outsize=2641 ok=1
-Cmd: compileCompute
-  api=15 insize=1414 outsize=4857 ok=1
-Cmd: compileCompute
-  api=9 insize=1414 outsize=4565 ok=1
-Cmd: compileCompute
-  api=4 insize=1435 outsize=2641 ok=1
-Cmd: compileCompute
-  api=4 insize=1435 outsize=2641 ok=1
-Cmd: compileCompute
-  api=15 insize=1435 outsize=4857 ok=1
-Cmd: compileCompute
-  api=9 insize=1435 outsize=4565 ok=1
-Cmd: compileCompute
-  api=4 insize=1433 outsize=2641 ok=1
-Cmd: compileCompute
-  api=4 insize=1433 outsize=2641 ok=1
-Cmd: compileCompute
-  api=15 insize=1433 outsize=4857 ok=1
-Cmd: compileCompute
-  api=9 insize=1433 outsize=4565 ok=1
-Cmd: compileCompute
-  api=4 insize=1431 outsize=2689 ok=1
-Cmd: compileCompute
-  api=4 insize=1431 outsize=2689 ok=1
-Cmd: compileCompute
-  api=15 insize=1431 outsize=4769 ok=1
-Cmd: compileCompute
-  api=9 insize=1431 outsize=4473 ok=1
-Cmd: compileCompute
-  api=4 insize=1432 outsize=2689 ok=1
-Cmd: compileCompute
-  api=4 insize=1432 outsize=2689 ok=1
-Cmd: compileCompute
-  api=15 insize=1432 outsize=4769 ok=1
-Cmd: compileCompute
-  api=9 insize=1432 outsize=4473 ok=1
-Cmd: compileCompute
-  api=4 insize=1395 outsize=2689 ok=1
-Cmd: compileCompute
-  api=4 insize=1395 outsize=2689 ok=1
-Cmd: compileCompute
-  api=15 insize=1395 outsize=4769 ok=1
-Cmd: compileCompute
-  api=9 insize=1395 outsize=4473 ok=1
-Cmd: compileCompute
-  api=4 insize=1566 outsize=2689 ok=1
-Cmd: compileCompute
-  api=4 insize=1566 outsize=2689 ok=1
-Cmd: compileCompute
-  api=15 insize=1566 outsize=4769 ok=1
-Cmd: compileCompute
-  api=9 insize=1566 outsize=4473 ok=1
-Cmd: compileCompute
-  api=4 insize=1591 outsize=2721 ok=1
-Cmd: compileCompute
-  api=4 insize=1591 outsize=2721 ok=1
-Cmd: compileCompute
-  api=15 insize=1591 outsize=4837 ok=1
-Cmd: compileCompute
-  api=9 insize=1591 outsize=4545 ok=1
-Cmd: compileCompute
-  api=4 insize=1618 outsize=2753 ok=1
-Cmd: compileCompute
-  api=4 insize=1618 outsize=2753 ok=1
-Cmd: compileCompute
-  api=15 insize=1618 outsize=4905 ok=1
-Cmd: compileCompute
-  api=9 insize=1618 outsize=4613 ok=1
-Cmd: compileCompute
-  api=4 insize=1652 outsize=2721 ok=1
-Cmd: compileCompute
-  api=4 insize=1652 outsize=2721 ok=1
-Cmd: compileCompute
-  api=15 insize=1652 outsize=4837 ok=1
-Cmd: compileCompute
-  api=9 insize=1652 outsize=4545 ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(50): the product of the arguments of numthreads(144,16,1) must be less than or equal to 1024
-  api=4 insize=1653 outsize=1805 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(50): the product of the arguments of numthreads(144,16,1) must be less than or equal to 1024
-  api=4 insize=1653 outsize=1805 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(50): the product of the arguments of numthreads(144,16,1) must be less than or equal to 1024
-  api=15 insize=1653 outsize=3181 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(50): the product of the arguments of numthreads(144,16,1) must be less than or equal to 1024
-  api=9 insize=1653 outsize=2981 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(50): the product of the arguments of numthreads(144,16,1) must be less than or equal to 1024
-  api=4 insize=1653 outsize=1805 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(50): the product of the arguments of numthreads(144,16,1) must be less than or equal to 1024
-  api=4 insize=1655 outsize=1805 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(50): the product of the arguments of numthreads(144,16,1) must be less than or equal to 1024
-  api=4 insize=1655 outsize=1805 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(50): the product of the arguments of numthreads(144,16,1) must be less than or equal to 1024
-  api=15 insize=1655 outsize=3181 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(50): the product of the arguments of numthreads(144,16,1) must be less than or equal to 1024
-  api=9 insize=1655 outsize=2981 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(50): the product of the arguments of numthreads(144,16,1) must be less than or equal to 1024
-  api=4 insize=1655 outsize=1805 ok=0
-Cmd: compileCompute
-  api=4 insize=1654 outsize=2721 ok=1
-Cmd: compileCompute
-  api=4 insize=1654 outsize=2721 ok=1
-Cmd: compileCompute
-  api=15 insize=1654 outsize=4837 ok=1
-Cmd: compileCompute
-  api=9 insize=1654 outsize=4545 ok=1
-Cmd: compileCompute
-  api=4 insize=1652 outsize=2753 ok=1
-Cmd: compileCompute
-  api=4 insize=1652 outsize=2753 ok=1
-Cmd: compileCompute
-  api=15 insize=1652 outsize=4905 ok=1
-Cmd: compileCompute
-  api=9 insize=1652 outsize=4613 ok=1
-Cmd: compileCompute
-  api=4 insize=1659 outsize=2753 ok=1
-Cmd: compileCompute
-  api=4 insize=1659 outsize=2753 ok=1
-Cmd: compileCompute
-  api=15 insize=1659 outsize=4905 ok=1
-Cmd: compileCompute
-  api=9 insize=1659 outsize=4613 ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(52): incorrect number of arguments to numeric-type constructor
-  api=4 insize=1617 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(52): incorrect number of arguments to numeric-type constructor
-  api=4 insize=1617 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(52): incorrect number of arguments to numeric-type constructor
-  api=15 insize=1617 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(52): incorrect number of arguments to numeric-type constructor
-  api=9 insize=1617 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(52): incorrect number of arguments to numeric-type constructor
-  api=4 insize=1617 outsize=97 ok=0
-Cmd: compileCompute
-  api=4 insize=1624 outsize=2737 ok=1
-Cmd: compileCompute
-  api=4 insize=1624 outsize=2737 ok=1
-Cmd: compileCompute
-  api=15 insize=1624 outsize=4897 ok=1
-Cmd: compileCompute
-  api=9 insize=1624 outsize=4605 ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(52): incorrect number of arguments to numeric-type constructor
-  api=4 insize=1617 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(52): incorrect number of arguments to numeric-type constructor
-  api=4 insize=1617 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(52): incorrect number of arguments to numeric-type constructor
-  api=15 insize=1617 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(52): incorrect number of arguments to numeric-type constructor
-  api=9 insize=1617 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(52): incorrect number of arguments to numeric-type constructor
-  api=4 insize=1617 outsize=97 ok=0
-Cmd: compileCompute
-  api=4 insize=1624 outsize=2737 ok=1
-Cmd: compileCompute
-  api=4 insize=1624 outsize=2737 ok=1
-Cmd: compileCompute
-  api=15 insize=1624 outsize=4897 ok=1
-Cmd: compileCompute
-  api=9 insize=1624 outsize=4605 ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(33): undeclared identifier 'id'
-  api=4 insize=1768 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(33): undeclared identifier 'id'
-  api=4 insize=1768 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(33): undeclared identifier 'id'
-  api=15 insize=1768 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(33): undeclared identifier 'id'
-  api=9 insize=1768 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(33): undeclared identifier 'id'
-  api=4 insize=1768 outsize=97 ok=0
-Cmd: compileCompute
-  api=4 insize=1770 outsize=2737 ok=1
-Cmd: compileCompute
-  api=4 insize=1770 outsize=2737 ok=1
-Cmd: compileCompute
-  api=15 insize=1770 outsize=4897 ok=1
-Cmd: compileCompute
-  api=9 insize=1770 outsize=4605 ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(69): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1856 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(69): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1856 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(69): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=15 insize=1856 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(69): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=9 insize=1856 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(69): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1856 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(68): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1854 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(68): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1854 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(68): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=15 insize=1854 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(68): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=9 insize=1854 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(68): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions
-  api=4 insize=1854 outsize=97 ok=0
-Cmd: compileCompute
-  api=4 insize=1850 outsize=2457 ok=1
-Cmd: compileCompute
-  api=4 insize=1850 outsize=2457 ok=1
-Cmd: compileCompute
-  api=15 insize=1850 outsize=4713 ok=1
-Cmd: compileCompute
-  api=9 insize=1850 outsize=4425 ok=1
-Cmd: compileCompute
-  api=4 insize=1878 outsize=2501 ok=1
-Cmd: compileCompute
-  api=4 insize=1878 outsize=2501 ok=1
-Cmd: compileCompute
-  api=15 insize=1878 outsize=4797 ok=1
-Cmd: compileCompute
-  api=9 insize=1878 outsize=4493 ok=1
-Cmd: compileCompute
-  api=4 insize=1872 outsize=2501 ok=1
-Cmd: compileCompute
-  api=4 insize=1872 outsize=2501 ok=1
-Cmd: compileCompute
-  api=15 insize=1872 outsize=4793 ok=1
-Cmd: compileCompute
-  api=9 insize=1872 outsize=4493 ok=1
-Cmd: compileCompute
-  api=4 insize=1874 outsize=2501 ok=1
-Cmd: compileCompute
-  api=4 insize=1874 outsize=2501 ok=1
-Cmd: compileCompute
-  api=15 insize=1874 outsize=4793 ok=1
-Cmd: compileCompute
-  api=9 insize=1874 outsize=4493 ok=1
-Cmd: compileCompute
-  api=4 insize=1881 outsize=2501 ok=1
-Cmd: compileCompute
-  api=4 insize=1881 outsize=2501 ok=1
-Cmd: compileCompute
-  api=15 insize=1881 outsize=4797 ok=1
-Cmd: compileCompute
-  api=9 insize=1881 outsize=4493 ok=1
-Cmd: compileCompute
-  api=4 insize=1877 outsize=2481 ok=1
-Cmd: compileCompute
-  api=4 insize=1877 outsize=2481 ok=1
-Cmd: compileCompute
-  api=15 insize=1877 outsize=4813 ok=1
-Cmd: compileCompute
-  api=9 insize=1877 outsize=4517 ok=1
-Cmd: compileCompute
-  api=4 insize=1878 outsize=2481 ok=1
-Cmd: compileCompute
-  api=4 insize=1878 outsize=2481 ok=1
-Cmd: compileCompute
-  api=15 insize=1878 outsize=4813 ok=1
-Cmd: compileCompute
-  api=9 insize=1878 outsize=4517 ok=1
-Cmd: compileCompute
-  api=4 insize=1868 outsize=2533 ok=1
-Cmd: compileCompute
-  api=4 insize=1868 outsize=2533 ok=1
-Cmd: compileCompute
-  api=15 insize=1868 outsize=4877 ok=1
-Cmd: compileCompute
-  api=9 insize=1868 outsize=4581 ok=1
-Cmd: compileCompute
-  api=4 insize=1867 outsize=2533 ok=1
-Cmd: compileCompute
-  api=4 insize=1867 outsize=2533 ok=1
-Cmd: compileCompute
-  api=15 insize=1867 outsize=4877 ok=1
-Cmd: compileCompute
-  api=9 insize=1867 outsize=4581 ok=1
-Cmd: compileCompute
-  api=4 insize=1868 outsize=2513 ok=1
-Cmd: compileCompute
-  api=4 insize=1868 outsize=2513 ok=1
-Cmd: compileCompute
-  api=15 insize=1868 outsize=4833 ok=1
-Cmd: compileCompute
-  api=9 insize=1868 outsize=4521 ok=1
-Cmd: compileCompute
-  api=4 insize=1662 outsize=2453 ok=1
-Cmd: compileCompute
-  api=4 insize=1662 outsize=2453 ok=1
-Cmd: compileCompute
-  api=15 insize=1662 outsize=4573 ok=1
-Cmd: compileCompute
-  api=9 insize=1662 outsize=4277 ok=1
-Cmd: compileCompute
-  api=4 insize=1699 outsize=2373 ok=1
-Cmd: compileCompute
-  api=4 insize=1699 outsize=2373 ok=1
-Cmd: compileCompute
-  api=15 insize=1699 outsize=4069 ok=1
-Cmd: compileCompute
-  api=9 insize=1699 outsize=3757 ok=1
-Cmd: compileCompute
-  api=4 insize=1701 outsize=2373 ok=1
-Cmd: compileCompute
-  api=4 insize=1701 outsize=2373 ok=1
-Cmd: compileCompute
-  api=15 insize=1701 outsize=4069 ok=1
-Cmd: compileCompute
-  api=9 insize=1701 outsize=3757 ok=1
-Cmd: compileCompute
-  api=4 insize=1722 outsize=2393 ok=1
-Cmd: compileCompute
-  api=4 insize=1722 outsize=2393 ok=1
-Cmd: compileCompute
-  api=15 insize=1722 outsize=4133 ok=1
-Cmd: compileCompute
-  api=9 insize=1722 outsize=3825 ok=1
-Cmd: compileCompute
-  api=4 insize=1744 outsize=3053 ok=1
-Cmd: compileCompute
-  api=4 insize=1744 outsize=3053 ok=1
-Cmd: compileCompute
-  api=15 insize=1744 outsize=5281 ok=1
-Cmd: compileCompute
-  api=9 insize=1744 outsize=5001 ok=1
+  api=4 type=1 insize=1651 outsize=1136 kw= pd= ok=1
 Cmd: preprocess
-  insize=2079 outsize=308 ok=1
+  insize=1671 outsize=308 ok=1
 Cmd: compileSnippet
-  error: 1 plat 4 at (61): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=2070 outsize=2574 kw= pd= ok=1
+  error: 1 plat 4 at (57): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
+  api=4 type=0 insize=1662 outsize=2558 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2070 outsize=1136 kw= pd= ok=1
-Cmd: compileCompute
-  api=4 insize=1748 outsize=2737 ok=1
-Cmd: compileCompute
-  api=4 insize=1748 outsize=2737 ok=1
-Cmd: compileCompute
-  api=15 insize=1748 outsize=4897 ok=1
-Cmd: compileCompute
-  api=9 insize=1748 outsize=4605 ok=1
+  api=4 type=1 insize=1662 outsize=1136 kw= pd= ok=1
 Cmd: preprocess
-  insize=2077 outsize=308 ok=1
+  insize=1681 outsize=308 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (61): undeclared identifier 'particleId'\nCompiling Vertex program
-  api=4 type=0 insize=2068 outsize=0 kw= pd= ok=0
+  api=4 type=0 insize=1672 outsize=2200 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1672 outsize=1136 kw= pd= ok=1
 Cmd: preprocess
-  insize=2082 outsize=308 ok=1
+  insize=1739 outsize=326 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (61): undeclared identifier 'particleId'\nCompiling Vertex program
-  api=4 type=0 insize=2073 outsize=0 kw= pd= ok=0
+  error: 1 plat 4 at (57): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
+  api=4 type=0 insize=1712 outsize=2582 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1712 outsize=1136 kw= pd= ok=1
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
+  api=4 insize=1006 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
+  api=4 insize=1006 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
+  api=15 insize=1006 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
+  api=9 insize=1006 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
+  api=4 insize=1006 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
+  api=4 insize=1008 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
+  api=4 insize=1008 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
+  api=15 insize=1008 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
+  api=9 insize=1008 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
+  api=4 insize=1008 outsize=97 ok=0
+Cmd: compileCompute
+  api=4 insize=1007 outsize=1061 ok=1
+Cmd: compileCompute
+  api=4 insize=1007 outsize=1061 ok=1
+Cmd: compileCompute
+  api=15 insize=1007 outsize=1905 ok=1
+Cmd: compileCompute
+  api=9 insize=1007 outsize=1813 ok=1
 Cmd: preprocess
-  insize=2080 outsize=308 ok=1
+  insize=1680 outsize=308 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (61): undeclared identifier 'particleId'\nCompiling Vertex program
-  api=4 type=0 insize=2071 outsize=0 kw= pd= ok=0
+  error: 1 plat 4 at (57): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
+  api=4 type=0 insize=1671 outsize=2590 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1671 outsize=1136 kw= pd= ok=1
 Cmd: preprocess
-  insize=2075 outsize=308 ok=1
+  insize=1638 outsize=308 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (61): undeclared identifier 'particleId'\nCompiling Vertex program
-  api=4 type=0 insize=2066 outsize=0 kw= pd= ok=0
+  error: 2 plat 4 at (56): undeclared identifier 'vertexId'\nCompiling Vertex program
+  api=4 type=0 insize=1629 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=2078 outsize=308 ok=1
-Cmd: compileSnippet
-  error: 1 plat 4 at (61): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=2069 outsize=2070 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2069 outsize=1136 kw= pd= ok=1
-Cmd: compileCompute
-  api=4 insize=1746 outsize=3033 ok=1
-Cmd: compileCompute
-  api=4 insize=1746 outsize=3033 ok=1
-Cmd: compileCompute
-  api=15 insize=1746 outsize=5233 ok=1
-Cmd: compileCompute
-  api=9 insize=1746 outsize=4953 ok=1
-Cmd: compileCompute
-  api=4 insize=1756 outsize=3021 ok=1
-Cmd: compileCompute
-  api=4 insize=1756 outsize=3021 ok=1
-Cmd: compileCompute
-  api=15 insize=1756 outsize=5289 ok=1
-Cmd: compileCompute
-  api=9 insize=1756 outsize=5005 ok=1
+  insize=1680 outsize=308 ok=1
 Cmd: preprocess
-  insize=2054 outsize=308 ok=1
+  insize=1675 outsize=308 ok=1
 Cmd: compileSnippet
-  error: 1 plat 4 at (61): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=2045 outsize=2428 kw= pd= ok=1
+  error: 1 plat 4 at (57): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
+  api=4 type=0 insize=1666 outsize=2590 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2045 outsize=1136 kw= pd= ok=1
+  api=4 type=1 insize=1666 outsize=1136 kw= pd= ok=1
 Cmd: compileCompute
-  api=4 insize=1758 outsize=3033 ok=1
+  api=4 insize=899 outsize=1061 ok=1
 Cmd: compileCompute
-  api=4 insize=1758 outsize=3033 ok=1
+  api=4 insize=899 outsize=1061 ok=1
 Cmd: compileCompute
-  api=15 insize=1758 outsize=5233 ok=1
+  api=15 insize=899 outsize=1905 ok=1
 Cmd: compileCompute
-  api=9 insize=1758 outsize=4953 ok=1
+  api=9 insize=899 outsize=1813 ok=1
 Cmd: compileCompute
-  api=4 insize=1764 outsize=1941 ok=1
+  api=4 insize=899 outsize=1061 ok=1
 Cmd: compileCompute
-  api=4 insize=1764 outsize=1941 ok=1
+  api=4 insize=899 outsize=1061 ok=1
 Cmd: compileCompute
-  api=15 insize=1764 outsize=3393 ok=1
+  api=15 insize=899 outsize=1929 ok=1
 Cmd: compileCompute
-  api=9 insize=1764 outsize=3141 ok=1
+  api=9 insize=899 outsize=1837 ok=1
+Cmd: compileCompute
+  api=4 insize=905 outsize=1101 ok=1
+Cmd: compileCompute
+  api=4 insize=905 outsize=1101 ok=1
+Cmd: compileCompute
+  api=15 insize=905 outsize=1965 ok=1
+Cmd: compileCompute
+  api=9 insize=905 outsize=1873 ok=1
+Cmd: compileCompute
+  api=4 insize=930 outsize=1177 ok=1
+Cmd: compileCompute
+  api=4 insize=930 outsize=1177 ok=1
+Cmd: compileCompute
+  api=15 insize=930 outsize=2081 ok=1
+Cmd: compileCompute
+  api=9 insize=930 outsize=2009 ok=1
+Cmd: compileCompute
+  api=4 insize=954 outsize=1273 ok=1
+Cmd: compileCompute
+  api=4 insize=954 outsize=1273 ok=1
+Cmd: compileCompute
+  api=15 insize=954 outsize=2213 ok=1
+Cmd: compileCompute
+  api=9 insize=954 outsize=2137 ok=1
+Cmd: compileCompute
+  api=4 insize=965 outsize=1365 ok=1
+Cmd: compileCompute
+  api=4 insize=965 outsize=1365 ok=1
+Cmd: compileCompute
+  api=15 insize=965 outsize=2329 ok=1
+Cmd: compileCompute
+  api=9 insize=965 outsize=2249 ok=1
+Cmd: compileCompute
+  api=4 insize=984 outsize=1425 ok=1
+Cmd: compileCompute
+  api=4 insize=984 outsize=1425 ok=1
+Cmd: compileCompute
+  api=15 insize=984 outsize=2365 ok=1
+Cmd: compileCompute
+  api=9 insize=984 outsize=2277 ok=1
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): 'sin': no matching 0 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float)
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token '_Time'
+  api=4 insize=981 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): 'sin': no matching 0 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float)
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token '_Time'
+  api=4 insize=981 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): 'sin': no matching 0 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float)
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token '_Time'
+  api=15 insize=981 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): 'sin': no matching 0 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float)
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token '_Time'
+  api=9 insize=981 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): 'sin': no matching 0 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float)
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token '_Time'
+  api=4 insize=981 outsize=97 ok=0
+Cmd: compileCompute
+  api=4 insize=981 outsize=1429 ok=1
+Cmd: compileCompute
+  api=4 insize=981 outsize=1429 ok=1
+Cmd: compileCompute
+  api=15 insize=981 outsize=2385 ok=1
+Cmd: compileCompute
+  api=9 insize=981 outsize=2305 ok=1
+Cmd: compileCompute
+  api=4 insize=996 outsize=1469 ok=1
+Cmd: compileCompute
+  api=4 insize=996 outsize=1469 ok=1
+Cmd: compileCompute
+  api=15 insize=996 outsize=2417 ok=1
+Cmd: compileCompute
+  api=9 insize=996 outsize=2337 ok=1
+Cmd: compileCompute
+  api=4 insize=924 outsize=1273 ok=1
+Cmd: compileCompute
+  api=4 insize=924 outsize=1273 ok=1
+Cmd: compileCompute
+  api=15 insize=924 outsize=2153 ok=1
+Cmd: compileCompute
+  api=9 insize=924 outsize=2065 ok=1
+Cmd: compileCompute
+  api=4 insize=932 outsize=1305 ok=1
+Cmd: compileCompute
+  api=4 insize=932 outsize=1305 ok=1
+Cmd: compileCompute
+  api=15 insize=932 outsize=2189 ok=1
+Cmd: compileCompute
+  api=9 insize=932 outsize=2101 ok=1
+Cmd: compileCompute
+  api=4 insize=932 outsize=1305 ok=1
+Cmd: compileCompute
+  api=4 insize=932 outsize=1305 ok=1
+Cmd: compileCompute
+  api=15 insize=932 outsize=2189 ok=1
+Cmd: compileCompute
+  api=9 insize=932 outsize=2101 ok=1
+Cmd: compileCompute
+  api=4 insize=933 outsize=1305 ok=1
+Cmd: compileCompute
+  api=4 insize=933 outsize=1305 ok=1
+Cmd: compileCompute
+  api=15 insize=933 outsize=2189 ok=1
+Cmd: compileCompute
+  api=9 insize=933 outsize=2105 ok=1
+Cmd: compileCompute
+  api=4 insize=934 outsize=1273 ok=1
+Cmd: compileCompute
+  api=4 insize=934 outsize=1273 ok=1
+Cmd: compileCompute
+  api=15 insize=934 outsize=2093 ok=1
+Cmd: compileCompute
+  api=9 insize=934 outsize=2009 ok=1
+Cmd: compileCompute
+  api=4 insize=928 outsize=1241 ok=1
+Cmd: compileCompute
+  api=4 insize=928 outsize=1241 ok=1
+Cmd: compileCompute
+  api=15 insize=928 outsize=2061 ok=1
+Cmd: compileCompute
+  api=9 insize=928 outsize=1969 ok=1
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token ')'
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token 'sin'
+  api=4 insize=939 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token ')'
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token 'sin'
+  api=4 insize=939 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token ')'
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token 'sin'
+  api=15 insize=939 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token ')'
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token 'sin'
+  api=9 insize=939 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token ')'
+  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token 'sin'
+  api=4 insize=939 outsize=97 ok=0
+Cmd: compileCompute
+  api=4 insize=941 outsize=1241 ok=1
+Cmd: compileCompute
+  api=4 insize=941 outsize=1241 ok=1
+Cmd: compileCompute
+  api=15 insize=941 outsize=2077 ok=1
+Cmd: compileCompute
+  api=9 insize=941 outsize=1985 ok=1
+Cmd: compileCompute
+  api=4 insize=946 outsize=1273 ok=1
+Cmd: compileCompute
+  api=4 insize=946 outsize=1273 ok=1
+Cmd: compileCompute
+  api=15 insize=946 outsize=2101 ok=1
+Cmd: compileCompute
+  api=9 insize=946 outsize=2017 ok=1
+Cmd: compileCompute
+  api=4 insize=946 outsize=1273 ok=1
+Cmd: compileCompute
+  api=4 insize=946 outsize=1273 ok=1
+Cmd: compileCompute
+  api=15 insize=946 outsize=2093 ok=1
+Cmd: compileCompute
+  api=9 insize=946 outsize=2009 ok=1
+Cmd: compileCompute
+  api=4 insize=950 outsize=1301 ok=1
+Cmd: compileCompute
+  api=4 insize=950 outsize=1301 ok=1
+Cmd: compileCompute
+  api=15 insize=950 outsize=2117 ok=1
+Cmd: compileCompute
+  api=9 insize=950 outsize=2033 ok=1
+Cmd: compileCompute
+  api=4 insize=1043 outsize=1301 ok=1
+Cmd: compileCompute
+  api=4 insize=1043 outsize=1301 ok=1
+Cmd: compileCompute
+  api=15 insize=1043 outsize=2117 ok=1
+Cmd: compileCompute
+  api=9 insize=1043 outsize=2029 ok=1
+Cmd: compileCompute
+  api=4 insize=1044 outsize=1341 ok=1
+Cmd: compileCompute
+  api=4 insize=1044 outsize=1341 ok=1
+Cmd: compileCompute
+  api=15 insize=1044 outsize=2169 ok=1
+Cmd: compileCompute
+  api=9 insize=1044 outsize=2081 ok=1
+Cmd: compileCompute
+  api=4 insize=1056 outsize=1377 ok=1
+Cmd: compileCompute
+  api=4 insize=1056 outsize=1377 ok=1
+Cmd: compileCompute
+  api=15 insize=1056 outsize=2233 ok=1
+Cmd: compileCompute
+  api=9 insize=1056 outsize=2153 ok=1
+Cmd: compileCompute
+  api=4 insize=1056 outsize=1377 ok=1
+Cmd: compileCompute
+  api=4 insize=1056 outsize=1377 ok=1
+Cmd: compileCompute
+  api=15 insize=1056 outsize=2233 ok=1
+Cmd: compileCompute
+  api=9 insize=1056 outsize=2153 ok=1
+Cmd: compileCompute
+  api=4 insize=1058 outsize=1377 ok=1
+Cmd: compileCompute
+  api=4 insize=1058 outsize=1377 ok=1
+Cmd: compileCompute
+  api=15 insize=1058 outsize=2249 ok=1
+Cmd: compileCompute
+  api=9 insize=1058 outsize=2169 ok=1
+Cmd: compileCompute
+  api=4 insize=1058 outsize=1377 ok=1
+Cmd: compileCompute
+  api=4 insize=1058 outsize=1377 ok=1
+Cmd: compileCompute
+  api=15 insize=1058 outsize=2241 ok=1
+Cmd: compileCompute
+  api=9 insize=1058 outsize=2161 ok=1
+Cmd: compileCompute
+  api=4 insize=1059 outsize=1377 ok=1
+Cmd: compileCompute
+  api=4 insize=1059 outsize=1377 ok=1
+Cmd: compileCompute
+  api=15 insize=1059 outsize=2249 ok=1
+Cmd: compileCompute
+  api=9 insize=1059 outsize=2169 ok=1
+Cmd: compileCompute
+  api=4 insize=1155 outsize=1445 ok=1
+Cmd: compileCompute
+  api=4 insize=1155 outsize=1445 ok=1
+Cmd: compileCompute
+  api=15 insize=1155 outsize=2337 ok=1
+Cmd: compileCompute
+  api=9 insize=1155 outsize=2269 ok=1
+Cmd: compileCompute
+  api=4 insize=1150 outsize=1565 ok=1
+Cmd: compileCompute
+  api=4 insize=1150 outsize=1565 ok=1
+Cmd: compileCompute
+  api=15 insize=1150 outsize=2633 ok=1
+Cmd: compileCompute
+  api=9 insize=1150 outsize=2557 ok=1
+Cmd: compileCompute
+  api=4 insize=1162 outsize=1409 ok=1
+Cmd: compileCompute
+  api=4 insize=1162 outsize=1409 ok=1
+Cmd: compileCompute
+  api=15 insize=1162 outsize=2361 ok=1
+Cmd: compileCompute
+  api=9 insize=1162 outsize=2289 ok=1
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): 'length': no matching 3 parameter intrinsic function; Possible intrinsic functions are: length(floatM|halfM|min10floatM|min16floatM)
+  api=4 insize=1186 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): 'length': no matching 3 parameter intrinsic function; Possible intrinsic functions are: length(floatM|halfM|min10floatM|min16floatM)
+  api=4 insize=1186 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): 'length': no matching 3 parameter intrinsic function; Possible intrinsic functions are: length(floatM|halfM|min10floatM|min16floatM)
+  api=15 insize=1186 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): 'length': no matching 3 parameter intrinsic function; Possible intrinsic functions are: length(floatM|halfM|min10floatM|min16floatM)
+  api=9 insize=1186 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): 'length': no matching 3 parameter intrinsic function; Possible intrinsic functions are: length(floatM|halfM|min10floatM|min16floatM)
+  api=4 insize=1186 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'lenght'
+  api=4 insize=1186 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'lenght'
+  api=4 insize=1186 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'lenght'
+  api=15 insize=1186 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'lenght'
+  api=9 insize=1186 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'lenght'
+  api=4 insize=1186 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): syntax error: unexpected token ')'
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=4 insize=1187 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): syntax error: unexpected token ')'
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=4 insize=1187 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): syntax error: unexpected token ')'
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=15 insize=1187 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): syntax error: unexpected token ')'
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=9 insize=1187 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): syntax error: unexpected token ')'
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=4 insize=1187 outsize=97 ok=0
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=4 insize=1186 outsize=1625 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=4 insize=1186 outsize=1625 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=15 insize=1186 outsize=2449 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=9 insize=1186 outsize=2381 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=4 insize=1185 outsize=1569 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=4 insize=1185 outsize=1569 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=15 insize=1185 outsize=2409 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=9 insize=1185 outsize=2341 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=4 insize=1146 outsize=1477 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=4 insize=1146 outsize=1477 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=15 insize=1146 outsize=2313 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=9 insize=1146 outsize=2237 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=4 insize=1146 outsize=1477 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=4 insize=1146 outsize=1477 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=15 insize=1146 outsize=2313 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
+  api=9 insize=1146 outsize=2237 ok=1
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
+  api=4 insize=1173 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
+  api=4 insize=1173 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
+  api=15 insize=1173 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
+  api=9 insize=1173 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
+  api=4 insize=1173 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
+  api=4 insize=1172 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
+  api=4 insize=1172 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
+  api=15 insize=1172 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
+  api=9 insize=1172 outsize=97 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
+  api=4 insize=1172 outsize=97 ok=0
+Cmd: compileCompute
+  api=4 insize=1172 outsize=1449 ok=1
+Cmd: compileCompute
+  api=4 insize=1172 outsize=1449 ok=1
+Cmd: compileCompute
+  api=15 insize=1172 outsize=2417 ok=1
+Cmd: compileCompute
+  api=9 insize=1172 outsize=2341 ok=1
+Cmd: compileCompute
+  api=4 insize=1173 outsize=1449 ok=1
+Cmd: compileCompute
+  api=4 insize=1173 outsize=1449 ok=1
+Cmd: compileCompute
+  api=15 insize=1173 outsize=2417 ok=1
+Cmd: compileCompute
+  api=9 insize=1173 outsize=2345 ok=1
+Cmd: compileCompute
+  api=4 insize=1173 outsize=1449 ok=1
+Cmd: compileCompute
+  api=4 insize=1173 outsize=1449 ok=1
+Cmd: compileCompute
+  api=15 insize=1173 outsize=2417 ok=1
+Cmd: compileCompute
+  api=9 insize=1173 outsize=2345 ok=1
 Cmd: preprocess
-  insize=2066 outsize=308 ok=1
-Cmd: compileSnippet
-  error: 1 plat 4 at (61): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=2057 outsize=2330 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2057 outsize=1136 kw= pd= ok=1
+  insize=947 outsize=246 ok=1
 Cmd: preprocess
-  insize=2055 outsize=308 ok=1
-Cmd: compileSnippet
-  error: 1 plat 4 at (61): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=2046 outsize=2428 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2046 outsize=1136 kw= pd= ok=1
+  insize=953 outsize=252 ok=1
 Cmd: preprocess
-  insize=2054 outsize=308 ok=1
+  insize=986 outsize=282 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1003 outsize=1087 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1003 outsize=616 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1162 outsize=973 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1162 outsize=518 kw= pd= ok=1
 Cmd: preprocess
-  insize=2055 outsize=308 ok=1
+  insize=1037 outsize=292 ok=1
 Cmd: compileSnippet
-  error: 1 plat 4 at (61): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=2046 outsize=2428 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2046 outsize=1136 kw= pd= ok=1
+  error: 2 plat 4 at (56): undeclared identifier '_GlowFactor'\nCompiling Vertex program
+  api=4 type=0 insize=1044 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1870 outsize=308 ok=1
+  insize=1038 outsize=292 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (64): redefinition of 'vertex'\nCompiling Vertex program
-  api=4 type=0 insize=1861 outsize=0 kw= pd= ok=0
+  api=4 type=0 insize=1045 outsize=1087 kw= pd= ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (49): 'frag': Not all control paths return a value\nCompiling Fragment program
+  api=4 type=1 insize=1045 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1863 outsize=308 ok=1
+  insize=1059 outsize=292 ok=1
 Cmd: compileSnippet
-  error: 1 plat 4 at (61): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=1854 outsize=2533 kw= pd= ok=1
+  api=4 type=0 insize=1066 outsize=1087 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1854 outsize=1136 kw= pd= ok=1
+  api=4 type=1 insize=1066 outsize=778 kw= pd= ok=1
 Cmd: preprocess
-  insize=1865 outsize=308 ok=1
+  insize=1016 outsize=292 ok=1
 Cmd: compileSnippet
-  error: 1 plat 4 at (61): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=1856 outsize=2428 kw= pd= ok=1
+  api=4 type=0 insize=1023 outsize=1087 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1856 outsize=1136 kw= pd= ok=1
-Cmd: compileCompute
-  api=4 insize=1762 outsize=2349 ok=1
-Cmd: compileCompute
-  api=4 insize=1762 outsize=2349 ok=1
-Cmd: compileCompute
-  api=15 insize=1762 outsize=4269 ok=1
-Cmd: compileCompute
-  api=9 insize=1762 outsize=3957 ok=1
-Cmd: compileCompute
-  api=4 insize=1760 outsize=2737 ok=1
-Cmd: compileCompute
-  api=4 insize=1760 outsize=2737 ok=1
-Cmd: compileCompute
-  api=15 insize=1760 outsize=4897 ok=1
-Cmd: compileCompute
-  api=9 insize=1760 outsize=4605 ok=1
-Cmd: compileCompute
-  api=4 insize=1762 outsize=2453 ok=1
-Cmd: compileCompute
-  api=4 insize=1762 outsize=2453 ok=1
-Cmd: compileCompute
-  api=15 insize=1762 outsize=4573 ok=1
-Cmd: compileCompute
-  api=9 insize=1762 outsize=4277 ok=1
-Cmd: compileCompute
-  api=4 insize=1729 outsize=2569 ok=1
-Cmd: compileCompute
-  api=4 insize=1729 outsize=2569 ok=1
-Cmd: compileCompute
-  api=15 insize=1729 outsize=4765 ok=1
-Cmd: compileCompute
-  api=9 insize=1729 outsize=4469 ok=1
-Cmd: compileCompute
-  api=4 insize=1597 outsize=2345 ok=1
-Cmd: compileCompute
-  api=4 insize=1597 outsize=2345 ok=1
-Cmd: compileCompute
-  api=15 insize=1597 outsize=4393 ok=1
-Cmd: compileCompute
-  api=9 insize=1597 outsize=4085 ok=1
-Cmd: compileCompute
-  api=4 insize=1587 outsize=2321 ok=1
-Cmd: compileCompute
-  api=4 insize=1587 outsize=2321 ok=1
-Cmd: compileCompute
-  api=15 insize=1587 outsize=4385 ok=1
-Cmd: compileCompute
-  api=9 insize=1587 outsize=4069 ok=1
-Cmd: compileCompute
-  api=4 insize=1595 outsize=2345 ok=1
-Cmd: compileCompute
-  api=4 insize=1595 outsize=2345 ok=1
-Cmd: compileCompute
-  api=15 insize=1595 outsize=4377 ok=1
-Cmd: compileCompute
-  api=9 insize=1595 outsize=4069 ok=1
-Cmd: compileCompute
-  api=4 insize=1620 outsize=2453 ok=1
-Cmd: compileCompute
-  api=4 insize=1620 outsize=2453 ok=1
-Cmd: compileCompute
-  api=15 insize=1620 outsize=4493 ok=1
-Cmd: compileCompute
-  api=9 insize=1620 outsize=4197 ok=1
-Cmd: compileCompute
-  api=4 insize=1630 outsize=2517 ok=1
-Cmd: compileCompute
-  api=4 insize=1630 outsize=2517 ok=1
-Cmd: compileCompute
-  api=15 insize=1630 outsize=4549 ok=1
-Cmd: compileCompute
-  api=9 insize=1630 outsize=4253 ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(58): syntax error: unexpected token 'uint3'
-  api=4 insize=1778 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(58): syntax error: unexpected token 'uint3'
-  api=4 insize=1778 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(58): syntax error: unexpected token 'uint3'
-  api=15 insize=1778 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(58): syntax error: unexpected token 'uint3'
-  api=9 insize=1778 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(58): syntax error: unexpected token 'uint3'
-  api=4 insize=1778 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(58): syntax error: unexpected token 'uint3'
-  api=4 insize=1779 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(58): syntax error: unexpected token 'uint3'
-  api=4 insize=1779 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(58): syntax error: unexpected token 'uint3'
-  api=15 insize=1779 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(58): syntax error: unexpected token 'uint3'
-  api=9 insize=1779 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(58): syntax error: unexpected token 'uint3'
-  api=4 insize=1779 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): syntax error: unexpected token ';'
-  api=4 insize=1780 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): syntax error: unexpected token ';'
-  api=4 insize=1780 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): syntax error: unexpected token ';'
-  api=15 insize=1780 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): syntax error: unexpected token ';'
-  api=9 insize=1780 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): 'floor': no matching 0 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(57): syntax error: unexpected token ';'
-  api=4 insize=1780 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(65): undeclared identifier '_Vertex'
-  api=4 insize=1781 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(65): undeclared identifier '_Vertex'
-  api=4 insize=1781 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(65): undeclared identifier '_Vertex'
-  api=15 insize=1781 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(65): undeclared identifier '_Vertex'
-  api=9 insize=1781 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(65): undeclared identifier '_Vertex'
-  api=4 insize=1781 outsize=97 ok=0
-Cmd: compileCompute
-  api=4 insize=1783 outsize=2589 ok=1
-Cmd: compileCompute
-  api=4 insize=1783 outsize=2589 ok=1
-Cmd: compileCompute
-  api=15 insize=1783 outsize=4425 ok=1
-Cmd: compileCompute
-  api=9 insize=1783 outsize=4129 ok=1
-Cmd: compileCompute
-  api=4 insize=1791 outsize=2593 ok=1
-Cmd: compileCompute
-  api=4 insize=1791 outsize=2593 ok=1
-Cmd: compileCompute
-  api=15 insize=1791 outsize=4441 ok=1
-Cmd: compileCompute
-  api=9 insize=1791 outsize=4145 ok=1
-Cmd: compileCompute
-  api=4 insize=1792 outsize=2493 ok=1
-Cmd: compileCompute
-  api=4 insize=1792 outsize=2493 ok=1
-Cmd: compileCompute
-  api=15 insize=1792 outsize=4353 ok=1
-Cmd: compileCompute
-  api=9 insize=1792 outsize=4045 ok=1
-Cmd: compileCompute
-  api=4 insize=1792 outsize=2497 ok=1
-Cmd: compileCompute
-  api=4 insize=1792 outsize=2497 ok=1
-Cmd: compileCompute
-  api=15 insize=1792 outsize=4353 ok=1
-Cmd: compileCompute
-  api=9 insize=1792 outsize=4045 ok=1
-Cmd: compileCompute
-  api=4 insize=1791 outsize=2393 ok=1
-Cmd: compileCompute
-  api=4 insize=1791 outsize=2393 ok=1
-Cmd: compileCompute
-  api=15 insize=1791 outsize=4273 ok=1
-Cmd: compileCompute
-  api=9 insize=1791 outsize=3957 ok=1
-Cmd: compileCompute
-  api=4 insize=1806 outsize=2477 ok=1
-Cmd: compileCompute
-  api=4 insize=1806 outsize=2477 ok=1
-Cmd: compileCompute
-  api=15 insize=1806 outsize=4397 ok=1
-Cmd: compileCompute
-  api=9 insize=1806 outsize=4085 ok=1
-Cmd: compileCompute
-  api=4 insize=1539 outsize=2605 ok=1
-Cmd: compileCompute
-  api=4 insize=1539 outsize=2605 ok=1
-Cmd: compileCompute
-  api=15 insize=1539 outsize=4613 ok=1
-Cmd: compileCompute
-  api=9 insize=1539 outsize=4305 ok=1
-Cmd: compileCompute
-  api=4 insize=1510 outsize=2477 ok=1
-Cmd: compileCompute
-  api=4 insize=1510 outsize=2477 ok=1
-Cmd: compileCompute
-  api=15 insize=1510 outsize=4397 ok=1
-Cmd: compileCompute
-  api=9 insize=1510 outsize=4085 ok=1
-Cmd: compileCompute
-  api=4 insize=1510 outsize=2477 ok=1
-Cmd: compileCompute
-  api=4 insize=1510 outsize=2477 ok=1
-Cmd: compileCompute
-  api=15 insize=1510 outsize=4397 ok=1
-Cmd: compileCompute
-  api=9 insize=1510 outsize=4085 ok=1
-Cmd: compileCompute
-  api=4 insize=1668 outsize=2805 ok=1
-Cmd: compileCompute
-  api=4 insize=1668 outsize=2805 ok=1
-Cmd: compileCompute
-  api=15 insize=1668 outsize=5077 ok=1
-Cmd: compileCompute
-  api=9 insize=1668 outsize=4793 ok=1
-Cmd: compileCompute
-  api=4 insize=1698 outsize=2897 ok=1
-Cmd: compileCompute
-  api=4 insize=1698 outsize=2897 ok=1
-Cmd: compileCompute
-  api=15 insize=1698 outsize=5285 ok=1
-Cmd: compileCompute
-  api=9 insize=1698 outsize=5005 ok=1
-Cmd: compileCompute
-  api=4 insize=1698 outsize=1941 ok=1
-Cmd: compileCompute
-  api=4 insize=1698 outsize=1941 ok=1
-Cmd: compileCompute
-  api=15 insize=1698 outsize=3393 ok=1
-Cmd: compileCompute
-  api=9 insize=1698 outsize=3141 ok=1
-Cmd: compileCompute
-  api=4 insize=1646 outsize=1941 ok=1
-Cmd: compileCompute
-  api=4 insize=1646 outsize=1941 ok=1
-Cmd: compileCompute
-  api=15 insize=1646 outsize=3393 ok=1
-Cmd: compileCompute
-  api=9 insize=1646 outsize=3141 ok=1
-Cmd: compileCompute
-  api=4 insize=1646 outsize=2961 ok=1
-Cmd: compileCompute
-  api=4 insize=1646 outsize=2961 ok=1
-Cmd: compileCompute
-  api=15 insize=1646 outsize=5349 ok=1
-Cmd: compileCompute
-  api=9 insize=1646 outsize=5077 ok=1
-Cmd: compileCompute
-  api=4 insize=1534 outsize=2613 ok=1
-Cmd: compileCompute
-  api=4 insize=1534 outsize=2613 ok=1
-Cmd: compileCompute
-  api=15 insize=1534 outsize=4661 ok=1
-Cmd: compileCompute
-  api=9 insize=1534 outsize=4357 ok=1
-Cmd: compileCompute
-  api=4 insize=1689 outsize=2893 ok=1
-Cmd: compileCompute
-  api=4 insize=1689 outsize=2893 ok=1
-Cmd: compileCompute
-  api=15 insize=1689 outsize=5253 ok=1
-Cmd: compileCompute
-  api=9 insize=1689 outsize=4965 ok=1
-Cmd: compileCompute
-  api=4 insize=1689 outsize=2893 ok=1
-Cmd: compileCompute
-  api=4 insize=1689 outsize=2893 ok=1
-Cmd: compileCompute
-  api=15 insize=1689 outsize=5237 ok=1
-Cmd: compileCompute
-  api=9 insize=1689 outsize=4949 ok=1
-Cmd: compileCompute
-  api=4 insize=1709 outsize=2965 ok=1
-Cmd: compileCompute
-  api=4 insize=1709 outsize=2965 ok=1
-Cmd: compileCompute
-  api=15 insize=1709 outsize=5305 ok=1
-Cmd: compileCompute
-  api=9 insize=1709 outsize=5013 ok=1
+  api=4 type=1 insize=1023 outsize=778 kw= pd= ok=1
+Cmd: preprocess
+  insize=764 outsize=259 ok=1
+Cmd: preprocess
+  insize=764 outsize=259 ok=1
+Cmd: preprocess
+  insize=764 outsize=259 ok=1
+Cmd: preprocess
+  insize=785 outsize=280 ok=1
+Cmd: preprocess
+  insize=785 outsize=280 ok=1
+Cmd: preprocess
+  insize=785 outsize=280 ok=1
+Cmd: preprocess
+  insize=785 outsize=280 ok=1
+Cmd: preprocess
+  insize=1050 outsize=280 ok=1
+Cmd: preprocess
+  insize=1227 outsize=280 ok=1
+Cmd: preprocess
+  insize=1238 outsize=280 ok=1
+Cmd: preprocess
+  insize=1251 outsize=280 ok=1
+Cmd: compileSnippet
+  error: 2 plat 8 at (49): syntax error: unexpected token 'new'\nCompiling Vertex program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Vertex program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=0 insize=1270 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: compileSnippet
+  error: 2 plat 8 at (49): syntax error: unexpected token 'new'\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=1 insize=1270 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: preprocess
+  insize=1247 outsize=280 ok=1
+Cmd: compileSnippet
+  error: 2 plat 8 at (49): syntax error: unexpected token '['\nCompiling Vertex program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Vertex program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=0 insize=1266 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: compileSnippet
+  error: 2 plat 8 at (49): syntax error: unexpected token '['\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=1 insize=1266 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: preprocess
+  insize=1382 outsize=279 ok=1
+Cmd: compileSnippet
+  error: 2 plat 8 at (51): syntax error: unexpected token '['\nCompiling Vertex program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  error: 2 plat 8 at (57): invalid subscript 'uv'\nCompiling Vertex program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=0 insize=1401 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: compileSnippet
+  error: 2 plat 8 at (51): syntax error: unexpected token '['\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  error: 2 plat 8 at (57): invalid subscript 'uv'\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=1 insize=1401 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: preprocess
+  insize=1237 outsize=280 ok=1
+Cmd: compileSnippet
+  error: 2 plat 8 at (49): syntax error: unexpected token '{'\nCompiling Vertex program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Vertex program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=0 insize=1256 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: compileSnippet
+  error: 2 plat 8 at (49): syntax error: unexpected token '{'\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=1 insize=1256 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: preprocess
+  insize=1231 outsize=280 ok=1
+Cmd: compileSnippet
+  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Vertex program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=0 insize=1250 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: compileSnippet
+  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=1 insize=1250 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: preprocess
+  insize=1234 outsize=280 ok=1
+Cmd: compileSnippet
+  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Vertex program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=0 insize=1253 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: compileSnippet
+  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=1 insize=1253 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: preprocess
+  insize=1239 outsize=280 ok=1
+Cmd: compileSnippet
+  error: 2 plat 8 at (56): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions\nCompiling Vertex program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=0 insize=1258 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: compileSnippet
+  error: 2 plat 8 at (56): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=1 insize=1258 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: preprocess
+  insize=1256 outsize=280 ok=1
+Cmd: compileSnippet
+  error: 2 plat 8 at (56): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions\nCompiling Vertex program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=0 insize=1275 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: compileSnippet
+  error: 2 plat 8 at (56): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=1 insize=1275 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: preprocess
+  insize=1250 outsize=280 ok=1
+Cmd: compileSnippet
+  error: 2 plat 8 at (59): undeclared identifier 'col'\nCompiling Vertex program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=0 insize=1269 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: compileSnippet
+  error: 2 plat 8 at (59): undeclared identifier 'col'\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=1 insize=1269 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: preprocess
+  insize=1244 outsize=278 ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=1263 outsize=1454 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=1263 outsize=2470 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: preprocess
+  insize=1249 outsize=280 ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=1268 outsize=1454 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=1268 outsize=2470 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: preprocess
+  insize=1259 outsize=280 ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=1278 outsize=1454 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=1278 outsize=853 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: preprocess
+  insize=1677 outsize=308 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1668 outsize=2330 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1668 outsize=1136 kw= pd= ok=1
+Cmd: preprocess
+  insize=1271 outsize=280 ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=1290 outsize=1454 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=1290 outsize=853 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: preprocess
+  insize=1275 outsize=279 ok=1
+Cmd: preprocess
+  insize=1121 outsize=280 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1140 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1140 outsize=616 kw= pd= ok=1
+Cmd: preprocess
+  insize=1119 outsize=280 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1138 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1138 outsize=616 kw= pd= ok=1
+Cmd: preprocess
+  insize=1107 outsize=279 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (53): undeclared identifier 'taps'\nCompiling Vertex program
+  api=4 type=0 insize=1126 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1100 outsize=280 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (53): undeclared identifier 'taps'\nCompiling Vertex program
+  api=4 type=0 insize=1119 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1112 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1131 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1131 outsize=616 kw= pd= ok=1
+Cmd: preprocess
+  insize=1109 outsize=280 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1128 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1128 outsize=1558 kw= pd= ok=1
+Cmd: preprocess
+  insize=1350 outsize=368 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1281 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1281 outsize=1794 kw= pd= ok=1
+Cmd: preprocess
+  insize=1408 outsize=368 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1339 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1339 outsize=1916 kw= pd= ok=1
+Cmd: preprocess
+  insize=1399 outsize=368 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1330 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1330 outsize=616 kw= pd= ok=1
+Cmd: preprocess
+  insize=1408 outsize=368 ok=1
+Cmd: preprocess
+  insize=1114 outsize=368 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1045 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1045 outsize=819 kw= pd= ok=1
+Cmd: preprocess
+  insize=1109 outsize=280 ok=1
+Cmd: preprocess
+  insize=1109 outsize=280 ok=1
+Cmd: preprocess
+  insize=1186 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1204 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1204 outsize=1753 kw= pd= ok=1
+Cmd: preprocess
+  insize=1122 outsize=367 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1053 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1053 outsize=819 kw= pd= ok=1
+Cmd: preprocess
+  insize=1194 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1212 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1212 outsize=1753 kw= pd= ok=1
+Cmd: preprocess
+  insize=1117 outsize=280 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1136 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1136 outsize=1558 kw= pd= ok=1

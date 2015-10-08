@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GPGPU\Scripts\GPUParticleSystem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GlowDemo\Resources\GlowObjectShader.shader">
     <Files>
-      <File FileName="Assets\GPGPU\Scripts\GPUParticleSystem.cs" Line="128" Column="1" />
-      <File FileName="Assets\GPGPU\Resources\GPUParticleShader.shader" Line="64" Column="7" />
-      <File FileName="Assets\GPGPU\Resources\GPUParticleUpdater.compute" Line="63" Column="32" />
+      <File FileName="Assets\GlowDemo\Resources\GlowObjectShader.shader" Line="1" Column="1" />
+      <File FileName="Assets\GlowDemo\Scripts\GlowPostProcess.cs" Line="1" Column="1" />
+      <File FileName="Assets\GlowDemo\Resources\GlowScalePostProcess.shader" Line="4" Column="3" />
+      <File FileName="Assets\GlowDemo\Resources\GlowMergePostProcess.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
