@@ -16,9 +16,8 @@
 			#pragma fragment frag
 			
 			#include "UnityCG.cginc"
+			#include "Assets/Resources/ShaderIncludes/PostProcessHelper.cginc"
 			
-			#define NUM_TAPS 4
-
 			struct appdata
 			{
 				float4 vertex : POSITION;
@@ -30,7 +29,7 @@
 				float2 uv : TEXCOORD0;
 				float4 vertex : SV_POSITION;
 			};
-
+			
 			v2f vert (appdata v)
 			{
 				v2f o;
@@ -44,23 +43,12 @@
 
 			fixed4 frag (v2f i) : SV_Target
 			{
-				float2 taps[NUM_TAPS] = { float2(-1.5, 0), float2(0, 1.5), float2(1.5, 0), float2(0, -1.5)};
-				
-				fixed4 center = tex2D(_MainTex, i.uv);
-				fixed4 sum = center;
-				for(int idx = 0; idx < NUM_TAPS; ++idx)
+				fixed4 col = tex2D(_MainTex, i.uv);
+				if(col.a > 0.99)
 				{
-					float2 uv = i.uv + taps[idx] / _TextureResolution.xy;
-					sum += tex2D(_MainTex, uv);
+					col = fixed4(0, 0, 0, 1);
 				}
-				
-				fixed4 col = sum/(NUM_TAPS+1.0);
-				
-				if(center.a > 0.99)
-				{
-					col = fixed4(0, 0, 0, col.a);
-				}
-				
+
 				return col;
 			}
 			ENDCG

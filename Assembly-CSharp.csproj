@@ -45,9 +45,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BlurTargets.cs" />
      <Compile Include="Assets\GPGPUDemo\Scripts\GPGPUDemo.cs" />
      <Compile Include="Assets\GPGPUDemo\Scripts\GPUParticleSystem.cs" />
+     <Compile Include="Assets\GlowDemo\Scripts\CellsPostProcess.cs" />
      <Compile Include="Assets\GlowDemo\Scripts\GlowPostProcess.cs" />
+     <None Include="Assets\Resources\ShaderIncludes\PostProcessHelper.cginc" />
+     <None Include="Assets\GlowDemo\Resources\CellsPostProcess.shader" />
      <None Include="Assets\GlowDemo\Resources\GlowFilterPostProcess.shader" />
      <None Include="Assets\GlowDemo\Resources\GlowMergePostProcess.shader" />
      <None Include="Assets\GPGPUDemo\Resources\GPUParticleShader.shader" />

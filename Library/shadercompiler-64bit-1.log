@@ -1,811 +1,907 @@
 Base path: D:/Apps/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-14644
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-3364
 Cmd: getPlatforms
 Cmd: preprocess
-  insize=1605 outsize=308 ok=1
+  insize=1066 outsize=370 ok=1
 Cmd: compileSnippet
-  error: 1 plat 4 at (57): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=1596 outsize=2428 kw= pd= ok=1
+  api=4 type=0 insize=995 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1596 outsize=1136 kw= pd= ok=1
+  api=4 type=1 insize=995 outsize=819 kw= pd= ok=1
 Cmd: preprocess
-  insize=1655 outsize=307 ok=1
+  insize=1065 outsize=369 ok=1
 Cmd: compileSnippet
-  error: 1 plat 4 at (57): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=1646 outsize=2582 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1646 outsize=1136 kw= pd= ok=1
+  error: 2 plat 4 at Assets/Resources/ShaderIncludes/PostProcessHelper.cginc(22): syntax error: unexpected token '['\nCompiling Vertex program
+  error: 2 plat 4 at Assets/Resources/ShaderIncludes/PostProcessHelper.cginc(24): undeclared identifier 'oKernel'\nCompiling Vertex program
+  api=4 type=0 insize=995 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1660 outsize=308 ok=1
+  insize=1064 outsize=366 ok=1
 Cmd: compileSnippet
-  error: 1 plat 4 at (57): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=1651 outsize=2452 kw= pd= ok=1
+  api=4 type=0 insize=995 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1651 outsize=1136 kw= pd= ok=1
+  api=4 type=1 insize=995 outsize=819 kw= pd= ok=1
 Cmd: preprocess
-  insize=1671 outsize=308 ok=1
+  insize=1066 outsize=368 ok=1
 Cmd: compileSnippet
-  error: 1 plat 4 at (57): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=1662 outsize=2558 kw= pd= ok=1
+  api=4 type=0 insize=997 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1662 outsize=1136 kw= pd= ok=1
+  api=4 type=1 insize=997 outsize=819 kw= pd= ok=1
 Cmd: preprocess
-  insize=1681 outsize=308 ok=1
+  insize=1776 outsize=282 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1672 outsize=2200 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1672 outsize=1136 kw= pd= ok=1
+  error: 2 plat 4 at (48): 'kernel': implicit array missing initial value\nCompiling Vertex program
+  error: 2 plat 4 at (48): undeclared identifier 'BLUR_KERNEL_SIZE'\nCompiling Vertex program
+  api=4 type=0 insize=1793 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1739 outsize=326 ok=1
+  insize=1914 outsize=281 ok=1
 Cmd: compileSnippet
-  error: 1 plat 4 at (57): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=1712 outsize=2582 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1712 outsize=1136 kw= pd= ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
-  api=4 insize=1006 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
-  api=4 insize=1006 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
-  api=15 insize=1006 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
-  api=9 insize=1006 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
-  api=4 insize=1006 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
-  api=4 insize=1008 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
-  api=4 insize=1008 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
-  api=15 insize=1008 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
-  api=9 insize=1008 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(45): invalid subscript 'scale'
-  api=4 insize=1008 outsize=97 ok=0
-Cmd: compileCompute
-  api=4 insize=1007 outsize=1061 ok=1
-Cmd: compileCompute
-  api=4 insize=1007 outsize=1061 ok=1
-Cmd: compileCompute
-  api=15 insize=1007 outsize=1905 ok=1
-Cmd: compileCompute
-  api=9 insize=1007 outsize=1813 ok=1
+  error: 2 plat 4 at (59): undeclared identifier 'width'\nCompiling Vertex program
+  api=4 type=0 insize=1932 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1680 outsize=308 ok=1
+  insize=1838 outsize=282 ok=1
 Cmd: compileSnippet
-  error: 1 plat 4 at (57): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=1671 outsize=2590 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1671 outsize=1136 kw= pd= ok=1
+  error: 2 plat 4 at (48): 'kernel': implicit array missing initial value\nCompiling Vertex program
+  error: 2 plat 4 at (48): undeclared identifier 'BLUR_KERNEL_SIZE'\nCompiling Vertex program
+  api=4 type=0 insize=1855 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1638 outsize=308 ok=1
+  insize=1845 outsize=281 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (56): undeclared identifier 'vertexId'\nCompiling Vertex program
-  api=4 type=0 insize=1629 outsize=0 kw= pd= ok=0
+  error: 2 plat 4 at (48): 'kernel': implicit array missing initial value\nCompiling Vertex program
+  error: 2 plat 4 at (48): undeclared identifier 'BLUR_KERNEL_SIZE'\nCompiling Vertex program
+  api=4 type=0 insize=1862 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1680 outsize=308 ok=1
+  insize=1921 outsize=281 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (59): undeclared identifier '_Resolution'\nCompiling Vertex program
+  api=4 type=0 insize=1939 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1675 outsize=308 ok=1
+  insize=1935 outsize=281 ok=1
 Cmd: compileSnippet
-  error: 1 plat 4 at (57): integer divides may be much slower, try using uints if possible.\nCompiling Vertex program
-  api=4 type=0 insize=1666 outsize=2590 kw= pd= ok=1
+  api=4 type=0 insize=1953 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1666 outsize=1136 kw= pd= ok=1
-Cmd: compileCompute
-  api=4 insize=899 outsize=1061 ok=1
-Cmd: compileCompute
-  api=4 insize=899 outsize=1061 ok=1
-Cmd: compileCompute
-  api=15 insize=899 outsize=1905 ok=1
-Cmd: compileCompute
-  api=9 insize=899 outsize=1813 ok=1
-Cmd: compileCompute
-  api=4 insize=899 outsize=1061 ok=1
-Cmd: compileCompute
-  api=4 insize=899 outsize=1061 ok=1
-Cmd: compileCompute
-  api=15 insize=899 outsize=1929 ok=1
-Cmd: compileCompute
-  api=9 insize=899 outsize=1837 ok=1
-Cmd: compileCompute
-  api=4 insize=905 outsize=1101 ok=1
-Cmd: compileCompute
-  api=4 insize=905 outsize=1101 ok=1
-Cmd: compileCompute
-  api=15 insize=905 outsize=1965 ok=1
-Cmd: compileCompute
-  api=9 insize=905 outsize=1873 ok=1
-Cmd: compileCompute
-  api=4 insize=930 outsize=1177 ok=1
-Cmd: compileCompute
-  api=4 insize=930 outsize=1177 ok=1
-Cmd: compileCompute
-  api=15 insize=930 outsize=2081 ok=1
-Cmd: compileCompute
-  api=9 insize=930 outsize=2009 ok=1
-Cmd: compileCompute
-  api=4 insize=954 outsize=1273 ok=1
-Cmd: compileCompute
-  api=4 insize=954 outsize=1273 ok=1
-Cmd: compileCompute
-  api=15 insize=954 outsize=2213 ok=1
-Cmd: compileCompute
-  api=9 insize=954 outsize=2137 ok=1
-Cmd: compileCompute
-  api=4 insize=965 outsize=1365 ok=1
-Cmd: compileCompute
-  api=4 insize=965 outsize=1365 ok=1
-Cmd: compileCompute
-  api=15 insize=965 outsize=2329 ok=1
-Cmd: compileCompute
-  api=9 insize=965 outsize=2249 ok=1
-Cmd: compileCompute
-  api=4 insize=984 outsize=1425 ok=1
-Cmd: compileCompute
-  api=4 insize=984 outsize=1425 ok=1
-Cmd: compileCompute
-  api=15 insize=984 outsize=2365 ok=1
-Cmd: compileCompute
-  api=9 insize=984 outsize=2277 ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): 'sin': no matching 0 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token '_Time'
-  api=4 insize=981 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): 'sin': no matching 0 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token '_Time'
-  api=4 insize=981 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): 'sin': no matching 0 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token '_Time'
-  api=15 insize=981 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): 'sin': no matching 0 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token '_Time'
-  api=9 insize=981 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): 'sin': no matching 0 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float)
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token '_Time'
-  api=4 insize=981 outsize=97 ok=0
-Cmd: compileCompute
-  api=4 insize=981 outsize=1429 ok=1
-Cmd: compileCompute
-  api=4 insize=981 outsize=1429 ok=1
-Cmd: compileCompute
-  api=15 insize=981 outsize=2385 ok=1
-Cmd: compileCompute
-  api=9 insize=981 outsize=2305 ok=1
-Cmd: compileCompute
-  api=4 insize=996 outsize=1469 ok=1
-Cmd: compileCompute
-  api=4 insize=996 outsize=1469 ok=1
-Cmd: compileCompute
-  api=15 insize=996 outsize=2417 ok=1
-Cmd: compileCompute
-  api=9 insize=996 outsize=2337 ok=1
-Cmd: compileCompute
-  api=4 insize=924 outsize=1273 ok=1
-Cmd: compileCompute
-  api=4 insize=924 outsize=1273 ok=1
-Cmd: compileCompute
-  api=15 insize=924 outsize=2153 ok=1
-Cmd: compileCompute
-  api=9 insize=924 outsize=2065 ok=1
-Cmd: compileCompute
-  api=4 insize=932 outsize=1305 ok=1
-Cmd: compileCompute
-  api=4 insize=932 outsize=1305 ok=1
-Cmd: compileCompute
-  api=15 insize=932 outsize=2189 ok=1
-Cmd: compileCompute
-  api=9 insize=932 outsize=2101 ok=1
-Cmd: compileCompute
-  api=4 insize=932 outsize=1305 ok=1
-Cmd: compileCompute
-  api=4 insize=932 outsize=1305 ok=1
-Cmd: compileCompute
-  api=15 insize=932 outsize=2189 ok=1
-Cmd: compileCompute
-  api=9 insize=932 outsize=2101 ok=1
-Cmd: compileCompute
-  api=4 insize=933 outsize=1305 ok=1
-Cmd: compileCompute
-  api=4 insize=933 outsize=1305 ok=1
-Cmd: compileCompute
-  api=15 insize=933 outsize=2189 ok=1
-Cmd: compileCompute
-  api=9 insize=933 outsize=2105 ok=1
-Cmd: compileCompute
-  api=4 insize=934 outsize=1273 ok=1
-Cmd: compileCompute
-  api=4 insize=934 outsize=1273 ok=1
-Cmd: compileCompute
-  api=15 insize=934 outsize=2093 ok=1
-Cmd: compileCompute
-  api=9 insize=934 outsize=2009 ok=1
-Cmd: compileCompute
-  api=4 insize=928 outsize=1241 ok=1
-Cmd: compileCompute
-  api=4 insize=928 outsize=1241 ok=1
-Cmd: compileCompute
-  api=15 insize=928 outsize=2061 ok=1
-Cmd: compileCompute
-  api=9 insize=928 outsize=1969 ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token ')'
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token 'sin'
-  api=4 insize=939 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token ')'
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token 'sin'
-  api=4 insize=939 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token ')'
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token 'sin'
-  api=15 insize=939 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token ')'
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token 'sin'
-  api=9 insize=939 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token ')'
-  error: 2 plat 4 at GPUParticleUpdater.compute(39): syntax error: unexpected token 'sin'
-  api=4 insize=939 outsize=97 ok=0
-Cmd: compileCompute
-  api=4 insize=941 outsize=1241 ok=1
-Cmd: compileCompute
-  api=4 insize=941 outsize=1241 ok=1
-Cmd: compileCompute
-  api=15 insize=941 outsize=2077 ok=1
-Cmd: compileCompute
-  api=9 insize=941 outsize=1985 ok=1
-Cmd: compileCompute
-  api=4 insize=946 outsize=1273 ok=1
-Cmd: compileCompute
-  api=4 insize=946 outsize=1273 ok=1
-Cmd: compileCompute
-  api=15 insize=946 outsize=2101 ok=1
-Cmd: compileCompute
-  api=9 insize=946 outsize=2017 ok=1
-Cmd: compileCompute
-  api=4 insize=946 outsize=1273 ok=1
-Cmd: compileCompute
-  api=4 insize=946 outsize=1273 ok=1
-Cmd: compileCompute
-  api=15 insize=946 outsize=2093 ok=1
-Cmd: compileCompute
-  api=9 insize=946 outsize=2009 ok=1
-Cmd: compileCompute
-  api=4 insize=950 outsize=1301 ok=1
-Cmd: compileCompute
-  api=4 insize=950 outsize=1301 ok=1
-Cmd: compileCompute
-  api=15 insize=950 outsize=2117 ok=1
-Cmd: compileCompute
-  api=9 insize=950 outsize=2033 ok=1
-Cmd: compileCompute
-  api=4 insize=1043 outsize=1301 ok=1
-Cmd: compileCompute
-  api=4 insize=1043 outsize=1301 ok=1
-Cmd: compileCompute
-  api=15 insize=1043 outsize=2117 ok=1
-Cmd: compileCompute
-  api=9 insize=1043 outsize=2029 ok=1
-Cmd: compileCompute
-  api=4 insize=1044 outsize=1341 ok=1
-Cmd: compileCompute
-  api=4 insize=1044 outsize=1341 ok=1
-Cmd: compileCompute
-  api=15 insize=1044 outsize=2169 ok=1
-Cmd: compileCompute
-  api=9 insize=1044 outsize=2081 ok=1
-Cmd: compileCompute
-  api=4 insize=1056 outsize=1377 ok=1
-Cmd: compileCompute
-  api=4 insize=1056 outsize=1377 ok=1
-Cmd: compileCompute
-  api=15 insize=1056 outsize=2233 ok=1
-Cmd: compileCompute
-  api=9 insize=1056 outsize=2153 ok=1
-Cmd: compileCompute
-  api=4 insize=1056 outsize=1377 ok=1
-Cmd: compileCompute
-  api=4 insize=1056 outsize=1377 ok=1
-Cmd: compileCompute
-  api=15 insize=1056 outsize=2233 ok=1
-Cmd: compileCompute
-  api=9 insize=1056 outsize=2153 ok=1
-Cmd: compileCompute
-  api=4 insize=1058 outsize=1377 ok=1
-Cmd: compileCompute
-  api=4 insize=1058 outsize=1377 ok=1
-Cmd: compileCompute
-  api=15 insize=1058 outsize=2249 ok=1
-Cmd: compileCompute
-  api=9 insize=1058 outsize=2169 ok=1
-Cmd: compileCompute
-  api=4 insize=1058 outsize=1377 ok=1
-Cmd: compileCompute
-  api=4 insize=1058 outsize=1377 ok=1
-Cmd: compileCompute
-  api=15 insize=1058 outsize=2241 ok=1
-Cmd: compileCompute
-  api=9 insize=1058 outsize=2161 ok=1
-Cmd: compileCompute
-  api=4 insize=1059 outsize=1377 ok=1
-Cmd: compileCompute
-  api=4 insize=1059 outsize=1377 ok=1
-Cmd: compileCompute
-  api=15 insize=1059 outsize=2249 ok=1
-Cmd: compileCompute
-  api=9 insize=1059 outsize=2169 ok=1
-Cmd: compileCompute
-  api=4 insize=1155 outsize=1445 ok=1
-Cmd: compileCompute
-  api=4 insize=1155 outsize=1445 ok=1
-Cmd: compileCompute
-  api=15 insize=1155 outsize=2337 ok=1
-Cmd: compileCompute
-  api=9 insize=1155 outsize=2269 ok=1
-Cmd: compileCompute
-  api=4 insize=1150 outsize=1565 ok=1
-Cmd: compileCompute
-  api=4 insize=1150 outsize=1565 ok=1
-Cmd: compileCompute
-  api=15 insize=1150 outsize=2633 ok=1
-Cmd: compileCompute
-  api=9 insize=1150 outsize=2557 ok=1
-Cmd: compileCompute
-  api=4 insize=1162 outsize=1409 ok=1
-Cmd: compileCompute
-  api=4 insize=1162 outsize=1409 ok=1
-Cmd: compileCompute
-  api=15 insize=1162 outsize=2361 ok=1
-Cmd: compileCompute
-  api=9 insize=1162 outsize=2289 ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): 'length': no matching 3 parameter intrinsic function; Possible intrinsic functions are: length(floatM|halfM|min10floatM|min16floatM)
-  api=4 insize=1186 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): 'length': no matching 3 parameter intrinsic function; Possible intrinsic functions are: length(floatM|halfM|min10floatM|min16floatM)
-  api=4 insize=1186 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): 'length': no matching 3 parameter intrinsic function; Possible intrinsic functions are: length(floatM|halfM|min10floatM|min16floatM)
-  api=15 insize=1186 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): 'length': no matching 3 parameter intrinsic function; Possible intrinsic functions are: length(floatM|halfM|min10floatM|min16floatM)
-  api=9 insize=1186 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): 'length': no matching 3 parameter intrinsic function; Possible intrinsic functions are: length(floatM|halfM|min10floatM|min16floatM)
-  api=4 insize=1186 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'lenght'
-  api=4 insize=1186 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'lenght'
-  api=4 insize=1186 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'lenght'
-  api=15 insize=1186 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'lenght'
-  api=9 insize=1186 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): undeclared identifier 'lenght'
-  api=4 insize=1186 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): syntax error: unexpected token ')'
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=4 insize=1187 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): syntax error: unexpected token ')'
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=4 insize=1187 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): syntax error: unexpected token ')'
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=15 insize=1187 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): syntax error: unexpected token ')'
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=9 insize=1187 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): syntax error: unexpected token ')'
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=4 insize=1187 outsize=97 ok=0
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=4 insize=1186 outsize=1625 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=4 insize=1186 outsize=1625 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=15 insize=1186 outsize=2449 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=9 insize=1186 outsize=2381 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=4 insize=1185 outsize=1569 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=4 insize=1185 outsize=1569 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=15 insize=1185 outsize=2409 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=9 insize=1185 outsize=2341 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=4 insize=1146 outsize=1477 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=4 insize=1146 outsize=1477 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=15 insize=1146 outsize=2313 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=9 insize=1146 outsize=2237 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=4 insize=1146 outsize=1477 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=4 insize=1146 outsize=1477 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=15 insize=1146 outsize=2313 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GPUParticleUpdater.compute(46): implicit truncation of vector type
-  api=9 insize=1146 outsize=2237 ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
-  api=4 insize=1173 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
-  api=4 insize=1173 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
-  api=15 insize=1173 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
-  api=9 insize=1173 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
-  api=4 insize=1173 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
-  api=4 insize=1172 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
-  api=4 insize=1172 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
-  api=15 insize=1172 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
-  api=9 insize=1172 outsize=97 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GPUParticleUpdater.compute(46): l-value specifies const object
-  api=4 insize=1172 outsize=97 ok=0
-Cmd: compileCompute
-  api=4 insize=1172 outsize=1449 ok=1
-Cmd: compileCompute
-  api=4 insize=1172 outsize=1449 ok=1
-Cmd: compileCompute
-  api=15 insize=1172 outsize=2417 ok=1
-Cmd: compileCompute
-  api=9 insize=1172 outsize=2341 ok=1
-Cmd: compileCompute
-  api=4 insize=1173 outsize=1449 ok=1
-Cmd: compileCompute
-  api=4 insize=1173 outsize=1449 ok=1
-Cmd: compileCompute
-  api=15 insize=1173 outsize=2417 ok=1
-Cmd: compileCompute
-  api=9 insize=1173 outsize=2345 ok=1
-Cmd: compileCompute
-  api=4 insize=1173 outsize=1449 ok=1
-Cmd: compileCompute
-  api=4 insize=1173 outsize=1449 ok=1
-Cmd: compileCompute
-  api=15 insize=1173 outsize=2417 ok=1
-Cmd: compileCompute
-  api=9 insize=1173 outsize=2345 ok=1
+  api=4 type=1 insize=1953 outsize=2980 kw= pd= ok=1
 Cmd: preprocess
-  insize=947 outsize=246 ok=1
+  insize=1859 outsize=282 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (48): 'kernel': implicit array missing initial value\nCompiling Vertex program
+  error: 2 plat 4 at (48): undeclared identifier 'BLUR_KERNEL_SIZE'\nCompiling Vertex program
+  api=4 type=0 insize=1876 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=953 outsize=252 ok=1
+  insize=1967 outsize=280 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1985 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1985 outsize=2980 kw= pd= ok=1
 Cmd: preprocess
-  insize=986 outsize=282 ok=1
+  insize=1889 outsize=282 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1003 outsize=1087 kw= pd= ok=1
+  api=4 type=0 insize=1906 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1003 outsize=616 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1162 outsize=973 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1162 outsize=518 kw= pd= ok=1
+  api=4 type=1 insize=1906 outsize=2785 kw= pd= ok=1
 Cmd: preprocess
-  insize=1037 outsize=292 ok=1
+  insize=1894 outsize=282 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (56): undeclared identifier '_GlowFactor'\nCompiling Vertex program
-  api=4 type=0 insize=1044 outsize=0 kw= pd= ok=0
+  api=4 type=0 insize=1911 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1911 outsize=2785 kw= pd= ok=1
 Cmd: preprocess
-  insize=1038 outsize=292 ok=1
+  insize=1086 outsize=368 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1045 outsize=1087 kw= pd= ok=1
+  api=4 type=0 insize=1017 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (49): 'frag': Not all control paths return a value\nCompiling Fragment program
-  api=4 type=1 insize=1045 outsize=0 kw= pd= ok=0
+  api=4 type=1 insize=1017 outsize=859 kw= pd= ok=1
 Cmd: preprocess
-  insize=1059 outsize=292 ok=1
+  insize=1982 outsize=281 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1066 outsize=1087 kw= pd= ok=1
+  api=4 type=0 insize=2000 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1066 outsize=778 kw= pd= ok=1
+  api=4 type=1 insize=2000 outsize=2980 kw= pd= ok=1
 Cmd: preprocess
-  insize=1016 outsize=292 ok=1
+  insize=1904 outsize=282 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1023 outsize=1087 kw= pd= ok=1
+  api=4 type=0 insize=1921 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1023 outsize=778 kw= pd= ok=1
+  api=4 type=1 insize=1921 outsize=2826 kw= pd= ok=1
 Cmd: preprocess
-  insize=764 outsize=259 ok=1
+  insize=1984 outsize=280 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2002 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2002 outsize=2826 kw= pd= ok=1
 Cmd: preprocess
-  insize=764 outsize=259 ok=1
+  insize=1972 outsize=281 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (77): syntax error: unexpected integer constant\nCompiling Vertex program
+  api=4 type=0 insize=1990 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=764 outsize=259 ok=1
+  insize=1988 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2006 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2006 outsize=2419 kw= pd= ok=1
 Cmd: preprocess
-  insize=785 outsize=280 ok=1
+  insize=2023 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2041 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2041 outsize=526 kw= pd= ok=1
 Cmd: preprocess
-  insize=785 outsize=280 ok=1
+  insize=1101 outsize=368 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1032 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1032 outsize=526 kw= pd= ok=1
 Cmd: preprocess
-  insize=785 outsize=280 ok=1
+  insize=1063 outsize=368 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=994 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=994 outsize=616 kw= pd= ok=1
 Cmd: preprocess
-  insize=785 outsize=280 ok=1
+  insize=1059 outsize=368 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=990 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=990 outsize=616 kw= pd= ok=1
 Cmd: preprocess
-  insize=1050 outsize=280 ok=1
+  insize=1063 outsize=368 ok=1
 Cmd: preprocess
-  insize=1227 outsize=280 ok=1
+  insize=2020 outsize=278 ok=1
 Cmd: preprocess
-  insize=1238 outsize=280 ok=1
+  insize=2023 outsize=281 ok=1
 Cmd: preprocess
-  insize=1251 outsize=280 ok=1
+  insize=1884 outsize=282 ok=1
 Cmd: compileSnippet
-  error: 2 plat 8 at (49): syntax error: unexpected token 'new'\nCompiling Vertex program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Vertex program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=0 insize=1270 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  api=4 type=0 insize=1901 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 8 at (49): syntax error: unexpected token 'new'\nCompiling Fragment program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Fragment program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=1 insize=1270 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  api=4 type=1 insize=1901 outsize=2785 kw= pd= ok=1
 Cmd: preprocess
-  insize=1247 outsize=280 ok=1
+  insize=1928 outsize=281 ok=1
 Cmd: compileSnippet
-  error: 2 plat 8 at (49): syntax error: unexpected token '['\nCompiling Vertex program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Vertex program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=0 insize=1266 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  api=4 type=0 insize=1946 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 8 at (49): syntax error: unexpected token '['\nCompiling Fragment program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Fragment program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=1 insize=1266 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  api=4 type=1 insize=1946 outsize=526 kw= pd= ok=1
 Cmd: preprocess
-  insize=1382 outsize=279 ok=1
-Cmd: compileSnippet
-  error: 2 plat 8 at (51): syntax error: unexpected token '['\nCompiling Vertex program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  error: 2 plat 8 at (57): invalid subscript 'uv'\nCompiling Vertex program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=0 insize=1401 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
-Cmd: compileSnippet
-  error: 2 plat 8 at (51): syntax error: unexpected token '['\nCompiling Fragment program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  error: 2 plat 8 at (57): invalid subscript 'uv'\nCompiling Fragment program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=1 insize=1401 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  insize=1059 outsize=368 ok=1
 Cmd: preprocess
-  insize=1237 outsize=280 ok=1
+  insize=1058 outsize=367 ok=1
 Cmd: compileSnippet
-  error: 2 plat 8 at (49): syntax error: unexpected token '{'\nCompiling Vertex program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Vertex program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=0 insize=1256 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  api=4 type=0 insize=989 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 8 at (49): syntax error: unexpected token '{'\nCompiling Fragment program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Fragment program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=1 insize=1256 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  api=4 type=1 insize=989 outsize=616 kw= pd= ok=1
 Cmd: preprocess
-  insize=1231 outsize=280 ok=1
+  insize=1979 outsize=282 ok=1
 Cmd: compileSnippet
-  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Vertex program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=0 insize=1250 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  api=4 type=0 insize=1996 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Fragment program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=1 insize=1250 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  api=4 type=1 insize=1996 outsize=526 kw= pd= ok=1
 Cmd: preprocess
-  insize=1234 outsize=280 ok=1
-Cmd: compileSnippet
-  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Vertex program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=0 insize=1253 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
-Cmd: compileSnippet
-  error: 2 plat 8 at (55): invalid subscript 'uv'\nCompiling Fragment program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=1 insize=1253 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  insize=1884 outsize=282 ok=1
 Cmd: preprocess
-  insize=1239 outsize=280 ok=1
+  insize=1921 outsize=281 ok=1
 Cmd: compileSnippet
-  error: 2 plat 8 at (56): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions\nCompiling Vertex program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=0 insize=1258 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  api=4 type=0 insize=1938 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 8 at (56): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions\nCompiling Fragment program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=1 insize=1258 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  api=4 type=1 insize=1938 outsize=1030 kw= pd= ok=1
 Cmd: preprocess
-  insize=1256 outsize=280 ok=1
+  insize=1935 outsize=282 ok=1
 Cmd: compileSnippet
-  error: 2 plat 8 at (56): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions\nCompiling Vertex program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=0 insize=1275 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  api=4 type=0 insize=1952 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 8 at (56): invalid type for index - index must be a scalar, or a vector with the correct number of dimensions\nCompiling Fragment program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=1 insize=1275 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  api=4 type=1 insize=1952 outsize=713 kw= pd= ok=1
 Cmd: preprocess
-  insize=1250 outsize=280 ok=1
+  insize=1943 outsize=282 ok=1
 Cmd: compileSnippet
-  error: 2 plat 8 at (59): undeclared identifier 'col'\nCompiling Vertex program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=0 insize=1269 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  api=4 type=0 insize=1960 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 8 at (59): undeclared identifier 'col'\nCompiling Fragment program
-Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
-  api=8 type=1 insize=1269 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+  api=4 type=1 insize=1960 outsize=1363 kw= pd= ok=1
 Cmd: preprocess
-  insize=1244 outsize=278 ok=1
+  insize=1928 outsize=282 ok=1
 Cmd: compileSnippet
-  api=8 type=0 insize=1263 outsize=1454 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
-Cmd: compileSnippet
-  api=8 type=1 insize=1263 outsize=2470 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+  error: 2 plat 4 at (82): syntax error: unexpected token ';'\nCompiling Vertex program
+  api=4 type=0 insize=1945 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1249 outsize=280 ok=1
+  insize=1929 outsize=282 ok=1
 Cmd: compileSnippet
-  api=8 type=0 insize=1268 outsize=1454 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+  api=4 type=0 insize=1946 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=8 type=1 insize=1268 outsize=2470 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+  api=4 type=1 insize=1946 outsize=1030 kw= pd= ok=1
 Cmd: preprocess
-  insize=1259 outsize=280 ok=1
+  insize=1910 outsize=281 ok=1
 Cmd: compileSnippet
-  api=8 type=0 insize=1278 outsize=1454 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+  api=4 type=0 insize=1928 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=8 type=1 insize=1278 outsize=853 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+  api=4 type=1 insize=1928 outsize=526 kw= pd= ok=1
 Cmd: preprocess
-  insize=1677 outsize=308 ok=1
+  insize=1911 outsize=281 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1668 outsize=2330 kw= pd= ok=1
+  api=4 type=0 insize=1928 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1668 outsize=1136 kw= pd= ok=1
+  api=4 type=1 insize=1928 outsize=989 kw= pd= ok=1
 Cmd: preprocess
-  insize=1271 outsize=280 ok=1
+  insize=1904 outsize=281 ok=1
 Cmd: compileSnippet
-  api=8 type=0 insize=1290 outsize=1454 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
-Cmd: compileSnippet
-  api=8 type=1 insize=1290 outsize=853 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+  error: 2 plat 4 at (77): syntax error: unexpected token 'kernel'\nCompiling Vertex program
+  api=4 type=0 insize=1922 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1275 outsize=279 ok=1
+  insize=1906 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1924 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1924 outsize=526 kw= pd= ok=1
 Cmd: preprocess
-  insize=1121 outsize=280 ok=1
+  insize=1876 outsize=280 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1140 outsize=1006 kw= pd= ok=1
+  api=4 type=0 insize=1894 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1140 outsize=616 kw= pd= ok=1
+  api=4 type=1 insize=1894 outsize=2704 kw= pd= ok=1
 Cmd: preprocess
-  insize=1119 outsize=280 ok=1
+  insize=1874 outsize=282 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1138 outsize=1006 kw= pd= ok=1
+  api=4 type=0 insize=1891 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1138 outsize=616 kw= pd= ok=1
+  api=4 type=1 insize=1891 outsize=2704 kw= pd= ok=1
 Cmd: preprocess
-  insize=1107 outsize=279 ok=1
+  insize=1864 outsize=282 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (53): undeclared identifier 'taps'\nCompiling Vertex program
-  api=4 type=0 insize=1126 outsize=0 kw= pd= ok=0
+  api=4 type=0 insize=1881 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1881 outsize=2704 kw= pd= ok=1
 Cmd: preprocess
-  insize=1100 outsize=280 ok=1
+  insize=1881 outsize=281 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (53): undeclared identifier 'taps'\nCompiling Vertex program
-  api=4 type=0 insize=1119 outsize=0 kw= pd= ok=0
+  api=4 type=0 insize=1899 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1899 outsize=2704 kw= pd= ok=1
 Cmd: preprocess
-  insize=1112 outsize=279 ok=1
+  insize=1056 outsize=368 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1131 outsize=1006 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1131 outsize=616 kw= pd= ok=1
+  error: 2 plat 4 at Assets/Resources/ShaderIncludes/PostProcessHelper.cginc(18): undeclared identifier '_TextureResolution'\nCompiling Vertex program
+  api=4 type=0 insize=987 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1109 outsize=280 ok=1
+  insize=1057 outsize=369 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1128 outsize=1006 kw= pd= ok=1
+  api=4 type=0 insize=987 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1128 outsize=1558 kw= pd= ok=1
+  api=4 type=1 insize=987 outsize=616 kw= pd= ok=1
 Cmd: preprocess
-  insize=1350 outsize=368 ok=1
+  insize=1056 outsize=368 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1281 outsize=1006 kw= pd= ok=1
+  api=4 type=0 insize=987 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1281 outsize=1794 kw= pd= ok=1
+  api=4 type=1 insize=987 outsize=616 kw= pd= ok=1
 Cmd: preprocess
-  insize=1408 outsize=368 ok=1
+  insize=1145 outsize=281 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1339 outsize=1006 kw= pd= ok=1
+  api=4 type=0 insize=1163 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1339 outsize=1916 kw= pd= ok=1
+  api=4 type=1 insize=1163 outsize=2704 kw= pd= ok=1
 Cmd: preprocess
-  insize=1399 outsize=368 ok=1
+  insize=1169 outsize=282 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (52): undeclared identifier 'GetBlurData'\nCompiling Vertex program
+  api=4 type=0 insize=1186 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1137 outsize=282 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1154 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1154 outsize=2704 kw= pd= ok=1
+Cmd: preprocess
+  insize=1358 outsize=367 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1289 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1289 outsize=2704 kw= pd= ok=1
+Cmd: preprocess
+  insize=1353 outsize=368 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1284 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1284 outsize=2704 kw= pd= ok=1
+Cmd: preprocess
+  insize=1361 outsize=367 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1292 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1292 outsize=2891 kw= pd= ok=1
+Cmd: preprocess
+  insize=1365 outsize=368 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1296 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1296 outsize=2931 kw= pd= ok=1
+Cmd: preprocess
+  insize=1365 outsize=368 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1296 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1296 outsize=2931 kw= pd= ok=1
+Cmd: preprocess
+  insize=1273 outsize=281 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (58): syntax error: unexpected token 'if'\nCompiling Vertex program
+  error: 2 plat 4 at (63): syntax error: unexpected token 'return'\nCompiling Vertex program
+  api=4 type=0 insize=1291 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1275 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1293 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (57): array index out of bounds\nCompiling Fragment program
+  api=4 type=1 insize=1293 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1260 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1278 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1278 outsize=2858 kw= pd= ok=1
+Cmd: preprocess
+  insize=1365 outsize=368 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1296 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1296 outsize=2931 kw= pd= ok=1
+Cmd: preprocess
+  insize=1365 outsize=368 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1296 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1296 outsize=2931 kw= pd= ok=1
+Cmd: preprocess
+  insize=1402 outsize=382 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (51): undeclared identifier '_SceneTex'\nCompiling Vertex program
+  api=4 type=0 insize=1319 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1308 outsize=281 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (49): 'GetBlurData1D': cannot convert output parameter from 'float[9]' to 'float[3]'\nCompiling Vertex program
+  api=4 type=0 insize=1326 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1401 outsize=382 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1318 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1318 outsize=3013 kw= pd= ok=1
+Cmd: preprocess
+  insize=1141 outsize=282 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (50): 'GetBlurData': cannot convert output parameter from 'float[9]' to 'float[3]'\nCompiling Vertex program
+  api=4 type=0 insize=1158 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1312 outsize=281 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (49): 'GetBlurData1D': cannot convert output parameter from 'float[9]' to 'float[3]'\nCompiling Vertex program
+  api=4 type=0 insize=1330 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1187 outsize=282 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (51): 'GetBlurData1D': cannot convert output parameter from 'float[9]' to 'float[3]'\nCompiling Vertex program
+  api=4 type=0 insize=1204 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1190 outsize=285 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (52): 'GetBlurData1D': cannot convert output parameter from 'float[9]' to 'float[3]'\nCompiling Vertex program
+  api=4 type=0 insize=1204 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1313 outsize=282 ok=1
 Cmd: compileSnippet
   api=4 type=0 insize=1330 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1330 outsize=616 kw= pd= ok=1
+  api=4 type=1 insize=1330 outsize=1501 kw= pd= ok=1
 Cmd: preprocess
-  insize=1408 outsize=368 ok=1
-Cmd: preprocess
-  insize=1114 outsize=368 ok=1
+  insize=1197 outsize=285 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1045 outsize=1006 kw= pd= ok=1
+  api=4 type=0 insize=1211 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1045 outsize=819 kw= pd= ok=1
+  api=4 type=1 insize=1211 outsize=1347 kw= pd= ok=1
 Cmd: preprocess
-  insize=1109 outsize=280 ok=1
+  insize=1381 outsize=382 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1298 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1298 outsize=616 kw= pd= ok=1
 Cmd: preprocess
-  insize=1109 outsize=280 ok=1
+  insize=1351 outsize=382 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1268 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1268 outsize=2704 kw= pd= ok=1
 Cmd: preprocess
-  insize=1186 outsize=281 ok=1
+  insize=1367 outsize=381 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1284 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1284 outsize=2972 kw= pd= ok=1
+Cmd: preprocess
+  insize=1315 outsize=284 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1330 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1330 outsize=1477 kw= pd= ok=1
+Cmd: preprocess
+  insize=1313 outsize=282 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1330 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1330 outsize=1477 kw= pd= ok=1
+Cmd: preprocess
+  insize=1485 outsize=382 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1402 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1402 outsize=3403 kw= pd= ok=1
+Cmd: preprocess
+  insize=1431 outsize=282 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1448 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1448 outsize=1704 kw= pd= ok=1
+Cmd: preprocess
+  insize=1256 outsize=285 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1270 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1270 outsize=1607 kw= pd= ok=1
+Cmd: preprocess
+  insize=1427 outsize=281 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (59): undeclared identifier '_ResolutonParams'\nCompiling Vertex program
+  api=4 type=0 insize=1444 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1429 outsize=282 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (59): undeclared identifier '_ResolutionParams'\nCompiling Vertex program
+  api=4 type=0 insize=1446 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1421 outsize=282 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1438 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1438 outsize=2013 kw= pd= ok=1
+Cmd: preprocess
+  insize=1475 outsize=382 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1392 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1392 outsize=3581 kw= pd= ok=1
+Cmd: preprocess
+  insize=1476 outsize=383 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1392 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1392 outsize=3638 kw= pd= ok=1
+Cmd: preprocess
+  insize=1420 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1438 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1438 outsize=2013 kw= pd= ok=1
+Cmd: preprocess
+  insize=1475 outsize=382 ok=1
+Cmd: preprocess
+  insize=1661 outsize=443 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1517 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1517 outsize=3581 kw= pd= ok=1
+Cmd: preprocess
+  insize=1662 outsize=442 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1518 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1518 outsize=3963 kw= pd= ok=1
+Cmd: preprocess
+  insize=1410 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1428 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1428 outsize=1737 kw= pd= ok=1
+Cmd: preprocess
+  insize=1420 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1438 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1438 outsize=2013 kw= pd= ok=1
+Cmd: preprocess
+  insize=1246 outsize=285 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1260 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1260 outsize=1639 kw= pd= ok=1
+Cmd: preprocess
+  insize=1410 outsize=281 ok=1
+Cmd: preprocess
+  insize=1361 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1379 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1379 outsize=1867 kw= pd= ok=1
+Cmd: preprocess
+  insize=1312 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1330 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1330 outsize=1501 kw= pd= ok=1
+Cmd: preprocess
+  insize=1371 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1389 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1389 outsize=1834 kw= pd= ok=1
+Cmd: preprocess
+  insize=1256 outsize=285 ok=1
+Cmd: preprocess
+  insize=1372 outsize=282 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at Assets/Resources/ShaderIncludes/PostProcessHelper.cginc(26): syntax error: unexpected token 'loat2'\nCompiling Vertex program
+  api=4 type=0 insize=1389 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1371 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1389 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (49): variable 'offfset' used without having been completely initialized\nCompiling Fragment program
+  api=4 type=1 insize=1389 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1372 outsize=282 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1389 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1389 outsize=3013 kw= pd= ok=1
+Cmd: preprocess
+  insize=1663 outsize=444 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1518 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1518 outsize=3963 kw= pd= ok=1
+Cmd: preprocess
+  insize=1662 outsize=442 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1518 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1518 outsize=3963 kw= pd= ok=1
+Cmd: preprocess
+  insize=1664 outsize=445 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1518 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1518 outsize=3963 kw= pd= ok=1
+Cmd: preprocess
+  insize=1665 outsize=446 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1518 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1518 outsize=3963 kw= pd= ok=1
+Cmd: preprocess
+  insize=1374 outsize=282 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1391 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1391 outsize=2606 kw= pd= ok=1
+Cmd: preprocess
+  insize=1396 outsize=282 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1413 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1413 outsize=2720 kw= pd= ok=1
+Cmd: preprocess
+  insize=1394 outsize=282 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1411 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1411 outsize=2874 kw= pd= ok=1
+Cmd: preprocess
+  insize=908 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=926 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=926 outsize=786 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1420 outsize=1379 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1420 outsize=1704 kw= pd= ok=1
+Cmd: preprocess
+  insize=1664 outsize=445 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1518 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1518 outsize=3354 kw= pd= ok=1
+Cmd: preprocess
+  insize=1689 outsize=445 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1543 outsize=1087 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1543 outsize=3354 kw= pd= ok=1
+Cmd: preprocess
+  insize=933 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=951 outsize=1087 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=951 outsize=786 kw= pd= ok=1
+Cmd: preprocess
+  insize=1281 outsize=285 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1295 outsize=1087 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1295 outsize=2233 kw= pd= ok=1
+Cmd: preprocess
+  insize=908 outsize=281 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=926 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=926 outsize=786 kw= pd= ok=1
+Cmd: preprocess
+  insize=914 outsize=281 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (33): Output value 'vert' is not completely initialized\nCompiling Vertex program
+  api=4 type=0 insize=932 outsize=1030 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=932 outsize=786 kw= pd= ok=1
+Cmd: preprocess
+  insize=1689 outsize=445 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1543 outsize=1087 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1543 outsize=3354 kw= pd= ok=1
+Cmd: preprocess
+  insize=896 outsize=281 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (33): Output value 'vert' is not completely initialized\nCompiling Vertex program
+  api=4 type=0 insize=914 outsize=916 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=914 outsize=786 kw= pd= ok=1
+Cmd: preprocess
+  insize=1667 outsize=445 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (61): 'step': no matching 2 parameter intrinsic function; Possible intrinsic functions are: step(float|half|min10float|min16float, float|half|min10float|min16float)\nCompiling Vertex program
+  error: 2 plat 4 at (61): undeclared identifier '_InvertGlowTexYCoord'\nCompiling Vertex program
+  api=4 type=0 insize=1521 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=891 outsize=281 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (33): Output value 'vert' is not completely initialized\nCompiling Vertex program
+  api=4 type=0 insize=909 outsize=916 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=909 outsize=786 kw= pd= ok=1
+Cmd: preprocess
+  insize=1256 outsize=285 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1270 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1270 outsize=2233 kw= pd= ok=1
+Cmd: preprocess
+  insize=1667 outsize=445 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1521 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1521 outsize=3354 kw= pd= ok=1
+Cmd: preprocess
+  insize=1665 outsize=445 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1519 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1519 outsize=2972 kw= pd= ok=1
+Cmd: preprocess
+  insize=1667 outsize=445 ok=1
+Cmd: preprocess
+  insize=908 outsize=281 ok=1
+Cmd: preprocess
+  insize=1661 outsize=445 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1515 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1515 outsize=3273 kw= pd= ok=1
+Cmd: preprocess
+  insize=908 outsize=281 ok=1
+Cmd: preprocess
+  insize=908 outsize=281 ok=1
+Cmd: preprocess
+  insize=957 outsize=279 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (46): undeclared identifier 'v'\nCompiling Vertex program
+  api=4 type=0 insize=977 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=957 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=977 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=977 outsize=989 kw= pd= ok=1
+Cmd: preprocess
+  insize=959 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=979 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=979 outsize=786 kw= pd= ok=1
+Cmd: preprocess
+  insize=957 outsize=279 ok=1
+Cmd: preprocess
+  insize=892 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=912 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=912 outsize=835 kw= pd= ok=1
+Cmd: preprocess
+  insize=1014 outsize=279 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (50): 'abs': no matching 1 parameter intrinsic function; Possible intrinsic functions are: abs(float|half|double|min10float|min16float|int|uint|min12int|min16int|min16uint)\nCompiling Vertex program
+  error: 2 plat 4 at (50): invalid subscript 'u'\nCompiling Vertex program
+  api=4 type=0 insize=1034 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1017 outsize=279 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (50): 'abs': no matching 1 parameter intrinsic function; Possible intrinsic functions are: abs(float|half|double|min10float|min16float|int|uint|min12int|min16int|min16uint)\nCompiling Vertex program
+  error: 2 plat 4 at (50): invalid subscript 'u'\nCompiling Vertex program
+  api=4 type=0 insize=1037 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1017 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1037 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1037 outsize=1404 kw= pd= ok=1
+Cmd: preprocess
+  insize=1047 outsize=278 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1067 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1067 outsize=1436 kw= pd= ok=1
+Cmd: preprocess
+  insize=1057 outsize=278 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1077 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1077 outsize=1436 kw= pd= ok=1
+Cmd: preprocess
+  insize=1059 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1079 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1079 outsize=1436 kw= pd= ok=1
+Cmd: preprocess
+  insize=1067 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1087 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1087 outsize=1436 kw= pd= ok=1
+Cmd: preprocess
+  insize=1065 outsize=278 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1085 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1085 outsize=1436 kw= pd= ok=1
+Cmd: preprocess
+  insize=1061 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1081 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1081 outsize=1436 kw= pd= ok=1
+Cmd: preprocess
+  insize=1063 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1083 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1083 outsize=1550 kw= pd= ok=1
+Cmd: preprocess
+  insize=1067 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1087 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1087 outsize=1493 kw= pd= ok=1
+Cmd: preprocess
+  insize=1065 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1085 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1085 outsize=1550 kw= pd= ok=1
+Cmd: preprocess
+  insize=1063 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1083 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1083 outsize=1493 kw= pd= ok=1
+Cmd: preprocess
+  insize=1065 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1085 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1085 outsize=1493 kw= pd= ok=1
+Cmd: preprocess
+  insize=1120 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1140 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1140 outsize=1493 kw= pd= ok=1
+Cmd: preprocess
+  insize=1184 outsize=278 ok=1
 Cmd: compileSnippet
   api=4 type=0 insize=1204 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1204 outsize=1753 kw= pd= ok=1
+  api=4 type=1 insize=1204 outsize=1761 kw= pd= ok=1
 Cmd: preprocess
-  insize=1122 outsize=367 ok=1
+  insize=1186 outsize=277 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1053 outsize=1006 kw= pd= ok=1
+  api=4 type=0 insize=1206 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1053 outsize=819 kw= pd= ok=1
+  api=4 type=1 insize=1206 outsize=1761 kw= pd= ok=1
 Cmd: preprocess
-  insize=1194 outsize=281 ok=1
+  insize=1186 outsize=278 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1212 outsize=1006 kw= pd= ok=1
+  api=4 type=0 insize=1206 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1212 outsize=1753 kw= pd= ok=1
+  api=4 type=1 insize=1206 outsize=1761 kw= pd= ok=1
 Cmd: preprocess
-  insize=1117 outsize=280 ok=1
+  insize=1187 outsize=277 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1136 outsize=1006 kw= pd= ok=1
+  api=4 type=0 insize=1207 outsize=1006 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1136 outsize=1558 kw= pd= ok=1
+  api=4 type=1 insize=1207 outsize=1761 kw= pd= ok=1
+Cmd: preprocess
+  insize=1187 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1207 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1207 outsize=1761 kw= pd= ok=1
+Cmd: preprocess
+  insize=1273 outsize=278 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1293 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1293 outsize=2159 kw= pd= ok=1
+Cmd: preprocess
+  insize=1273 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1293 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1293 outsize=2159 kw= pd= ok=1
+Cmd: preprocess
+  insize=1274 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1294 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1294 outsize=2159 kw= pd= ok=1
+Cmd: preprocess
+  insize=1274 outsize=277 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1294 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1294 outsize=2159 kw= pd= ok=1
+Cmd: preprocess
+  insize=1274 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1294 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1294 outsize=2159 kw= pd= ok=1
+Cmd: preprocess
+  insize=1274 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1294 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1294 outsize=2159 kw= pd= ok=1
+Cmd: preprocess
+  insize=1273 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1293 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1293 outsize=2159 kw= pd= ok=1
+Cmd: preprocess
+  insize=1273 outsize=279 ok=1
+Cmd: preprocess
+  insize=1273 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1293 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1293 outsize=2159 kw= pd= ok=1
+Cmd: preprocess
+  insize=1273 outsize=279 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1293 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1293 outsize=2200 kw= pd= ok=1
+Cmd: preprocess
+  insize=1270 outsize=276 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1293 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1293 outsize=2200 kw= pd= ok=1
+Cmd: preprocess
+  insize=1270 outsize=276 ok=1
