@@ -8,13 +8,17 @@ struct GrassData
 	float3 front;
 	float3 right;
 	float flattening;
+	float3 expansiveForce;
 };
 
 struct ObstacleData
 {
 	float3 pos;
 	float radius;
+	float expansiveForce;
 };
+
+float _DeltaTime;
 
 RWStructuredBuffer<GrassData> _GrassBuffer;
 Texture2D<float4> _NoiseTex;
@@ -47,6 +51,7 @@ void InitGrassKernel (uint3 id : SV_DispatchThreadID, uint blockId : SV_GroupInd
 	 data.right = normalize(cross(up, data.front));
 	 
 	 data.flattening = 1;
+	 data.expansiveForce = float3(0,0,0);
 	 
     _GrassBuffer[idx] = data;
 }
@@ -58,6 +63,7 @@ void UpdateGrassKernel (uint3 id : SV_DispatchThreadID, uint blockId : SV_GroupI
 	int idx = 	id.x + id.y * _Width;
 	GrassData data = _GrassBuffer[idx];
 	
+	float3 expansiveForce = float3(0,0,0);
 	for(int i = 0; i < _NumObstacles; ++i)
 	{
 		float3 dirToObstacle = _ObstaclesBuffer[i].pos - data.pos;
@@ -66,10 +72,18 @@ void UpdateGrassKernel (uint3 id : SV_DispatchThreadID, uint blockId : SV_GroupI
 		float distToObstacleSQ = dirToObstacle.x*dirToObstacle + dirToObstacle.y*dirToObstacle.y + dirToObstacle.z*dirToObstacle.z;
 		if(distToObstacleSQ-obstacleRadiusSQ < 0)
 		{
-			float flattening = smoothstep(0, 2, distToObstacleSQ);
-			data.flattening = min(data.flattening, flattening);
-			
-			_GrassBuffer[idx] = data;
+			float flattening = (1-smoothstep(0, 1, distToObstacleSQ)) * _DeltaTime * 4;
+			data.flattening = max(data.flattening - flattening, 0.2);
+		}
+		
+		
+		if(distToObstacleSQ-obstacleRadiusSQ < 4)
+		{
+			float forceIntensity = 1-smoothstep(0, 4, distToObstacleSQ);
+			expansiveForce += normalize(-dirToObstacle) * _ObstaclesBuffer[i].expansiveForce * forceIntensity;
+			expansiveForce.y = 0;
+			data.expansiveForce = expansiveForce;
 		}
 	}
+	_GrassBuffer[idx] = data;
 }

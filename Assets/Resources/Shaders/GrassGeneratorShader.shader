@@ -9,7 +9,6 @@ Shader "SocialPoint/GrassGeneratorShader"
 		_LightProps0("x:DiffuseIntensity y:SpecPower, z: SpecIntensity", Vector) = (1,4,1,1)
 		_LightProps1("x:FresnelPower y:FresnelIntensity", Vector) = (10,1,1,1)
 		_SpherifyIntensity("x:SpheriyIntensity", Float) = 0.3
-		
 	}
 
 	SubShader
@@ -45,6 +44,7 @@ Shader "SocialPoint/GrassGeneratorShader"
 				float3 front;
 				float3 right;
 				float flattening;
+				float3 expansiveForce;
 			};
 			
 			sampler2D _MainTex;
@@ -57,8 +57,8 @@ Shader "SocialPoint/GrassGeneratorShader"
 			half _Width;
 			half _Height;
 			
-			half4 _LightProps0; //x:DiffuseIntensity y:SpecPower, z: SpecIntensity
-			half4 _LightProps1; //x:FresnelPower y:FresnelIntensity
+			half4 _LightProps0;
+			half4 _LightProps1;
 			half _SpherifyIntensity;
 			
 			struct vertexdata
@@ -100,13 +100,14 @@ Shader "SocialPoint/GrassGeneratorShader"
 				return o;
 			}
 			
-			void processVertex(v2g i, inout g2f o, int inst, float3 localPos, float4 instancePos, half3 front)
+			void processVertex(v2g i, inout g2f o, int inst, float3 localPos, float4 instancePos, half3 front, half3 expansiveForce)
 			{
 				float instf = float(inst);
-				float blendFactorFront = sin(instancePos.x*0 + i.noise.x*10 + _Time.x)*sin(instancePos.z*0 + i.noise.y*10 + _Time.x) * smoothstep(0, 1, localPos.y);
+				half hScale = smoothstep(0, 1, localPos.y);
+				float blendFactorFront = sin(instancePos.x*0 + i.noise.x*10 + _Time.x)*sin(instancePos.z*0 + i.noise.y*10 + _Time.x) * hScale;
 				float blendFactorUp = abs(blendFactorFront)*0.5;
 				
-				localPos += front * blendFactorFront;
+				localPos += front * blendFactorFront + expansiveForce * hScale;
 				localPos.y += -blendFactorUp;
 				o.wpos = instancePos.xyz + localPos.xyz;
 				o.wpos.xyz = Spherify(o.wpos.xyz, _SpherifyIntensity);
@@ -133,7 +134,8 @@ Shader "SocialPoint/GrassGeneratorShader"
 				half3 front = _GrassBuffer[i[0].inst].front;
 				half3 right = _GrassBuffer[i[0].inst].right;
 				half3 up = half3(0, 1, 0) * max(_GrassBuffer[i[0].inst].flattening, 0.2);
-				//half3x3 model = half3x3(front, right, up);
+				
+				half3 expansiveForce = _GrassBuffer[i[0].inst].expansiveForce;
 				float3 defaultNormal = front;
 				
 				for(int idx = 0; idx < GRASS_PARTS; ++idx)
@@ -146,28 +148,28 @@ Shader "SocialPoint/GrassGeneratorShader"
 					localpos.xyz = -right*subpartSize.x + up*subpartPosY;
 					o.uv = half2(uvmin.x, uvmin.y);
 					o.normal = defaultNormal;
-					processVertex(i, o, i[0].inst, localpos, i[0].pos, front);
+					processVertex(i, o, i[0].inst, localpos, i[0].pos, front, expansiveForce);
 					oStream.Append(o);
 					
 					//Left Top
 					localpos.xyz = -right*subpartSize.x + up*(subpartPosY+subpartSize);
 					o.uv = half2(uvmin.x, uvmax.y);
 					o.normal = defaultNormal;
-					processVertex(i, o, i[0].inst, localpos, i[0].pos, front);
+					processVertex(i, o, i[0].inst, localpos, i[0].pos, front, expansiveForce);
 					oStream.Append(o);
 					
 					//Right Bottom
 					localpos.xyz = right*subpartSize.x + up*(subpartPosY);
 					o.uv = half2(uvmax.x, uvmin.y);
 					o.normal = defaultNormal;
-					processVertex(i, o, i[0].inst, localpos, i[0].pos, front);
+					processVertex(i, o, i[0].inst, localpos, i[0].pos, front, expansiveForce);
 					oStream.Append(o);
 					
 					//Right Top
 					localpos.xyz = right*subpartSize.x + up*(subpartPosY+subpartSize);
 					o.uv = half2(uvmax.x, uvmax.y);
 					o.normal = defaultNormal;
-					processVertex(i, o, i[0].inst, localpos, i[0].pos, front);
+					processVertex(i, o, i[0].inst, localpos, i[0].pos, front, expansiveForce);
 					oStream.Append(o);
 					
 					oStream.RestartStrip();
@@ -192,6 +194,7 @@ Shader "SocialPoint/GrassGeneratorShader"
 				// Specular
 				half3 halfVector = (lightDir + viewDir) * 0.5;
 				half specFactor = pow(abs(dot(halfVector, i.normal)), _LightProps0.x ) * _LightProps0.z;
+				// Final color
 				fixed4 finalColor =  _LightColor0 * (albedo*diffFactor + _SpecularColor*specFactor + _FresnelColor*fresnelFactor);
 				finalColor.a = albedo.a * (0.8+0.2*fresnelFactor);
 				

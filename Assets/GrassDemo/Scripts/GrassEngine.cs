@@ -19,12 +19,14 @@ public class GrassEngine : MonoBehaviour
 		public Vector3 Front;
 		public Vector3 Right;
 		public float Flattening;
+		public Vector3 ExpansiveForce;
 	}
 
 	public struct ObstacleData
 	{
 		public Vector3 Position;
 		public float Radius;
+		public float ExpansiveForce;
 	}
 
 	[SerializeField]
@@ -94,10 +96,10 @@ public class GrassEngine : MonoBehaviour
 
 	public void SetObstaclesData(ObstacleData[] obstaclesData)
 	{
+		_grassComputeShader.SetFloat("_DeltaTime", Time.deltaTime);
+
 		_obstaclesBuffer.SetData(obstaclesData);
-		_grassComputeShader.SetBuffer(_updateGrassKernelId, "_ObstaclesBuffer", _obstaclesBuffer);
 		_grassComputeShader.SetInt("_NumObstacles", obstaclesData.Length);
-		_grassMaterial.SetBuffer("_GrassBuffer", _grassBuffer);
 	}
 
 	void Update()

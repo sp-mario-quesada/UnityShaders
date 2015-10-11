@@ -53,6 +53,12 @@
      <Compile Include="Assets\PostProcessesDemo\Scripts\BlurTargets.cs" />
      <Compile Include="Assets\PostProcessesDemo\Scripts\CellsPostProcess.cs" />
      <Compile Include="Assets\PostProcessesDemo\Scripts\GlowPostProcess.cs" />
+     <Compile Include="Assets\Scripts\BaseAction.cs" />
+     <Compile Include="Assets\Scripts\EasingCallbackAction.cs" />
+     <Compile Include="Assets\Scripts\EasingCore.cs" />
+     <Compile Include="Assets\Scripts\MathUtils.cs" />
+     <Compile Include="Assets\Scripts\SequenceAction.cs" />
+     <Compile Include="Assets\Scripts\Timer.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

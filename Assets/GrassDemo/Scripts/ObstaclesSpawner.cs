@@ -51,8 +51,10 @@ public class ObstaclesSpawner : MonoBehaviour
 	{
 		GameObject instance = GameObject.Instantiate(GetRandomPrefab(), position, Quaternion.identity) as GameObject;
 		Obstacle obstacle = instance.GetComponentInChildren<Obstacle>();
+		obstacle.Init();
+
 		_obstacles.Add(obstacle);
-		_obstaclesData[_numObstacles++] = new GrassEngine.ObstacleData(){ Position = position, Radius = Mathf.Max(obstacle.GetRadius(), 0.5f) };
+		_obstaclesData[_numObstacles++] = new GrassEngine.ObstacleData(){ Position = position, Radius = obstacle.GetRadius(), ExpansiveForce = 0f };
 
 		obstacle.Play(direction * _spawnObsacleForce);
 	}
@@ -68,6 +70,7 @@ public class ObstaclesSpawner : MonoBehaviour
 		for (int i = 0; i < _obstacles.Count; ++i) 
 		{
 			_obstaclesData[i].Position = _obstacles[i].transform.position;
+			_obstaclesData[i].ExpansiveForce = _obstacles[i].ExpansiveForce;
 		}
 
 		_grassEngine.SetObstaclesData(_obstaclesData);
