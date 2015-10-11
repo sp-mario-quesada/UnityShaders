@@ -6,24 +6,24 @@
 
 void GetBlurData1D(float width, float height, out float kernel[BLUR1D_KERNEL_SIZE], out float2 offfset[BLUR1D_KERNEL_SIZE], half2 dir)
 {
-	kernel[0] = 0.00081721278;
-	kernel[1] = 0.02804152134;
-	kernel[2] = 0.2339264272;
-	kernel[3] = 0.47442967733;
-	kernel[4] = 0.2339264272;
-	kernel[5] = 0.02804152134;
-	kernel[6] = 0.00081721278;
+	kernel[0] = 0.0205;
+	kernel[1] = 0.0855;
+	kernel[2] = 0.232;
+	kernel[3] = 0.324;
+	kernel[4] = 0.232;
+	kernel[5] = 0.0855;
+	kernel[6] = 0.0205;
 	
 	dir.x /= width;
 	dir.y /= height;
 	
-	offfset[0] = 10.0*float2(-1.0, -1.0) * dir;
-	offfset[1] = 6.0*float2(-1.0, -1.0) * dir;
-	offfset[2] = 2.0*float2(-1.0, -1.0) * dir;
+	offfset[0] = 3.0*float2(-1.0, -1.0) * dir;
+	offfset[1] = 2.0*float2(-1.0, -1.0) * dir;
+	offfset[2] = 1.0*float2(-1.0, -1.0) * dir;
 	offfset[3] = float2(0.0, 0.0);
-	offfset[4] = 2.0*float2(1.0, 1.0) * dir;
-	offfset[5] = 6.0*float2(1.0, 1.0) * dir;
-	offfset[6] = 10.0*float2(1.0, 1.0) * dir;
+	offfset[4] = 1.0*float2(1.0, 1.0) * dir;
+	offfset[5] = 2.0*float2(1.0, 1.0) * dir;
+	offfset[6] = 3.0*float2(1.0, 1.0) * dir;
 }
 
 void GetBlurData(float width, float height, out float kernel[BLUR_KERNEL_SIZE], out float2 offfset[BLUR_KERNEL_SIZE])
@@ -54,8 +54,8 @@ void GetBlurData(float width, float height, out float kernel[BLUR_KERNEL_SIZE], 
 
 half2 GetHalfPixel(float width, float height)
 {
-	//return half2(0.5/width, 0.5/height);
-	return half2(0.0, 0.0);
+	return half2(50.25/width, 0.25/height);
+	//return half2(0, 0);
 }
 
 #endif

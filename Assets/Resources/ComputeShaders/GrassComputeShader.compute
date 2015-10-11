@@ -1,0 +1,75 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel InitGrassKernel
+#pragma kernel UpdateGrassKernel
+
+struct GrassData
+{
+	float3 pos;
+	float3 front;
+	float3 right;
+	float flattening;
+};
+
+struct ObstacleData
+{
+	float3 pos;
+	float radius;
+};
+
+RWStructuredBuffer<GrassData> _GrassBuffer;
+Texture2D<float4> _NoiseTex;
+
+float _Width;
+float _Height;
+
+RWStructuredBuffer<ObstacleData> _ObstaclesBuffer;
+int _NumObstacles;
+
+[numthreads(16,16,1)]
+void InitGrassKernel (uint3 id : SV_DispatchThreadID, uint blockId : SV_GroupIndex)
+{
+	 int idx = 	id.x + id.y * _Width;
+	
+	 GrassData data;
+	 data.pos = float3(id.x, 0, id.y) * 0.2;
+	 
+	 const float2 _noiseSampleScale = float2(1, 1);
+	 const float2 _noiseAmplitude = float2(2, 2);
+	 
+	 int2 uv = int2((id.x*_noiseSampleScale.x)%_Width.x, (id.y*_noiseSampleScale.y)%_Height);
+	 float2 noise = (_NoiseTex[uv]*2-1).xy*_noiseAmplitude;
+	 data.pos.x += noise.x;
+	 data.pos.z += noise.y;
+	 
+	 half angle = sin(idx*100);
+	 data.front = normalize(half3(cos(angle), 0, sin(angle)));
+	 half3 up = half3(0, 1, 0);
+	 data.right = normalize(cross(up, data.front));
+	 
+	 data.flattening = 1;
+	 
+    _GrassBuffer[idx] = data;
+}
+
+// Check Obstacles
+[numthreads(16,16,1)]
+void UpdateGrassKernel (uint3 id : SV_DispatchThreadID, uint blockId : SV_GroupIndex)
+{
+	int idx = 	id.x + id.y * _Width;
+	GrassData data = _GrassBuffer[idx];
+	
+	for(int i = 0; i < _NumObstacles; ++i)
+	{
+		float3 dirToObstacle = _ObstaclesBuffer[i].pos - data.pos;
+		float obstacleRadiusSQ = _ObstaclesBuffer[i].radius*_ObstaclesBuffer[i].radius;
+		
+		float distToObstacleSQ = dirToObstacle.x*dirToObstacle + dirToObstacle.y*dirToObstacle.y + dirToObstacle.z*dirToObstacle.z;
+		if(distToObstacleSQ-obstacleRadiusSQ < 0)
+		{
+			float flattening = smoothstep(0, 2, distToObstacleSQ);
+			data.flattening = min(data.flattening, flattening);
+			
+			_GrassBuffer[idx] = data;
+		}
+	}
+}
