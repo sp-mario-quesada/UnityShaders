@@ -17,7 +17,6 @@
 		
 		_WaterTex1 ("_WaterTex1", 2D) = "white" {}
 		_WaterTex2 ("_WaterTex2", 2D) = "white" {}
-		_WaterTexAnimation ("_WaterTexAnimation", Vector) = (0,0,0,0)
 		
 		_MainWaterColor ("_MainWaterColor", Color) = (0.7,8,0.7,0)
 		_FresnelColor ("_FresnelColor", Color) = (0.7,8,0.7,0)
@@ -71,7 +70,6 @@
 			float4 _WaterTex1_ST;
 			sampler2D _WaterTex2;
 			float4 _WaterTex2_ST;
-			half4 _WaterTexAnimation;
 			
 			sampler2D _NormalMap;
 			float4 _NormalMap_ST;
@@ -101,7 +99,7 @@
 				o.wpos = mul(_Object2World, float4(vertex.xyz, 1));
 				float3 pivotPos = float3(_Object2World[0][1], _Object2World[0][1], _Object2World[0][2]);
 				float3 localPos = o.wpos - pivotPos;
-				float enlargeFactor = smoothstep(0.0, 2, -localPos.y);
+				float enlargeFactor = smoothstep(-1.5, 6, -localPos.y);
 //				o.wpos.y += ((1+sin(_Time.y))*0.5) * 10 * enlargeFactor;
 
 				o.wpos.xz += sin(length(o.wpos.xy)*100 + _Time.y*15) * 0.15 * enlargeFactor;
@@ -148,6 +146,7 @@
 				fixed4 waterColor1 = tex2D(_WaterTex1, i.normVS.xy + normalMap1.xy * 0.5);
 				fixed4 waterColor2 = tex2D(_WaterTex2, i.normVS.xy + normalMap2.xy * 0.5);
 				fixed4 waterColor = lerp(waterColor1, waterColor2, normalMap2.b) * _MainWaterColor;
+				//fixed4 waterColor = (waterColor1 + waterColor2 * normalMap2.b) * _MainWaterColor;
 					   waterColor = lerp(waterColor, waterColor+_FresnelColor, fresnel);
 				
 				half3 uv1 = reflVector; uv1+=  normalMap * _ReflectionProperties.y; 
@@ -167,7 +166,7 @@
 				float att = LIGHT_ATTENUATION(i);
 				finalColor *= max(att, 0.25);
 				
-				finalColor.a = pow(fresnel, 7) * i.color.g;
+				finalColor.a = 0.99+0.01*pow(fresnel, 7) * i.color.g;
 				
 				return finalColor;
 			}
