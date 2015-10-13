@@ -13,14 +13,16 @@ Shader "SocialPoint/GrassGeneratorShader"
 
 	SubShader
 	{
-		Tags 
-		{ 
-			"RenderType" = "Transparent" 
-			"Queue" = "Transparent" 
+		Tags
+		{
+		 "RenderType"="Opaque" 
+		 "Queue" = "Geometry" 
 		}
 		
 		Pass
 		{
+			LOD 100
+		
 			Blend SrcAlpha OneMinusSrcAlpha
 			ZWrite On Cull Off ZTest On
 		
@@ -204,4 +206,7 @@ Shader "SocialPoint/GrassGeneratorShader"
 			ENDCG
 		}
 	}
+	
+	 FallBack "Diffuse"
+	 //FallBack "SocialPoint/Basic"
 }

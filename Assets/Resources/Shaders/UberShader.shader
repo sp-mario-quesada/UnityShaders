@@ -1,4 +1,4 @@
-﻿Shader "SocialPoint/DiffuseShader"
+﻿Shader "SocialPoint/UberShader"
 {
 
 	Properties
@@ -21,6 +21,8 @@
 		}
 		Pass
 		{
+			LOD 100
+		
 			Blend SrcAlpha OneMinusSrcAlpha
 		
 			CGPROGRAM

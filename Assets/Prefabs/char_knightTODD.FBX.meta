@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: d20e7facf39ec1d418d1e4fa211f840a
+timeCreated: 1444222616
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bcape1
+    100002: Bcape2
+    100004: Bcape3
+    100006: Bcape4
+    100008: BcapeFr1
+    100010: BcapeFr2
+    100012: BcapeFr3
+    100014: BChest
+    100016: BHead
+    100018: BHips
+    100020: BLArm1
+    100022: BLArm21
+    100024: BLArm22
+    100026: BLArmCollarbone
+    100028: BLArmDigit21
+    100030: BLArmDigit22
+    100032: BLArmDigit23
+    100034: BLArmDigit31
+    100036: BLArmDigit32
+    100038: BLArmDigit33
+    100040: BLArmPalm
+    100042: BLArmThumb1
+    100044: BLArmThumb2
+    100046: BLArmThumb3
+    100048: BLLeg11
+    100050: BLLeg12
+    100052: BLLeg2
+    100054: BLLegAnkle
+    100056: BLLegDigit11
+    100058: BLshoulder
+    100060: BNeck
+    100062: BRArm1
+    100064: BRArm21
+    100066: BRArm22
+    100068: BRArmCollarbone
+    100070: BRArmDigit21
+    100072: BRArmDigit22
+    100074: BRArmDigit23
+    100076: BRArmDigit31
+    100078: BRArmDigit32
+    100080: BRArmDigit33
+    100082: BRArmPalm
+    100084: BRArmThumb1
+    100086: BRArmThumb2
+    100088: BRArmThumb3
+    100090: BRLeg11
+    100092: BRLeg12
+    100094: BRLeg2
+    100096: BRLegAnkle
+    100098: BRLegDigit11
+    100100: BRshoulder
+    100102: BSpine1
+    100104: BSpine2
+    100106: BSpine3
+    100108: BWaist Lt Bk
+    100110: BWaist Lt Ft
+    100112: BWaist Rt Bk
+    100114: BWaist Rt Ft
+    100116: //RootNode
+    100118: NatureKnight_LOW
+    100120: Sword.High
+    100122: Sword_Dummy
+    400000: Bcape1
+    400002: Bcape2
+    400004: Bcape3
+    400006: Bcape4
+    400008: BcapeFr1
+    400010: BcapeFr2
+    400012: BcapeFr3
+    400014: BChest
+    400016: BHead
+    400018: BHips
+    400020: BLArm1
+    400022: BLArm21
+    400024: BLArm22
+    400026: BLArmCollarbone
+    400028: BLArmDigit21
+    400030: BLArmDigit22
+    400032: BLArmDigit23
+    400034: BLArmDigit31
+    400036: BLArmDigit32
+    400038: BLArmDigit33
+    400040: BLArmPalm
+    400042: BLArmThumb1
+    400044: BLArmThumb2
+    400046: BLArmThumb3
+    400048: BLLeg11
+    400050: BLLeg12
+    400052: BLLeg2
+    400054: BLLegAnkle
+    400056: BLLegDigit11
+    400058: BLshoulder
+    400060: BNeck
+    400062: BRArm1
+    400064: BRArm21
+    400066: BRArm22
+    400068: BRArmCollarbone
+    400070: BRArmDigit21
+    400072: BRArmDigit22
+    400074: BRArmDigit23
+    400076: BRArmDigit31
+    400078: BRArmDigit32
+    400080: BRArmDigit33
+    400082: BRArmPalm
+    400084: BRArmThumb1
+    400086: BRArmThumb2
+    400088: BRArmThumb3
+    400090: BRLeg11
+    400092: BRLeg12
+    400094: BRLeg2
+    400096: BRLegAnkle
+    400098: BRLegDigit11
+    400100: BRshoulder
+    400102: BSpine1
+    400104: BSpine2
+    400106: BSpine3
+    400108: BWaist Lt Bk
+    400110: BWaist Lt Ft
+    400112: BWaist Rt Bk
+    400114: BWaist Rt Ft
+    400116: //RootNode
+    400118: NatureKnight_LOW
+    400120: Sword.High
+    400122: Sword_Dummy
+    2300000: Sword.High
+    3300000: Sword.High
+    4300000: NatureKnight_LOW
+    4300002: Sword.High
+    9500000: //RootNode
+    13700000: NatureKnight_LOW
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

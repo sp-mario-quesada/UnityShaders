@@ -44,6 +44,7 @@
 			sampler2D _MainTex;
 			sampler2D _GlowScaledDownTex;
 			
+			
 			float4 _TextureResolution;
 			fixed _GlowFactor;
 			fixed _InvertGlowTexYCoord;

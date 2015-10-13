@@ -16,6 +16,7 @@ SubShader {
 CGPROGRAM
 #pragma surface surf BlinnPhong addshadow vertex:disp tessellate:tessEdge tessphong:_Smoothness
 #include "Tessellation.cginc"
+#define Debug
 
 struct appdata {
 	float4 vertex : POSITION;

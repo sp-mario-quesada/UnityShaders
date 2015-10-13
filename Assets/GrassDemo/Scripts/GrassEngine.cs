@@ -60,7 +60,7 @@ public class GrassEngine : MonoBehaviour
 	public void Init()
 	{
 		_grassShader = Resources.Load<Shader>("Shaders/GrassGeneratorShader");
-		_grassMaterial = Resources.Load<Material>("GrassMat");
+		_grassMaterial = Resources.Load<Material>("GrassGeneratorMat");
 		_noiseTex = Resources.Load<Texture>("Noise");
 		if(_noiseTex == null)
 		{

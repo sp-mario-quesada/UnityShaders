@@ -1,1838 +1,778 @@
 Base path: D:/Apps/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-248
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-4504
 Cmd: getPlatforms
 Cmd: preprocess
-  insize=4242 outsize=416 ok=1
+  insize=4871 outsize=1223 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (91): cannot implicitly convert from 'const float3' to 'float4'\nCompiling Vertex program
-  api=4 type=0 insize=4146 outsize=0 kw= pd= ok=0
+  error: 2 plat 4 at (134): 'lerp': no matching 0 parameter intrinsic function; Possible intrinsic functions are: lerp(float|half|min10float|min16float, float|half|min10float|min16float, float|half|min10float|min16float)\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  error: 2 plat 4 at (134): syntax error: unexpected token ')'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3983 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
 Cmd: preprocess
-  insize=4244 outsize=416 ok=1
+  insize=4706 outsize=1220 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (91): cannot implicitly convert from 'const float3' to 'float4'\nCompiling Vertex program
-  api=4 type=0 insize=4148 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4244 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (109): incorrect number of arguments to numeric-type constructor\nCompiling Vertex program
-  api=4 type=0 insize=4148 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4244 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (109): incorrect number of arguments to numeric-type constructor\nCompiling Vertex program
-  api=4 type=0 insize=4148 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4233 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (109): incorrect number of arguments to numeric-type constructor\nCompiling Vertex program
-  api=4 type=0 insize=4137 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4238 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (110): incorrect number of arguments to numeric-type constructor\nCompiling Vertex program
-  api=4 type=0 insize=4142 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4233 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (130): 'processVertex': no matching 4 parameter function\nCompiling Vertex program
-  api=4 type=0 insize=4137 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4261 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (71): Not all elements of SV_Position were written; Output signature parameter SV_POSITION (1-based Entry 0) type must be float32 and mask must be xyzw.\nCompiling Vertex program
-  api=4 type=0 insize=4165 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4258 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (71): Not all elements of SV_Position were written; Output signature parameter SV_Position (1-based Entry 0) type must be float32 and mask must be xyzw.\nCompiling Vertex program
-  api=4 type=0 insize=4162 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4276 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4180 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4180 outsize=1769 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4180 outsize=6311 kw= pd= ok=1
-Cmd: preprocess
-  insize=4278 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4182 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4182 outsize=1769 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4182 outsize=6978 kw= pd= ok=1
-Cmd: preprocess
-  insize=4279 outsize=415 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4183 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4183 outsize=1769 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4183 outsize=7961 kw= pd= ok=1
-Cmd: preprocess
-  insize=4380 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4284 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4284 outsize=1769 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4284 outsize=7961 kw= pd= ok=1
-Cmd: preprocess
-  insize=4428 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4332 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4332 outsize=1818 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4332 outsize=8627 kw= pd= ok=1
-Cmd: preprocess
-  insize=4567 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (167): undeclared identifier 'color'\nCompiling Vertex program
-  api=4 type=0 insize=4471 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4568 outsize=414 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (167): undeclared identifier 'color'\nCompiling Vertex program
-  api=4 type=0 insize=4472 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4569 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (172): 'dot': no matching 2 parameter intrinsic function; Possible intrinsic functions are: dot(floatM|halfM|doubleM|min10floatM|min16floatM|intM|uintM|min12intM|min16intM|min16uintM, floatM|halfM|doubleM|min10floatM|min16floatM|intM|uintM|min12intM|min16intM|min16uintM)\nCompiling Vertex program
-  error: 2 plat 4 at (172): undeclared identifier 'normal'\nCompiling Vertex program
-  api=4 type=0 insize=4473 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4579 outsize=415 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4483 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4483 outsize=2338 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4483 outsize=8627 kw= pd= ok=1
-Cmd: preprocess
-  insize=4570 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4474 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4474 outsize=1899 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4474 outsize=8627 kw= pd= ok=1
-Cmd: preprocess
-  insize=4576 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4480 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4480 outsize=1899 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4480 outsize=8627 kw= pd= ok=1
-Cmd: preprocess
-  insize=4566 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4470 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4470 outsize=1818 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4470 outsize=8627 kw= pd= ok=1
-Cmd: preprocess
-  insize=4591 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4495 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4495 outsize=1981 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4495 outsize=8627 kw= pd= ok=1
-Cmd: preprocess
-  insize=4593 outsize=415 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4497 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4497 outsize=1818 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4497 outsize=8627 kw= pd= ok=1
-Cmd: preprocess
-  insize=4589 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4493 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4493 outsize=1875 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4493 outsize=8627 kw= pd= ok=1
-Cmd: preprocess
-  insize=4585 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4489 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4489 outsize=1875 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4489 outsize=8627 kw= pd= ok=1
-Cmd: preprocess
-  insize=4579 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4483 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4483 outsize=1875 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4483 outsize=8627 kw= pd= ok=1
-Cmd: preprocess
-  insize=4588 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4492 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4492 outsize=1875 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4492 outsize=8627 kw= pd= ok=1
-Cmd: preprocess
-  insize=4592 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4496 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4496 outsize=2354 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4496 outsize=8627 kw= pd= ok=1
-Cmd: preprocess
-  insize=4589 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (173): 'abs': no matching 2 parameter intrinsic function; Possible intrinsic functions are: abs(float|half|double|min10float|min16float|int|uint|min12int|min16int|min16uint)\nCompiling Vertex program
-  api=4 type=0 insize=4493 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4589 outsize=415 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4493 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4493 outsize=2306 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4493 outsize=8627 kw= pd= ok=1
-Cmd: preprocess
-  insize=4732 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (93): undeclared identifier 'up'\nCompiling Vertex program
-  api=4 type=0 insize=4636 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4729 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4633 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4633 outsize=2306 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4633 outsize=10073 kw= pd= ok=1
-Cmd: preprocess
-  insize=4731 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4635 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4635 outsize=2306 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4635 outsize=10041 kw= pd= ok=1
-Cmd: preprocess
-  insize=4937 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (180): undeclared identifier '_WorldSpaceCameraPos0'\nCompiling Vertex program
-  api=4 type=0 insize=4841 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4936 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (180): 'normalize': no matching 1 parameter intrinsic function; Possible intrinsic functions are: normalize(floatM|halfM|min10floatM|min16floatM)\nCompiling Vertex program
-  error: 2 plat 4 at (180): undeclared identifier 'wpos'\nCompiling Vertex program
-  api=4 type=0 insize=4840 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4938 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4842 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4842 outsize=2744 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4842 outsize=10041 kw= pd= ok=1
-Cmd: preprocess
-  insize=5029 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4933 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4933 outsize=2883 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4933 outsize=10041 kw= pd= ok=1
-Cmd: preprocess
-  insize=5028 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4932 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4932 outsize=2744 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4932 outsize=10041 kw= pd= ok=1
-Cmd: preprocess
-  insize=5025 outsize=415 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (186): undeclared identifier 'o'\nCompiling Vertex program
-  api=4 type=0 insize=4929 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=5025 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4929 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4929 outsize=2964 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4929 outsize=8481 kw= pd= ok=1
-Cmd: preprocess
-  insize=5030 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4934 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4934 outsize=2964 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4934 outsize=8481 kw= pd= ok=1
-Cmd: preprocess
-  insize=5039 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (169): 'normalize': no matching 1 parameter intrinsic function; Possible intrinsic functions are: normalize(floatM|halfM|min10floatM|min16floatM)\nCompiling Vertex program
-  error: 2 plat 4 at (169): undeclared identifier 'wpos'\nCompiling Vertex program
-  api=4 type=0 insize=4943 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4983 outsize=415 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (183): undeclared identifier 'lightDir'\nCompiling Vertex program
-  api=4 type=0 insize=4887 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4981 outsize=416 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (185): undeclared identifier 'cameraDir'\nCompiling Vertex program
-  api=4 type=0 insize=4885 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=4979 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4883 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4883 outsize=2842 kw= pd= ok=1
+  api=4 type=0 insize=3821 outsize=3175 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=4883 outsize=8481 kw= pd= ok=1
+  api=4 type=1 insize=3821 outsize=4849 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=4981 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4885 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4885 outsize=2663 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4885 outsize=8481 kw= pd= ok=1
-Cmd: preprocess
-  insize=4982 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4886 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4886 outsize=2801 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4886 outsize=8481 kw= pd= ok=1
-Cmd: preprocess
-  insize=4981 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4885 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4885 outsize=2728 kw= pd= ok=1
+  insize=4542 outsize=1194 ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=4885 outsize=8481 kw= pd= ok=1
+  error: 2 plat 4 at (137): undeclared identifier 'refractionColor'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3681 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
 Cmd: preprocess
-  insize=5004 outsize=416 ok=1
+  insize=4542 outsize=1194 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4908 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4908 outsize=2948 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4908 outsize=8481 kw= pd= ok=1
+  error: 2 plat 4 at (137): undeclared identifier 'refractionColor'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3681 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
 Cmd: preprocess
-  insize=5013 outsize=416 ok=1
+  insize=4470 outsize=1196 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4917 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3609 outsize=3175 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4917 outsize=3086 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4917 outsize=8481 kw= pd= ok=1
+  api=4 type=1 insize=3609 outsize=4540 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5015 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4919 outsize=1851 kw= pd= ok=1
+  insize=4238 outsize=1196 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4919 outsize=3086 kw= pd= ok=1
+  api=4 type=0 insize=3377 outsize=2501 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=4919 outsize=8481 kw= pd= ok=1
+  api=4 type=1 insize=3377 outsize=4540 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5070 outsize=416 ok=1
+  insize=4236 outsize=1196 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (189): redefinition of 'finalColor'\nCompiling Vertex program
-  api=4 type=0 insize=4974 outsize=0 kw= pd= ok=0
+  error: 2 plat 4 at (93): undeclared identifier 'i'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3375 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
 Cmd: preprocess
-  insize=5072 outsize=416 ok=1
+  insize=4236 outsize=1196 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4976 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3375 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4976 outsize=2387 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4976 outsize=8481 kw= pd= ok=1
+  api=4 type=1 insize=3375 outsize=4540 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5069 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4973 outsize=1851 kw= pd= ok=1
+  insize=4263 outsize=1196 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4973 outsize=2387 kw= pd= ok=1
+  api=4 type=0 insize=3402 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=4973 outsize=8383 kw= pd= ok=1
+  api=4 type=1 insize=3402 outsize=1639 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5069 outsize=416 ok=1
+  insize=4298 outsize=1196 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4973 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3437 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4973 outsize=3086 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4973 outsize=8383 kw= pd= ok=1
+  api=4 type=1 insize=3437 outsize=1680 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5073 outsize=416 ok=1
+  insize=4322 outsize=1196 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4977 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3461 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4977 outsize=3069 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4977 outsize=8383 kw= pd= ok=1
+  api=4 type=1 insize=3461 outsize=1680 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5069 outsize=416 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4973 outsize=1851 kw= pd= ok=1
+  insize=4322 outsize=1195 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4973 outsize=1778 kw= pd= ok=1
+  api=4 type=0 insize=3461 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=4973 outsize=8383 kw= pd= ok=1
+  api=4 type=1 insize=3461 outsize=1688 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5071 outsize=416 ok=1
+  insize=4708 outsize=1220 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4975 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3823 outsize=3175 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4975 outsize=1258 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4975 outsize=8383 kw= pd= ok=1
-Cmd: preprocess
-  insize=5070 outsize=415 ok=1
+  api=4 type=1 insize=3823 outsize=4914 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5072 outsize=415 ok=1
+  insize=4723 outsize=1220 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4977 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3838 outsize=3175 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4977 outsize=1258 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4977 outsize=8091 kw= pd= ok=1
+  api=4 type=1 insize=3838 outsize=4898 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5076 outsize=415 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4981 outsize=1851 kw= pd= ok=1
+  insize=4714 outsize=1220 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4981 outsize=973 kw= pd= ok=1
+  api=4 type=0 insize=3829 outsize=3175 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=4981 outsize=8091 kw= pd= ok=1
+  api=4 type=1 insize=3829 outsize=4930 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5082 outsize=415 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4987 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4987 outsize=973 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4987 outsize=7571 kw= pd= ok=1
+  insize=4708 outsize=1220 ok=1
 Cmd: preprocess
-  insize=5101 outsize=415 ok=1
+  insize=4345 outsize=1196 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5006 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3484 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5006 outsize=973 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5006 outsize=7571 kw= pd= ok=1
-Cmd: preprocess
-  insize=5100 outsize=414 ok=1
+  api=4 type=1 insize=3484 outsize=1688 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5101 outsize=415 ok=1
-Cmd: preprocess
-  insize=5100 outsize=414 ok=1
-Cmd: preprocess
-  insize=5079 outsize=414 ok=1
+  insize=4351 outsize=1196 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4985 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3490 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4985 outsize=1176 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4985 outsize=7571 kw= pd= ok=1
+  api=4 type=1 insize=3490 outsize=1688 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5077 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4983 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4983 outsize=1696 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4983 outsize=7571 kw= pd= ok=1
+  insize=4353 outsize=1198 ok=1
 Cmd: preprocess
-  insize=5073 outsize=414 ok=1
+  insize=4357 outsize=1198 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4979 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3494 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4979 outsize=2363 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4979 outsize=7571 kw= pd= ok=1
+  api=4 type=1 insize=3494 outsize=1688 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5075 outsize=414 ok=1
+  insize=4285 outsize=1198 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4981 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3422 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4981 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4981 outsize=7571 kw= pd= ok=1
+  api=4 type=1 insize=3422 outsize=4564 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5081 outsize=413 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4987 outsize=1851 kw= pd= ok=1
+  insize=4724 outsize=1220 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4987 outsize=2436 kw= pd= ok=1
+  api=4 type=0 insize=3839 outsize=3175 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=4987 outsize=7571 kw= pd= ok=1
+  api=4 type=1 insize=3839 outsize=4914 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5083 outsize=414 ok=1
+  insize=4319 outsize=1198 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4989 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4989 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4989 outsize=7571 kw= pd= ok=1
+  error: 2 plat 4 at (151): syntax error: unexpected token 'waterColor'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3456 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
 Cmd: preprocess
-  insize=5079 outsize=413 ok=1
+  insize=4306 outsize=1198 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4985 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3443 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4985 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4985 outsize=8383 kw= pd= ok=1
+  api=4 type=1 insize=3443 outsize=4564 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5022 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4928 outsize=1851 kw= pd= ok=1
+  insize=4314 outsize=1196 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4928 outsize=1778 kw= pd= ok=1
+  api=4 type=0 insize=3451 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=4928 outsize=8383 kw= pd= ok=1
+  api=4 type=1 insize=3451 outsize=4621 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5081 outsize=414 ok=1
+  insize=4315 outsize=1198 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (99): undeclared identifier 'blendFactor'\nCompiling Vertex program
-  api=4 type=0 insize=4987 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=5086 outsize=413 ok=1
+  api=4 type=0 insize=3452 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (100): undeclared identifier 'blendFactor'\nCompiling Vertex program
-  api=4 type=0 insize=4992 outsize=0 kw= pd= ok=0
+  api=4 type=1 insize=3452 outsize=4703 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5088 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4994 outsize=1851 kw= pd= ok=1
+  insize=4314 outsize=1198 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4994 outsize=1778 kw= pd= ok=1
+  api=4 type=0 insize=3451 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=4994 outsize=8643 kw= pd= ok=1
+  api=4 type=1 insize=3451 outsize=4735 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5093 outsize=413 ok=1
+  insize=4320 outsize=1198 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4999 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3457 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4999 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=4999 outsize=8643 kw= pd= ok=1
+  api=4 type=1 insize=3457 outsize=4508 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5095 outsize=414 ok=1
+  insize=4322 outsize=1198 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5001 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3459 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5001 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5001 outsize=8643 kw= pd= ok=1
+  api=4 type=1 insize=3459 outsize=4508 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5095 outsize=413 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5001 outsize=1851 kw= pd= ok=1
+  insize=4324 outsize=1198 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5001 outsize=1778 kw= pd= ok=1
+  api=4 type=0 insize=3461 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5001 outsize=8643 kw= pd= ok=1
+  api=4 type=1 insize=3461 outsize=4508 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5095 outsize=413 ok=1
+  insize=4286 outsize=1198 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5001 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3423 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5001 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5001 outsize=8643 kw= pd= ok=1
+  api=4 type=1 insize=3423 outsize=3841 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5100 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5006 outsize=1851 kw= pd= ok=1
+  insize=4280 outsize=1198 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5006 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5006 outsize=7522 kw= pd= ok=1
-Cmd: preprocess
-  insize=5153 outsize=414 ok=1
+  api=4 type=0 insize=3417 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (135): undeclared identifier 'inst'\nCompiling Vertex program
-  api=4 type=0 insize=5059 outsize=0 kw= pd= ok=0
+  api=4 type=1 insize=3417 outsize=4069 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5173 outsize=414 ok=1
+  insize=4283 outsize=1198 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5079 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3420 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5079 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5079 outsize=6068 kw= pd= ok=1
+  api=4 type=1 insize=3420 outsize=4126 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5173 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5079 outsize=1851 kw= pd= ok=1
+  insize=4282 outsize=1198 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5079 outsize=1778 kw= pd= ok=1
+  api=4 type=0 insize=3419 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5079 outsize=6068 kw= pd= ok=1
+  api=4 type=1 insize=3419 outsize=4069 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5184 outsize=414 ok=1
+  insize=4280 outsize=1198 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5090 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3417 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5090 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5090 outsize=6059 kw= pd= ok=1
+  api=4 type=1 insize=3417 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5194 outsize=414 ok=1
+  insize=4282 outsize=1198 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5100 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3419 outsize=2525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5100 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5100 outsize=6116 kw= pd= ok=1
+  api=4 type=1 insize=3419 outsize=4126 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5183 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5089 outsize=1851 kw= pd= ok=1
+  insize=4454 outsize=1232 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5089 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5089 outsize=6116 kw= pd= ok=1
+  error: 2 plat 4 at (138): syntax error: unexpected token 'half4'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  error: 2 plat 4 at (140): undeclared identifier 'waterColor'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3557 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
 Cmd: preprocess
-  insize=5177 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5083 outsize=1851 kw= pd= ok=1
+  insize=4457 outsize=1235 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5083 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5083 outsize=6100 kw= pd= ok=1
+  error: 2 plat 4 at (138): syntax error: unexpected token 'half4'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  error: 2 plat 4 at (140): undeclared identifier 'waterColor'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3557 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
 Cmd: preprocess
-  insize=5208 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5114 outsize=1851 kw= pd= ok=1
+  insize=4729 outsize=1234 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5114 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5114 outsize=7238 kw= pd= ok=1
+  error: 2 plat 4 at (142): redefinition of 'waterColor1'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3829 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
 Cmd: preprocess
-  insize=5239 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5145 outsize=1851 kw= pd= ok=1
+  insize=4729 outsize=1235 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5145 outsize=1778 kw= pd= ok=1
+  api=4 type=0 insize=3829 outsize=2907 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5145 outsize=7238 kw= pd= ok=1
+  api=4 type=1 insize=3829 outsize=4434 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5240 outsize=413 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5146 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=5146 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5146 outsize=7238 kw= pd= ok=1
+  insize=4737 outsize=1243 ok=1
 Cmd: preprocess
-  insize=5242 outsize=414 ok=1
+  insize=4757 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5148 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3849 outsize=2956 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5148 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5148 outsize=7238 kw= pd= ok=1
+  api=4 type=1 insize=3849 outsize=4434 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5271 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5177 outsize=1851 kw= pd= ok=1
+  insize=4891 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5177 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5177 outsize=7522 kw= pd= ok=1
+  error: 2 plat 4 at (143): undeclared identifier 'o'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3983 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
 Cmd: preprocess
-  insize=5269 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5175 outsize=1851 kw= pd= ok=1
+  insize=4891 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5175 outsize=1778 kw= pd= ok=1
+  api=4 type=0 insize=3983 outsize=3411 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5175 outsize=7294 kw= pd= ok=1
+  api=4 type=1 insize=3983 outsize=4564 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5258 outsize=414 ok=1
+  insize=4855 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5164 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3947 outsize=3411 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5164 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5164 outsize=8318 kw= pd= ok=1
+  api=4 type=1 insize=3947 outsize=4483 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5262 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5168 outsize=1851 kw= pd= ok=1
+  insize=4860 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5168 outsize=1778 kw= pd= ok=1
+  api=4 type=0 insize=3952 outsize=3411 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5168 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=3952 outsize=4483 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5264 outsize=414 ok=1
+  insize=4899 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5170 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=5170 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5170 outsize=8448 kw= pd= ok=1
+  error: 2 plat 4 at (144): 'tex2D': no matching 0 parameter intrinsic function; Possible intrinsic functions are: tex2D(sampler2D, float2|half2|min10float2|min16float2) tex2D(sampler2D, float2|half2|min10float2|min16float2, float2|half2|min10float2|min16float2, float2|half2|min10float2|min16float2)\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  error: 2 plat 4 at (144): syntax error: unexpected token '.'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3991 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
 Cmd: preprocess
-  insize=5295 outsize=413 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5201 outsize=1851 kw= pd= ok=1
+  insize=4905 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5201 outsize=2168 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5201 outsize=8448 kw= pd= ok=1
+  error: 2 plat 4 at (144): 'tex2D': no matching 0 parameter intrinsic function; Possible intrinsic functions are: tex2D(sampler2D, float2|half2|min10float2|min16float2) tex2D(sampler2D, float2|half2|min10float2|min16float2, float2|half2|min10float2|min16float2, float2|half2|min10float2|min16float2)\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  error: 2 plat 4 at (144): syntax error: unexpected token '.'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3997 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
 Cmd: preprocess
-  insize=5292 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5198 outsize=1851 kw= pd= ok=1
+  insize=4904 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5198 outsize=2070 kw= pd= ok=1
+  api=4 type=0 insize=3996 outsize=3411 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5198 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=3996 outsize=4678 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5294 outsize=414 ok=1
+  insize=4904 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5200 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=3996 outsize=3411 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5200 outsize=2070 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5200 outsize=7619 kw= pd= ok=1
+  api=4 type=1 insize=3996 outsize=4678 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5338 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5244 outsize=1851 kw= pd= ok=1
+  insize=4964 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5244 outsize=2070 kw= pd= ok=1
+  api=4 type=0 insize=4056 outsize=3500 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5244 outsize=7563 kw= pd= ok=1
+  api=4 type=1 insize=4056 outsize=4678 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5340 outsize=414 ok=1
+  insize=4964 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5246 outsize=1851 kw= pd= ok=1
+  api=4 type=0 insize=4056 outsize=3500 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5246 outsize=2070 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5246 outsize=7563 kw= pd= ok=1
+  api=4 type=1 insize=4056 outsize=4670 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5324 outsize=413 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5230 outsize=1851 kw= pd= ok=1
+  insize=4975 outsize=1241 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5230 outsize=1826 kw= pd= ok=1
+  api=4 type=0 insize=4067 outsize=3500 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5230 outsize=7563 kw= pd= ok=1
+  api=4 type=1 insize=4067 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5280 outsize=414 ok=1
+  insize=4792 outsize=1242 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5186 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3884 outsize=3118 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5186 outsize=1826 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5186 outsize=7465 kw= pd= ok=1
+  api=4 type=1 insize=3884 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5276 outsize=414 ok=1
+  insize=4832 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5182 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3924 outsize=3305 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5182 outsize=1826 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5182 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=3924 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5274 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5180 outsize=1851 kw= pd= ok=1
+  insize=4907 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5180 outsize=1826 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3999 outsize=3606 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5180 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=3999 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5276 outsize=414 ok=1
+  insize=4907 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5182 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3999 outsize=3606 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5182 outsize=1826 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5182 outsize=8383 kw= pd= ok=1
+  api=4 type=1 insize=3999 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5276 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5182 outsize=1851 kw= pd= ok=1
+  insize=4912 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5182 outsize=1826 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4004 outsize=3606 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5182 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4004 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5276 outsize=414 ok=1
+  insize=4912 outsize=1242 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5182 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4004 outsize=3606 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5182 outsize=2233 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5182 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4004 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5277 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5183 outsize=1851 kw= pd= ok=1
+  insize=4917 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5183 outsize=2306 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4009 outsize=3671 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5183 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4009 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5276 outsize=414 ok=1
-Cmd: preprocess
-  insize=5276 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5182 outsize=1851 kw= pd= ok=1
+  insize=4917 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5182 outsize=2289 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4009 outsize=3671 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5182 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4009 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5279 outsize=414 ok=1
+  insize=4917 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5185 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4009 outsize=3671 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5185 outsize=2168 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5185 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4009 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5247 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5153 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=5153 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5153 outsize=8448 kw= pd= ok=1
+  insize=4917 outsize=1243 ok=1
 Cmd: preprocess
-  insize=5247 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5153 outsize=1851 kw= pd= ok=1
+  insize=4917 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5153 outsize=1778 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4009 outsize=3671 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5153 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4009 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5248 outsize=414 ok=1
+  insize=4917 outsize=1242 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5154 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4009 outsize=3671 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5154 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5154 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4009 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5247 outsize=413 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5153 outsize=1851 kw= pd= ok=1
+  insize=4918 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5153 outsize=1778 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4010 outsize=3614 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5153 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4010 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5249 outsize=413 ok=1
+  insize=4918 outsize=1242 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5155 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4010 outsize=3671 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5155 outsize=1778 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5155 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4010 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5251 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5157 outsize=1851 kw= pd= ok=1
+  insize=4918 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5157 outsize=2915 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4010 outsize=3614 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5157 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4010 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5251 outsize=414 ok=1
+  insize=4918 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5157 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4010 outsize=3614 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5157 outsize=2915 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5157 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4010 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5257 outsize=414 ok=1
+  insize=4918 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5163 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4010 outsize=3614 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5163 outsize=2915 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5163 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4010 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5271 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5177 outsize=1851 kw= pd= ok=1
+  insize=4918 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5177 outsize=2931 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4010 outsize=3614 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5177 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4010 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5283 outsize=414 ok=1
+  insize=4918 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5189 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4010 outsize=3614 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5189 outsize=3004 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5189 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4010 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5283 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5189 outsize=1851 kw= pd= ok=1
+  insize=5049 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5189 outsize=3004 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4141 outsize=3118 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5189 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4141 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5195 outsize=414 ok=1
+  insize=5047 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5101 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4139 outsize=3118 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5101 outsize=3004 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5101 outsize=8383 kw= pd= ok=1
+  api=4 type=1 insize=4139 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5199 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5105 outsize=1851 kw= pd= ok=1
+  insize=5047 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5105 outsize=3004 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4139 outsize=3118 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5105 outsize=8448 kw= pd= ok=1
+  api=4 type=1 insize=4139 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5197 outsize=414 ok=1
+  insize=5047 outsize=1243 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (98): undeclared identifier 'wpos'\nCompiling Vertex program
-  api=4 type=0 insize=5103 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=5199 outsize=414 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (98): undeclared identifier 'wpos'\nCompiling Vertex program
-  api=4 type=0 insize=5105 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=5201 outsize=414 ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4139 outsize=3744 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (98): 'Spherify': cannot implicitly convert from 'float3' to 'float4'\nCompiling Vertex program
-  api=4 type=0 insize=5107 outsize=0 kw= pd= ok=0
+  api=4 type=1 insize=4139 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=1363 outsize=370 ok=1
+  insize=5048 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1292 outsize=1964 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4140 outsize=3744 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1292 outsize=616 kw= pd= ok=1
+  api=4 type=1 insize=4140 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5209 outsize=414 ok=1
+  insize=5048 outsize=1242 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5115 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4140 outsize=3744 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5115 outsize=3004 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5115 outsize=10073 kw= pd= ok=1
+  api=4 type=1 insize=4140 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5207 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5113 outsize=1851 kw= pd= ok=1
+  insize=5048 outsize=1242 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5113 outsize=3004 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4140 outsize=3744 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5113 outsize=10008 kw= pd= ok=1
+  api=4 type=1 insize=4140 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5208 outsize=414 ok=1
+  insize=5050 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5114 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4142 outsize=3744 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5114 outsize=3004 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5114 outsize=10073 kw= pd= ok=1
+  api=4 type=1 insize=4142 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5207 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5113 outsize=1851 kw= pd= ok=1
+  insize=5050 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5113 outsize=3004 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4142 outsize=3744 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5113 outsize=10073 kw= pd= ok=1
+  api=4 type=1 insize=4142 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5209 outsize=414 ok=1
+  insize=5050 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5115 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4142 outsize=3687 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5115 outsize=3004 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5115 outsize=10073 kw= pd= ok=1
+  api=4 type=1 insize=4142 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5208 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5114 outsize=1851 kw= pd= ok=1
+  insize=5051 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5114 outsize=3004 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4143 outsize=3744 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5114 outsize=10073 kw= pd= ok=1
+  api=4 type=1 insize=4143 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5208 outsize=414 ok=1
+  insize=5051 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5114 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4143 outsize=3744 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5114 outsize=3004 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5114 outsize=10073 kw= pd= ok=1
+  api=4 type=1 insize=4143 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5208 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5114 outsize=1851 kw= pd= ok=1
+  insize=5100 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5114 outsize=3004 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4192 outsize=3321 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5114 outsize=10073 kw= pd= ok=1
+  api=4 type=1 insize=4192 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5208 outsize=414 ok=1
+  insize=5110 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5114 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4202 outsize=3386 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5114 outsize=3004 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5114 outsize=10073 kw= pd= ok=1
+  api=4 type=1 insize=4202 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5208 outsize=414 ok=1
+  insize=5113 outsize=1242 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5114 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4205 outsize=3403 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5114 outsize=3004 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5114 outsize=9618 kw= pd= ok=1
+  api=4 type=1 insize=4205 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5208 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5114 outsize=1851 kw= pd= ok=1
+  insize=5119 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5114 outsize=3004 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4211 outsize=3419 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5114 outsize=9618 kw= pd= ok=1
+  api=4 type=1 insize=4211 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5208 outsize=414 ok=1
+  insize=5119 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5114 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4211 outsize=3419 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5114 outsize=3004 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5114 outsize=9618 kw= pd= ok=1
+  api=4 type=1 insize=4211 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5208 outsize=414 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5114 outsize=1851 kw= pd= ok=1
+  insize=5122 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5114 outsize=3004 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5114 outsize=9618 kw= pd= ok=1
-Cmd: preprocess
-  insize=1410 outsize=408 ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4214 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (63): undeclared identifier '_Color'\nCompiling Vertex program
-  api=4 type=0 insize=1301 outsize=0 kw= pd= ok=0
+  api=4 type=1 insize=4214 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=1428 outsize=408 ok=1
+  insize=5122 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1319 outsize=1964 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4214 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1319 outsize=729 kw= pd= ok=1
+  api=4 type=1 insize=4214 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5177 outsize=381 ok=1
+  insize=5122 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5114 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4214 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5114 outsize=3004 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5114 outsize=9618 kw= pd= ok=1
+  api=4 type=1 insize=4214 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5409 outsize=543 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5186 outsize=1851 kw= pd= ok=1
+  insize=5122 outsize=1243 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5186 outsize=3094 kw= pd= ok=1
+  error: 1 plat 4 at (92): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4214 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5186 outsize=9618 kw= pd= ok=1
+  api=4 type=1 insize=4214 outsize=4573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5572 outsize=617 ok=1
+  insize=5225 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5275 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4256 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5275 outsize=3094 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5275 outsize=10203 kw= pd= ok=1
+  api=4 type=1 insize=4256 outsize=4556 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5570 outsize=617 ok=1
+  insize=5225 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5273 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4256 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5273 outsize=3289 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5273 outsize=10203 kw= pd= ok=1
+  api=4 type=1 insize=4256 outsize=4443 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5576 outsize=616 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5279 outsize=1851 kw= pd= ok=1
+  insize=5226 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5279 outsize=3232 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4257 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5279 outsize=10203 kw= pd= ok=1
+  api=4 type=1 insize=4257 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5609 outsize=650 ok=1
+  insize=5230 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5279 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4261 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5279 outsize=3232 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5279 outsize=10203 kw= pd= ok=1
+  api=4 type=1 insize=4261 outsize=4670 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=1458 outsize=438 ok=1
+  insize=5229 outsize=1303 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1319 outsize=1964 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4260 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1319 outsize=729 kw= pd= ok=1
+  api=4 type=1 insize=4260 outsize=4589 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5281 outsize=631 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4969 outsize=1851 kw= pd= ok=1
+  insize=5231 outsize=1303 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4969 outsize=3232 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4262 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=4969 outsize=9683 kw= pd= ok=1
+  api=4 type=1 insize=4262 outsize=4670 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=1363 outsize=365 ok=1
+  insize=5229 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1297 outsize=1688 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4260 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1297 outsize=729 kw= pd= ok=1
+  api=4 type=1 insize=4260 outsize=4532 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5327 outsize=632 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (190): undeclared identifier 'LightColor0'\nCompiling Vertex program
-  api=4 type=0 insize=5015 outsize=0 kw= pd= ok=0
+  insize=5230 outsize=1304 ok=1
 Cmd: preprocess
-  insize=5328 outsize=632 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5016 outsize=1851 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=5016 outsize=3297 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5016 outsize=9683 kw= pd= ok=1
+  insize=5226 outsize=1304 ok=1
 Cmd: preprocess
-  insize=5495 outsize=741 ok=1
+  insize=5225 outsize=1304 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (53): syntax error: unexpected token 'half4'\nCompiling Vertex program
-  api=4 type=0 insize=5074 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=5500 outsize=741 ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4256 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (53): syntax error: unexpected token 'half4'\nCompiling Vertex program
-  api=4 type=0 insize=5079 outsize=0 kw= pd= ok=0
+  api=4 type=1 insize=4256 outsize=4556 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5492 outsize=741 ok=1
+  insize=5225 outsize=1303 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5071 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4256 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5071 outsize=3346 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5071 outsize=9683 kw= pd= ok=1
+  api=4 type=1 insize=4256 outsize=4613 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5494 outsize=741 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5073 outsize=1851 kw= pd= ok=1
+  insize=5225 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5073 outsize=3264 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4256 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5073 outsize=9683 kw= pd= ok=1
+  api=4 type=1 insize=4256 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5488 outsize=741 ok=1
+  insize=5221 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5067 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4252 outsize=3476 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5067 outsize=3208 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5067 outsize=9683 kw= pd= ok=1
+  api=4 type=1 insize=4252 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5493 outsize=741 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5072 outsize=1851 kw= pd= ok=1
+  insize=5231 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5072 outsize=3264 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4262 outsize=3914 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5072 outsize=9683 kw= pd= ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(19): syntax error: unexpected token 'RWStructuredBuffer'
-  api=4 insize=1745 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(19): syntax error: unexpected token 'RWStructuredBuffer'
-  api=4 insize=1745 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(19): syntax error: unexpected token 'RWStructuredBuffer'
-  api=15 insize=1745 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(19): syntax error: unexpected token 'RWStructuredBuffer'
-  api=9 insize=1745 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(19): syntax error: unexpected token 'RWStructuredBuffer'
-  api=4 insize=1745 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(60): invalid subscript 'position'
-  api=4 insize=1746 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(60): invalid subscript 'position'
-  api=4 insize=1746 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(60): invalid subscript 'position'
-  api=15 insize=1746 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(60): invalid subscript 'position'
-  api=9 insize=1746 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(60): invalid subscript 'position'
-  api=4 insize=1746 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(49): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(61): implicit truncation of vector type
-  api=4 insize=1731 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(49): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(61): implicit truncation of vector type
-  api=4 insize=1731 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(49): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(61): implicit truncation of vector type
-  api=15 insize=1731 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(49): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(61): implicit truncation of vector type
-  api=9 insize=1731 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(49): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(61): implicit truncation of vector type
-  api=4 insize=1731 outsize=65 ok=0
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(63): implicit truncation of vector type
-  api=4 insize=1757 outsize=1609 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(63): implicit truncation of vector type
-  api=4 insize=1757 outsize=1609 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(63): implicit truncation of vector type
-  api=15 insize=1757 outsize=2605 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(63): implicit truncation of vector type
-  api=9 insize=1757 outsize=2537 ok=1
+  api=4 type=1 insize=4262 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5516 outsize=741 ok=1
+  insize=5232 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5095 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4263 outsize=3914 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5095 outsize=3264 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5095 outsize=9683 kw= pd= ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=4 insize=1858 outsize=1609 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=4 insize=1858 outsize=1609 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=15 insize=1858 outsize=2605 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=9 insize=1858 outsize=2537 ok=1
+  api=4 type=1 insize=4263 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5515 outsize=741 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5094 outsize=1851 kw= pd= ok=1
+  insize=5231 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5094 outsize=3264 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4262 outsize=3914 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5094 outsize=9683 kw= pd= ok=1
+  api=4 type=1 insize=4262 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5552 outsize=741 ok=1
+  insize=5231 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5131 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4262 outsize=3914 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5131 outsize=3264 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5131 outsize=9797 kw= pd= ok=1
+  api=4 type=1 insize=4262 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5557 outsize=740 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5136 outsize=1851 kw= pd= ok=1
+  insize=5231 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5136 outsize=3264 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4262 outsize=3914 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5136 outsize=6718 kw= pd= ok=1
+  api=4 type=1 insize=4262 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5562 outsize=741 ok=1
+  insize=5231 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5141 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4262 outsize=3914 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5141 outsize=3264 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5141 outsize=9854 kw= pd= ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=4 insize=1863 outsize=1609 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=4 insize=1863 outsize=1609 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=15 insize=1863 outsize=2605 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=9 insize=1863 outsize=2537 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=4 insize=1892 outsize=1609 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=4 insize=1892 outsize=1609 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=15 insize=1892 outsize=2605 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=9 insize=1892 outsize=2537 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=4 insize=1898 outsize=1609 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=4 insize=1898 outsize=1609 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=15 insize=1898 outsize=2605 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(65): implicit truncation of vector type
-  api=9 insize=1898 outsize=2537 ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(68): 'smoothstep': no matching 3 parameter intrinsic function; Possible intrinsic functions are: smoothstep(float|half|min10float|min16float, float|half|min10float|min16float, float|half|min10float|min16float)
-  error: 2 plat 4 at GrassComputeShader.compute(68): undeclared identifier 'distToObstacleSQ'
-  api=4 insize=1888 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(68): 'smoothstep': no matching 3 parameter intrinsic function; Possible intrinsic functions are: smoothstep(float|half|min10float|min16float, float|half|min10float|min16float, float|half|min10float|min16float)
-  error: 2 plat 4 at GrassComputeShader.compute(68): undeclared identifier 'distToObstacleSQ'
-  api=4 insize=1888 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(68): 'smoothstep': no matching 3 parameter intrinsic function; Possible intrinsic functions are: smoothstep(float|half|min10float|min16float, float|half|min10float|min16float, float|half|min10float|min16float)
-  error: 2 plat 4 at GrassComputeShader.compute(68): undeclared identifier 'distToObstacleSQ'
-  api=15 insize=1888 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(68): 'smoothstep': no matching 3 parameter intrinsic function; Possible intrinsic functions are: smoothstep(float|half|min10float|min16float, float|half|min10float|min16float, float|half|min10float|min16float)
-  error: 2 plat 4 at GrassComputeShader.compute(68): undeclared identifier 'distToObstacleSQ'
-  api=9 insize=1888 outsize=65 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(68): 'smoothstep': no matching 3 parameter intrinsic function; Possible intrinsic functions are: smoothstep(float|half|min10float|min16float, float|half|min10float|min16float, float|half|min10float|min16float)
-  error: 2 plat 4 at GrassComputeShader.compute(68): undeclared identifier 'distToObstacleSQ'
-  api=4 insize=1888 outsize=65 ok=0
-Cmd: compileCompute
-  api=4 insize=1942 outsize=1609 ok=1
-Cmd: compileCompute
-  api=4 insize=1942 outsize=1609 ok=1
-Cmd: compileCompute
-  api=15 insize=1942 outsize=2605 ok=1
-Cmd: compileCompute
-  api=9 insize=1942 outsize=2537 ok=1
-Cmd: compileCompute
-  api=4 insize=1942 outsize=1577 ok=1
-Cmd: compileCompute
-  api=4 insize=1942 outsize=1577 ok=1
-Cmd: compileCompute
-  api=15 insize=1942 outsize=2577 ok=1
-Cmd: compileCompute
-  api=9 insize=1942 outsize=2505 ok=1
-Cmd: compileCompute
-  api=4 insize=1942 outsize=1609 ok=1
-Cmd: compileCompute
-  api=4 insize=1942 outsize=1609 ok=1
-Cmd: compileCompute
-  api=15 insize=1942 outsize=2605 ok=1
-Cmd: compileCompute
-  api=9 insize=1942 outsize=2537 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(61): loop only executes for 1 iteration(s), forcing loop to unroll
-  api=4 insize=1964 outsize=2065 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(61): loop only executes for 1 iteration(s), forcing loop to unroll
-  api=4 insize=1964 outsize=2065 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(61): loop only executes for 1 iteration(s), forcing loop to unroll
-  api=15 insize=1964 outsize=3541 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(61): loop only executes for 1 iteration(s), forcing loop to unroll
-  api=9 insize=1964 outsize=3349 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(61): loop only executes for 1 iteration(s), forcing loop to unroll
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=4 insize=1901 outsize=2621 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(61): loop only executes for 1 iteration(s), forcing loop to unroll
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=4 insize=1901 outsize=2621 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(61): loop only executes for 1 iteration(s), forcing loop to unroll
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=15 insize=1901 outsize=4477 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(61): loop only executes for 1 iteration(s), forcing loop to unroll
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=9 insize=1901 outsize=4317 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=4 insize=1913 outsize=2917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=4 insize=1913 outsize=2917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=15 insize=1913 outsize=5593 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=9 insize=1913 outsize=5457 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=4 insize=1913 outsize=2917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=4 insize=1913 outsize=2917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=15 insize=1913 outsize=5593 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=9 insize=1913 outsize=5457 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=4 insize=1913 outsize=2917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=4 insize=1913 outsize=2917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=15 insize=1913 outsize=5593 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(66): implicit truncation of vector type
-  api=9 insize=1913 outsize=5457 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=4 insize=1959 outsize=2961 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=4 insize=1959 outsize=2961 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=15 insize=1959 outsize=5681 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=9 insize=1959 outsize=5541 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=4 insize=1955 outsize=3009 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=4 insize=1955 outsize=3009 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=15 insize=1955 outsize=5733 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=9 insize=1955 outsize=5593 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=4 insize=1960 outsize=3037 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=4 insize=1960 outsize=3037 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=15 insize=1960 outsize=5765 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=9 insize=1960 outsize=5625 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=4 insize=1959 outsize=3037 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=4 insize=1959 outsize=3037 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=15 insize=1959 outsize=5761 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(68): implicit truncation of vector type
-  api=9 insize=1959 outsize=5621 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(71): implicit truncation of vector type
-  api=4 insize=1986 outsize=3037 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(71): implicit truncation of vector type
-  api=4 insize=1986 outsize=3037 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(71): implicit truncation of vector type
-  api=15 insize=1986 outsize=5785 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(71): implicit truncation of vector type
-  api=9 insize=1986 outsize=5645 ok=1
+  api=4 type=1 insize=4262 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5559 outsize=738 ok=1
+  insize=5232 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5141 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4263 outsize=3914 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5141 outsize=3264 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5141 outsize=9854 kw= pd= ok=1
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(55): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(70): implicit truncation of vector type
-  api=4 insize=2266 outsize=2173 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(55): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(70): implicit truncation of vector type
-  api=4 insize=2266 outsize=2173 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(55): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(70): implicit truncation of vector type
-  api=15 insize=2266 outsize=3365 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(55): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(70): implicit truncation of vector type
-  api=9 insize=2266 outsize=3365 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(55): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(70): implicit truncation of vector type
-  api=4 insize=2266 outsize=2173 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(55): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(70): implicit truncation of vector type
-  api=4 insize=2269 outsize=2173 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(55): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(70): implicit truncation of vector type
-  api=4 insize=2269 outsize=2173 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(55): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(70): implicit truncation of vector type
-  api=15 insize=2269 outsize=3365 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(55): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(70): implicit truncation of vector type
-  api=9 insize=2269 outsize=3365 ok=0
-Cmd: compileCompute
-  error: 2 plat 4 at GrassComputeShader.compute(55): variable 'data' used without having been completely initialized
-  error: 1 plat 4 at GrassComputeShader.compute(70): implicit truncation of vector type
-  api=4 insize=2269 outsize=2173 ok=0
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(71): implicit truncation of vector type
-  api=4 insize=2296 outsize=3761 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(71): implicit truncation of vector type
-  api=4 insize=2296 outsize=3761 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(71): implicit truncation of vector type
-  api=15 insize=2296 outsize=7685 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(71): implicit truncation of vector type
-  api=9 insize=2296 outsize=7561 ok=1
+  api=4 type=1 insize=4263 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5586 outsize=737 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5168 outsize=1851 kw= pd= ok=1
+  insize=5231 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5168 outsize=3264 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4262 outsize=3914 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5168 outsize=9854 kw= pd= ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2373 outsize=3821 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2373 outsize=3821 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2373 outsize=7769 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2373 outsize=7649 ok=1
+  api=4 type=1 insize=4262 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5603 outsize=738 ok=1
+  insize=5231 outsize=1304 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (109): undeclared identifier 'expansiveForce'\nCompiling Vertex program
-  api=4 type=0 insize=5185 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=5709 outsize=738 ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4262 outsize=3914 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (149): 'processVertex': no matching 7 parameter function\nCompiling Vertex program
-  error: 2 plat 4 at (149): invalid subscript 'expansiveForce'\nCompiling Vertex program
-  api=4 type=0 insize=5291 outsize=0 kw= pd= ok=0
+  api=4 type=1 insize=4262 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5710 outsize=738 ok=1
+  insize=5227 outsize=1304 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (149): 'processVertex': no matching 7 parameter function\nCompiling Vertex program
-  error: 2 plat 4 at (149): invalid subscript 'expansiveForce'\nCompiling Vertex program
-  api=4 type=0 insize=5292 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=5715 outsize=738 ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4258 outsize=3914 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (150): 'processVertex': no matching 7 parameter function\nCompiling Vertex program
-  error: 2 plat 4 at (150): invalid subscript 'expansiveForce'\nCompiling Vertex program
-  api=4 type=0 insize=5297 outsize=0 kw= pd= ok=0
+  api=4 type=1 insize=4258 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5767 outsize=738 ok=1
+  insize=5227 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5349 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4258 outsize=3914 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5349 outsize=3264 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5349 outsize=10219 kw= pd= ok=1
+  api=4 type=1 insize=4258 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5802 outsize=738 ok=1
+  insize=5227 outsize=1303 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5384 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4258 outsize=3849 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5384 outsize=3264 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5384 outsize=10447 kw= pd= ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2372 outsize=3821 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2372 outsize=3821 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2372 outsize=7765 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2372 outsize=7649 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2372 outsize=3821 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2372 outsize=3821 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2372 outsize=7765 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2372 outsize=7649 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2402 outsize=3881 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2402 outsize=3881 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2402 outsize=7897 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2402 outsize=7785 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2403 outsize=3881 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2403 outsize=3881 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2403 outsize=7897 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2403 outsize=7785 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2405 outsize=3565 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2405 outsize=3565 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2405 outsize=7553 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2405 outsize=7437 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2415 outsize=3881 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2415 outsize=3881 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2415 outsize=7897 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2415 outsize=7785 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2440 outsize=3961 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2440 outsize=3961 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2440 outsize=7993 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2440 outsize=7893 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2439 outsize=3901 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2439 outsize=3901 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2439 outsize=7929 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2439 outsize=7829 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2401 outsize=3373 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2401 outsize=3373 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2401 outsize=6037 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2401 outsize=5917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2403 outsize=3025 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2403 outsize=3025 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2403 outsize=5213 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2403 outsize=5069 ok=1
+  api=4 type=1 insize=4258 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5752 outsize=738 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5334 outsize=1851 kw= pd= ok=1
+  insize=5227 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5334 outsize=3264 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4258 outsize=3841 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5334 outsize=10447 kw= pd= ok=1
+  api=4 type=1 insize=4258 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5747 outsize=738 ok=1
+  insize=5227 outsize=1303 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5329 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4258 outsize=3849 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5329 outsize=3264 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5329 outsize=10447 kw= pd= ok=1
+  api=4 type=1 insize=4258 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5766 outsize=738 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5348 outsize=1851 kw= pd= ok=1
+  insize=5227 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5348 outsize=3264 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4258 outsize=3849 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5348 outsize=10447 kw= pd= ok=1
+  api=4 type=1 insize=4258 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5761 outsize=738 ok=1
+  insize=5228 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5343 outsize=1851 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4259 outsize=3849 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5343 outsize=3208 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=4 insize=5343 outsize=10447 kw= pd= ok=1
+  api=4 type=1 insize=4259 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: preprocess
-  insize=5766 outsize=738 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2402 outsize=2965 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2402 outsize=2965 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2402 outsize=5085 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2402 outsize=4937 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2400 outsize=3373 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2400 outsize=3373 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2400 outsize=6053 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2400 outsize=5937 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2369 outsize=3313 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2369 outsize=3313 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2369 outsize=5917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2369 outsize=5785 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2369 outsize=3385 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2369 outsize=3385 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2369 outsize=5993 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2369 outsize=5869 ok=1
-Cmd: preprocess
-  insize=5680 outsize=739 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5261 outsize=1851 kw= pd= ok=1
+  insize=5229 outsize=1304 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5261 outsize=3264 kw= pd= ok=1
+  error: 1 plat 4 at (93): Output value 'vert' is not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=4260 outsize=3874 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=4 insize=5261 outsize=10447 kw= pd= ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2370 outsize=3385 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=4 insize=2370 outsize=3385 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=15 insize=2370 outsize=5993 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at GrassComputeShader.compute(72): implicit truncation of vector type
-  api=9 insize=2370 outsize=5869 ok=1
+  api=4 type=1 insize=4260 outsize=4581 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1

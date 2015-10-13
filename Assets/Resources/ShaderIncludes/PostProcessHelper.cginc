@@ -54,7 +54,7 @@ void GetBlurData(float width, float height, out float kernel[BLUR_KERNEL_SIZE], 
 
 half2 GetHalfPixel(float width, float height)
 {
-	return half2(50.25/width, 0.25/height);
+	return half2(0.5/width, 0.5/height);
 	//return half2(0, 0);
 }
 

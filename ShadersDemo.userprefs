@@ -1,6 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Water\Resources\SocialPointCascade.shader">
+    <Files>
+      <File FileName="Assets\Water\Resources\SocialPointWater.shader" Line="142" Column="63" />
+      <File FileName="Assets\Water\Resources\SocialPointCascade.shader" Line="20" Column="55" />
+      <File FileName="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" Line="1" Column="1" />
+      <File FileName="Assets\Water\SocialPointWater.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

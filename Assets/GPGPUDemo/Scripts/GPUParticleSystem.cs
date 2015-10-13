@@ -50,7 +50,7 @@ public class GPUParticleSystem : MonoBehaviour
 
 		_particleMaterial = Resources.Load<Material>("GPUParticleMat");
 
-		_computeShader = Resources.Load<ComputeShader>("GPUParticleUpdater");
+		_computeShader = Resources.Load<ComputeShader>("ComputeShaders/GPUParticleUpdater");
 		_kernelMoveParticles = _computeShader.FindKernel(kKernelMoveParticles);
 
 		_particlesData = new Particle[_numParticles];

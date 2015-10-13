@@ -70,6 +70,7 @@ public class ObstaclesSpawner : MonoBehaviour
 		for (int i = 0; i < _obstacles.Count; ++i) 
 		{
 			_obstaclesData[i].Position = _obstacles[i].transform.position;
+			//_obstaclesData[i].Radius = _obstacles[i].GetRadius();
 			_obstaclesData[i].ExpansiveForce = _obstacles[i].ExpansiveForce;
 		}
 

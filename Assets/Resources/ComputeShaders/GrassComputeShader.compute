@@ -76,7 +76,6 @@ void UpdateGrassKernel (uint3 id : SV_DispatchThreadID, uint blockId : SV_GroupI
 			data.flattening = max(data.flattening - flattening, 0.2);
 		}
 		
-		
 		if(distToObstacleSQ-obstacleRadiusSQ < 4)
 		{
 			float forceIntensity = 1-smoothstep(0, 4, distToObstacleSQ);
