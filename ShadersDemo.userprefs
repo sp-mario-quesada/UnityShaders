@@ -1,14 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\PostProcessShaders\Glow\GlowFilterPostProcess.shader">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GrassDemo\Scripts\ExplosionDisplacementMap.cs">
     <Files>
       <File FileName="Assets\Water\Resources\SocialPointWater.shader" Line="145" Column="109" />
-      <File FileName="Assets\External\Resources\SharedShaders\Atmosphere.shader" Line="137" Column="50" />
+      <File FileName="Assets\External\Resources\SharedShaders\Atmosphere.shader" Line="1" Column="1" />
       <File FileName="Assets\GlobalParameters.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Atmosphere\Atmosphere.cs" Line="1" Column="1" />
-      <File FileName="Assets\LightRotation.cs" Line="27" Column="37" />
-      <File FileName="Assets\Resources\PostProcessShaders\Glow\GlowFilterPostProcess.shader" Line="58" Column="1" />
-      <File FileName="Assets\Resources\Shaders\Particle Add.shader" Line="13" Column="34" />
+      <File FileName="Assets\LightRotation.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\PostProcessShaders\Glow\GlowFilterPostProcess.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\PostProcessShaders\DistanceFieldPostProcess.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\PostProcessShaders\Glow\GlowScalePostProcess.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\PostProcessShaders\Glow\ScalePostProcess.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\PostProcessShaders\Glow\GlowMergePostProcess.shader" Line="1" Column="1" />
+      <File FileName="Assets\GrassDemo\Scripts\ExplosionDisplacementMap.cs" Line="4" Column="19" />
+      <File FileName="Assets\Resources\PostProcessShaders\ScalingDisplacementMapPostProcess.shader" Line="48" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

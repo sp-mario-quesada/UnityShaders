@@ -51,6 +51,7 @@
      <Compile Include="Assets\GrassDemo\Scripts\CameraDepthEnabler.cs" />
      <Compile Include="Assets\GrassDemo\Scripts\DepthDistorsionPostProcess.cs" />
      <Compile Include="Assets\GrassDemo\Scripts\DistanceFieldPostProcess.cs" />
+     <Compile Include="Assets\GrassDemo\Scripts\ExplosionDisplacementMap.cs" />
      <Compile Include="Assets\GrassDemo\Scripts\GrassEngine.cs" />
      <Compile Include="Assets\GrassDemo\Scripts\Obstacle.cs" />
      <Compile Include="Assets\GrassDemo\Scripts\ObstaclesSpawner.cs" />
@@ -72,6 +73,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Resources\PostProcessShaders\ScalingDisplacementMapPostProcess.shader" />
      <None Include="Assets\Resources\Shaders\GrassGeneratorShader.shader" />
      <None Include="Assets\Resources\Shaders\BasicShader.shader" />
      <None Include="Assets\Water\Resources\SocialPointCascade.shader" />
