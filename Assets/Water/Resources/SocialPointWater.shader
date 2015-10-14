@@ -18,6 +18,8 @@
 		
 		_ReflectionTex ("_ReflectionTex", 2D) = "white" {}
 		_RefractionTex ("_RefractionTex", 2D) = "white" {}
+		
+		_WaterwallPivot ("_WaterwallPivot", Vector) = (0,0,0,0)
 	}
 	SubShader
 	{
@@ -74,6 +76,8 @@
 			
 			fixed4 _HorizonColor;
 			
+			half4 _WaterwallPivot;
+			
 			sampler2D _ReflectionTex;
 			sampler2D _RefractionTex;
 			
@@ -92,11 +96,23 @@
 				uv.zw *= _UVScale.zw;
 				half2 uvScaleHalf = (_UVScale.xy + _UVScale.zw)*0.5;
 				
-				o.wpos.y += sin(o.wpos.x*uvScaleHalf.x*_WaveScale.x + _NormalMapAnimation.xy * _WaveScale.w * _Time.y) * sin(o.wpos.z*uvScaleHalf.y*_WaveScale.y + _NormalMapAnimation.y * _WaveScale.w * _Time.y) *_WaveScale.z * v.color.r ;
+				half2 collisionDir = o.wpos.xz - _WaterwallPivot.xz;
+				half collisionDist = length(collisionDir);
+				
+				half waveSpeed = lerp(-10, -10, smoothstep(0, 50, collisionDist));
+				half waveScale = lerp(1.5, 0, smoothstep(0, 50, collisionDist));
+				o.wpos.y += lerp( sin(o.wpos.x*uvScaleHalf.x*_WaveScale.x + _NormalMapAnimation.xy * _WaveScale.w * _Time.y) * sin(o.wpos.z*uvScaleHalf.y*_WaveScale.y + _NormalMapAnimation.y * _WaveScale.w * _Time.y) *_WaveScale.z * v.color.r,
+								  sin(collisionDist*1.0 + _Time.y*waveSpeed) *_WaveScale.z * v.color.r * waveScale,
+								     step(0.5, _WaterwallPivot.w));
+				//o.wpos.y += 0.5 * sin(o.wpos.x*uvScaleHalf.x*_WaveScale.x + _NormalMapAnimation.xy * _WaveScale.w * _Time.y) * sin(o.wpos.z*uvScaleHalf.y*_WaveScale.y + _NormalMapAnimation.y * _WaveScale.w * _Time.y) *_WaveScale.z * v.color.r;
 				
 				o.pos = mul(UNITY_MATRIX_VP, float4(o.wpos.xyz, 1));
 				o.norm = normalize( mul((float3x3) _Object2World, v.normal.xyz) );
 				o.sspos = o.pos;
+				
+				collisionDir = normalize(collisionDir);
+				o.uvNormalMap.xy = uv.xy + collisionDir.xy * _Time.x;
+				o.uvNormalMap.zw = uv.zw + collisionDir.xy * _Time.x;
 				
 				o.uvNormalMap.xy = uv.xy + _NormalMapAnimation.xy * _Time.x;
 				o.uvNormalMap.zw = uv.zw + _NormalMapAnimation.zw * _Time.x;

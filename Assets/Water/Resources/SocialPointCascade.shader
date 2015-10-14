@@ -166,7 +166,7 @@
 				float att = LIGHT_ATTENUATION(i);
 				finalColor *= max(att, 0.25);
 				
-				finalColor.a = 0.99+0.01*pow(fresnel, 7) * i.color.g;
+				finalColor.a = (0.5+0.5*fresnel) * i.color.g;
 				
 				return finalColor;
 			}

@@ -43,7 +43,7 @@
 
 			fixed4 frag (v2f i) : SV_Target
 			{
-				fixed4 displacement = tex2D(_DisplacementMap, i.uv)*2 -1;
+				fixed4 displacement = (tex2D(_DisplacementMap, i.uv)*2 -1)*0.01;
 				fixed4 col = tex2D(_MainTex, i.uv + displacement.xy);
 				
 				return col;
