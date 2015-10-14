@@ -4,13 +4,11 @@
 	//  Alpha by VertexColor.g
 	Properties
 	{
-		_ControlTex ("Reflective Color", 2D) = "white" {}
-		
 		_NormalMapAnimation("x:_NormalMapAnimation.U, y:_NormalMapAnimation.V", Vector) = (0.5, 0.5, 0, 0)
 		
 		_Cube ("Cube", Cube) = "white" {}
 		_NormalMap ("NormalMap", 2D) = "black" {}
-		_ReflectionProperties ("x:ReflPower(1-100),y:ReflDist(0-1),z:RefractDist(0-1),w:Nothing", Vector) = (1,0.01,0.01,0)
+		_ReflectionProperties ("x:ReflPower(1-100),y:ReflDist(0-1),z:RefractDist(0-1),w:NormalBlendFactor", Vector) = (1,0.01,0.01, 1.5)
 		_LightProperties ("x:specPower(1-100),y:SpecInt(0-4)", Vector) = (2,1.0,1.0,1)
 		
 		_UVScale ("UVScale", Vector) = (1,1,1,1)
@@ -24,8 +22,8 @@
 	SubShader
 	{
 		Tags {
-		 "Queue"="Transparent+100" 
-		 "RenderType"="Transparent" 
+		 "Queue"="Geometry+100" 
+		 "RenderType"="Opaque" 
 		 "LightMode"="ForwardBase" 
 		 }
 
@@ -63,8 +61,6 @@
 				LIGHTING_COORDS(3,4)
 			};
 
-			sampler2D _ControlTex;
-			
 			sampler2D _NormalMap;
 			float4 _NormalMap_ST;
 			half4 _NormalMapAnimation;
@@ -113,7 +109,7 @@
 			fixed4 frag (v2f i) : SV_Target
 			{
 				float2 sspos = ((i.sspos.xy/i.sspos.w)+1)*0.5;
-				sspos.y = 1 - sspos.y;
+				//sspos.y = 1 - sspos.y;
 			
 				// Vectors
 				half3 norm = normalize(i.norm);
@@ -121,35 +117,32 @@
 				half3 lightDir = normalize(_WorldSpaceLightPos0.xyz);
 //				half3 reflVector = normalize(-viewDir + 2.0*dot(viewDir, norm)*norm);
 				
+				// Texture Fetch
+				half3 normalMap1 = UnpackNormal(tex2D(_NormalMap, i.uvNormalMap.xy)).xyz;
+				half3 normalMap2 = UnpackNormal(tex2D(_NormalMap, i.uvNormalMap.zw)).xyz;
+				half3 normalMap = (normalMap1 + normalMap2) * _ReflectionProperties.w;
+				
+				norm = normalize(norm + half3(normalMap.r,normalMap.b,normalMap.g) * _ReflectionProperties.y);
+				
 				// Fresnel
 				half fresnel = max(dot(viewDir, norm), 0);
 				half rim = 1-fresnel;
 				
-				// Texture Fetch
-				half3 normalMap1 = UnpackNormal(tex2D(_NormalMap, i.uvNormalMap.xy)).xyz;
-				half3 normalMap2 = UnpackNormal(tex2D(_NormalMap, i.uvNormalMap.zw)).xyz;
-				half3 normalMap = (normalMap1 + normalMap2) * 0.5;
-				
-				fixed4 waterColor = tex2D(_ControlTex, half2(rim, rim));
-					   waterColor = lerp(waterColor, _HorizonColor, waterColor.a);
-				
-				half2 uv1 = sspos.xy; uv1.xy +=  normalMap * _ReflectionProperties.y; 
+				half2 uv1 = sspos.xy; uv1.xy +=  normalize(normalMap) * _ReflectionProperties.y; 
 				fixed4 reflectionColor = tex2D(_ReflectionTex, uv1.xy);
 				
-				half2 uv2 = sspos.xy; uv2.xy += normalMap * _ReflectionProperties.y; 
+				half2 uv2 = sspos.xy; uv2.xy += normalize(normalMap) * _ReflectionProperties.z; 
 				fixed4 refractionColor = tex2D(_RefractionTex, uv2.xy);
 				
-				fixed4 waterAlbedo = lerp(reflectionColor, refractionColor, fresnel);
-					   waterAlbedo = lerp(waterAlbedo, waterColor, waterColor.a);
-					   
-				// Lighting
-				norm = normalize(norm + half3(normalMap.r,normalMap.b,normalMap.g) * _ReflectionProperties.y);
-				half diffFactor = max(dot(norm, lightDir), 0);
+				fixed4 waterAlbedo = lerp(refractionColor, reflectionColor, rim);
+					  waterAlbedo = lerp(waterAlbedo, lerp(waterAlbedo, _HorizonColor, 0.5), pow(rim, 4));
+				
+				half diffFactor = 1;//max(dot(norm, lightDir), 0);
 				
 				half3 halfVector = (viewDir + lightDir)*0.5;
 				half specFactor = pow(max(dot(norm, halfVector), 0), _LightProperties.x) * _LightProperties.y;
 				
-				fixed4 finalColor = (waterAlbedo*diffFactor + specFactor) *_LightColor0;
+				fixed4 finalColor = (waterAlbedo*diffFactor + specFactor) *_LightColor0* lerp(0.3, 1, smoothstep(0, 0.25, lightDir.y));
 
 				float att = LIGHT_ATTENUATION(i);
 				finalColor *= max(att, 0.25);

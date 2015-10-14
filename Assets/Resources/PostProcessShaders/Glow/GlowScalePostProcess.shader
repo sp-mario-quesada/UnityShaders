@@ -7,6 +7,7 @@
 	SubShader
 	{
 		Cull Off ZWrite Off ZTest Always
+		colormask rgb
 		Pass
 		{
 			CGPROGRAM

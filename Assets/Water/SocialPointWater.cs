@@ -154,12 +154,15 @@ namespace SocialPoint
 			return meshRenderer.sharedMaterial;
 		}
 
+		public Vector3 cameraOfsset;
+
 		// Given position/normal of the plane, calculates plane in camera space.
 		private Vector4 CameraSpacePlane (Camera cam, Vector3 pos, Vector3 normal, float sideSign)
 		{
 			Vector3 offsetPos = pos + normal * m_ClipPlaneOffset;
 			Matrix4x4 m = cam.worldToCameraMatrix;
 			Vector3 cpos = m.MultiplyPoint( offsetPos );
+			cpos += cameraOfsset;
 			Vector3 cnormal = m.MultiplyVector( normal ).normalized * sideSign;
 			return new Vector4( cnormal.x, cnormal.y, cnormal.z, -Vector3.Dot(cpos,cnormal) );
 		}

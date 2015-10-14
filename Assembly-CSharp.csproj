@@ -47,15 +47,18 @@
   <ItemGroup>
      <Compile Include="Assets\GPGPUDemo\Scripts\GPGPUDemo.cs" />
      <Compile Include="Assets\GPGPUDemo\Scripts\GPUParticleSystem.cs" />
+     <Compile Include="Assets\GlobalParameters.cs" />
      <Compile Include="Assets\GrassDemo\Scripts\CameraDepthEnabler.cs" />
      <Compile Include="Assets\GrassDemo\Scripts\DepthDistorsionPostProcess.cs" />
      <Compile Include="Assets\GrassDemo\Scripts\DistanceFieldPostProcess.cs" />
      <Compile Include="Assets\GrassDemo\Scripts\GrassEngine.cs" />
      <Compile Include="Assets\GrassDemo\Scripts\Obstacle.cs" />
      <Compile Include="Assets\GrassDemo\Scripts\ObstaclesSpawner.cs" />
+     <Compile Include="Assets\LightRotation.cs" />
      <Compile Include="Assets\PostProcessesDemo\Scripts\BlurTargets.cs" />
      <Compile Include="Assets\PostProcessesDemo\Scripts\CellsPostProcess.cs" />
      <Compile Include="Assets\PostProcessesDemo\Scripts\GlowPostProcess.cs" />
+     <Compile Include="Assets\Scripts\Atmosphere\Atmosphere.cs" />
      <Compile Include="Assets\Scripts\BaseAction.cs" />
      <Compile Include="Assets\Scripts\EasingCallbackAction.cs" />
      <Compile Include="Assets\Scripts\EasingCore.cs" />
@@ -101,6 +104,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\Resources\Shaders\SpherifyShader.shader" />
      <None Include="Assets\Resources\PostProcessShaders\Glow\GlowFilterPostProcess.shader" />
+     <None Include="Assets\Resources\Shaders\Particle Add.shader" />
      <None Include="Assets\Resources\PostProcessShaders\DepthDistorsionPostProcess.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
@@ -125,12 +129,14 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\Resources\ComputeShaders\GPUParticleUpdater.compute" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Resources\ShaderIncludes\MQMNoise.cginc" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
      <None Include="Assets\Resources\PostProcessShaders\Glow\GlowObjectShader.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\External\Resources\SharedShaders\Atmosphere.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\Water\Resources\SocialPointWater.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />

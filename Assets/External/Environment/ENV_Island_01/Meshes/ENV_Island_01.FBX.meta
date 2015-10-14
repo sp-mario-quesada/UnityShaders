@@ -17,6 +17,7 @@ ModelImporter:
     100018: ENV_SeaWater_01
     100020: PRP_Grass_01_01
     100022: PRP_Grass_02_01
+    100024: PRP_Hoguera_01
     400000: //RootNode
     400002: ENV_Rocks_01
     400004: island_LO
@@ -29,6 +30,7 @@ ModelImporter:
     400018: ENV_SeaWater_01
     400020: PRP_Grass_01_01
     400022: PRP_Grass_02_01
+    400024: PRP_Hoguera_01
     2300000: ENV_Rocks_01
     2300002: island_LO
     2300004: ENV_CascadeGround_01
@@ -40,6 +42,7 @@ ModelImporter:
     2300016: ENV_SeaWater_01
     2300018: PRP_Grass_01_01
     2300020: PRP_Grass_02_01
+    2300022: PRP_Hoguera_01
     3300000: ENV_Rocks_01
     3300002: island_LO
     3300004: ENV_CascadeGround_01
@@ -51,6 +54,7 @@ ModelImporter:
     3300016: ENV_SeaWater_01
     3300018: PRP_Grass_01_01
     3300020: PRP_Grass_02_01
+    3300022: PRP_Hoguera_01
     4300000: island_LO
     4300002: ENV_Rocks_01
     4300004: ENV_Island_01
@@ -62,6 +66,7 @@ ModelImporter:
     4300016: ENV_LakeWater_01
     4300018: ENV_SeaWater_01
     4300020: ENV_SeaCascade_01
+    4300022: PRP_Hoguera_01
   materials:
     importMaterials: 1
     materialName: 0

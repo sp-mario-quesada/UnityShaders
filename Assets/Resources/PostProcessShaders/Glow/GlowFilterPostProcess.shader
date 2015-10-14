@@ -7,9 +7,15 @@
 	SubShader
 	{
 		Cull Off ZWrite Off ZTest Always
+		colormask rgb
 
 		Pass
 		{
+			Stencil {
+                Ref 100
+                Comp notequal
+            }
+            
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
@@ -43,10 +49,18 @@
 			fixed4 frag (v2f i) : SV_Target
 			{
 				fixed4 col = tex2D(_MainTex, i.uv);
-				if(col.a > 0.99)
-				{
-					col = fixed4(0, 0, 0, 1);
-				}
+				fixed lum = Luminance(col.rgb);
+				
+				col = lerp(col, fixed4(0, 0, 0, col.a), step(col.a, 0.9999)); // only to non solid things
+				col = lerp(fixed4(0, 0, 0, col.a), col, step(0.8, lum));
+				
+				half skyValue = 0.8;
+				col = lerp(fixed4(0, 0, 0, col.a), col, step(0.001, abs(col.a-skyValue) ));
+				
+//				if(col.a > 0.99)
+//				{
+//					col = fixed4(0, 0, 0, 1);
+//				}
 
 				return col;
 			}

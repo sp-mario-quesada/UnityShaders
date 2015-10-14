@@ -111,7 +111,6 @@ namespace UnityStandardAssets.Water
                 reflectionCamera.Render();
                 reflectionCamera.transform.position = oldpos;
                 GL.invertCulling = false;
-				Debug.Log("Setting _ReflectionTex");
                 GetComponent<Renderer>().sharedMaterial.SetTexture("_ReflectionTex", m_ReflectionTexture);
             }
 
@@ -130,7 +129,6 @@ namespace UnityStandardAssets.Water
                 refractionCamera.transform.position = cam.transform.position;
                 refractionCamera.transform.rotation = cam.transform.rotation;
                 refractionCamera.Render();
-				Debug.Log("Setting _RefractionTex");
                 GetComponent<Renderer>().sharedMaterial.SetTexture("_RefractionTex", m_RefractionTexture);
             }
 
