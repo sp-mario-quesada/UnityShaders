@@ -52,7 +52,7 @@
 				fixed4 scene = tex2D(_MainTex, i.uv);
 				fixed4 blur = tex2D(_BlurTex, i.sspos.xy);
 				
-				float d = smoothstep(30, 40, sceneDepth*(_ProjectionParams.z-_ProjectionParams.y));
+				float d = smoothstep(60, 100, sceneDepth*(_ProjectionParams.z-_ProjectionParams.y));
 				// if it is too far get back
 				d = lerp(d, 0, smoothstep(200, 250, sceneDepth*(_ProjectionParams.z-_ProjectionParams.y)));
 				

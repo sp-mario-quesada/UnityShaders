@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿//#define GRASS_CPU
+
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -48,6 +50,9 @@ public class GrassEngine : MonoBehaviour
 	int _initGrassKernelId;
 	int _updateGrassKernelId;
 
+	GrassData[] _grassDataTestCPU;
+	ObstacleData[] _obstaclesDataTestCPU = null;
+
 	int _numGrassItems;
 
 	bool _isInit = false;
@@ -90,7 +95,10 @@ public class GrassEngine : MonoBehaviour
 		_grassMaterial.SetBuffer("_GrassBuffer", _grassBuffer);
 
 		_grassComputeShader.Dispatch(_initGrassKernelId, _numGroupGrassX, _numGroupGrassY, 1);
-
+#if GRASS_CPU
+		_grassDataTestCPU = new GrassData[_numGrassItems];
+		_grassBuffer.GetData(_grassDataTestCPU);
+#endif
 		_isInit = true;
 	}
 
@@ -100,11 +108,60 @@ public class GrassEngine : MonoBehaviour
 
 		_obstaclesBuffer.SetData(obstaclesData);
 		_grassComputeShader.SetInt("_NumObstacles", obstaclesData.Length);
+#if GRASS_CPU
+		_obstaclesDataTestCPU = obstaclesData;
+#endif
 	}
 
 	void Update()
 	{
+#if GRASS_CPU
+		DoUpdateInCPU();
+#else
 		_grassComputeShader.Dispatch(_updateGrassKernelId, _numGroupGrassX, _numGroupGrassY, 1);
+#endif
+	}
+
+	void DoUpdateInCPU()
+	{
+		for (int idx = 0; idx < _grassDataTestCPU.Length; ++idx) 
+		{
+			DoUpdateGrassKernelCPU(ref _grassDataTestCPU, idx);
+		}
+
+		_grassBuffer.SetData(_grassDataTestCPU);
+	}
+
+	void DoUpdateGrassKernelCPU (ref GrassData[] datas, int idx)
+	{
+		GrassData data = datas[idx];
+		Vector3 expansiveForce = Vector3.zero;
+		for(int i = 0; _obstaclesDataTestCPU != null && i < _obstaclesDataTestCPU.Length; ++i)
+		{
+			Vector3 dirToObstacle = _obstaclesDataTestCPU[i].Position - data.Position;
+			float obstacleRadiusSQ = _obstaclesDataTestCPU[i].Radius*_obstaclesDataTestCPU[i].Radius;
+			
+			float distToObstacleSQ = dirToObstacle.x*dirToObstacle.x + dirToObstacle.y*dirToObstacle.y + dirToObstacle.z*dirToObstacle.z;
+			if(distToObstacleSQ-obstacleRadiusSQ < 0)
+			{
+				float flattening = (1f-smoothstep(0f, 1f, distToObstacleSQ)) * Time.deltaTime * 4f;
+				data.Flattening = Mathf.Max(data.Flattening - flattening, 0.2f);
+			}
+			
+			if(distToObstacleSQ-obstacleRadiusSQ < 4f)
+			{
+				float forceIntensity = 1-smoothstep(0f, 4f, distToObstacleSQ);
+				expansiveForce += Vector3.Normalize(-dirToObstacle) * _obstaclesDataTestCPU[i].ExpansiveForce * forceIntensity;
+				expansiveForce.y = 0f;
+				data.ExpansiveForce = expansiveForce;
+			}
+		}
+		datas[idx] = data;
+	}
+
+	float smoothstep(float a, float b, float val)
+	{
+		return Mathf.Clamp01((val-a)/(b-a));
 	}
 
 	void OnRenderObject()

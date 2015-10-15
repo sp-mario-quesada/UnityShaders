@@ -156,17 +156,19 @@
 					   
 				// Lighting
 				norm = normalize(norm + half3(normalMap.r,normalMap.b,normalMap.g) * _ReflectionProperties.y);
-				half diffFactor = max(dot(norm, lightDir), 0);
+				half diffFactor = 0.6 + 0.4 * max(dot(norm, lightDir), 0);
 				
 				half3 halfVector = (viewDir + lightDir)*0.5;
 				half specFactor = pow(max(dot(norm, halfVector), 0), _LightProperties.x) * _LightProperties.y;
 				
-				fixed4 finalColor = (waterAlbedo*diffFactor + specFactor) *_LightColor0;
+				//fixed4 finalColor = (waterAlbedo*diffFactor + specFactor) *_LightColor0;
+				fixed4 finalColor = (waterAlbedo*diffFactor + specFactor) *_LightColor0 * lerp(0.1, 1, smoothstep(0, 0.25, lightDir.y));
 
 				float att = LIGHT_ATTENUATION(i);
 				finalColor *= max(att, 0.25);
 				
 				finalColor.a = (0.5+0.5*fresnel) * i.color.g;
+				finalColor.a *= lerp(0, 1, smoothstep(-28, -15.0, i.wpos.y));
 				
 				return finalColor;
 			}

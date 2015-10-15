@@ -1,7 +1,8 @@
 fileFormatVersion: 2
 guid: 58a059b07b093a745b47c2191525ddce
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    8900000: generatedCubemap
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -27,14 +28,15 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    filterMode: 2
     aniso: -1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 0
   nPOTScale: 1
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 0
   spriteExtrude: 1
   spriteMeshType: 1
@@ -49,20 +51,25 @@ TextureImporter:
     maxTextureSize: 256
     textureFormat: -1
     compressionQuality: 50
+    allowsAlphaSplitting: 0
   - buildTarget: Android
     maxTextureSize: 256
     textureFormat: -1
     compressionQuality: 50
+    allowsAlphaSplitting: 0
   - buildTarget: BlackBerry
     maxTextureSize: 256
     textureFormat: -1
     compressionQuality: 50
+    allowsAlphaSplitting: 0
   - buildTarget: WP8
     maxTextureSize: 256
     textureFormat: -1
     compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
     sprites: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
+  assetBundleVariant: 

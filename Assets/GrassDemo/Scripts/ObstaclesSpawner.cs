@@ -11,7 +11,10 @@ public class ObstaclesSpawner : MonoBehaviour
 	float _spawnDistanceToCamera = 0f;
 
 	[SerializeField]
-	float _spawnObsacleForce = 100f;
+	float _spawnObsacleForceMin = 5f;
+
+	[SerializeField]
+	float _spawnObsacleForceMax = 15f;
 
 	GrassEngine _grassEngine;
 
@@ -56,7 +59,7 @@ public class ObstaclesSpawner : MonoBehaviour
 		_obstacles.Add(obstacle);
 		_obstaclesData[_numObstacles++] = new GrassEngine.ObstacleData(){ Position = position, Radius = obstacle.GetRadius(), ExpansiveForce = 0f };
 
-		obstacle.Play(direction * _spawnObsacleForce);
+		obstacle.Play(direction * Random.Range(_spawnObsacleForceMin, _spawnObsacleForceMax));
 	}
 
 	GameObject GetRandomPrefab()

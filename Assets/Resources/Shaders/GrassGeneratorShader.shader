@@ -71,7 +71,7 @@ Shader "SocialPoint/GrassGeneratorShader"
 			struct v2g
 			{
 				float4 pos : SV_POSITION;
-				float2 noise : TEXCOORD0;
+				float3 noise : TEXCOORD0;
 				int inst : TEXCOORD1;
 			};
 			
@@ -95,7 +95,7 @@ Shader "SocialPoint/GrassGeneratorShader"
 				// Noise
 				float w = (inst % _Width) / _Width;
 				float h = (inst / _Width) / _Height;
-				o.noise = tex2Dlod(_NoiseTex, float4(w, h, 0, 0) * 50.0).xy;
+				o.noise = tex2Dlod(_NoiseTex, float4(w, h, 0, 0) * 50.0).xyz;
 				
 				o.inst = inst;
 				
@@ -106,7 +106,8 @@ Shader "SocialPoint/GrassGeneratorShader"
 			{
 				float instf = float(inst);
 				half hScale = smoothstep(0, 1, localPos.y);
-				float blendFactorFront = sin(instancePos.x*0 + i.noise.x*10 + _Time.x)*sin(instancePos.z*0 + i.noise.y*10 + _Time.x) * hScale;
+				half movementScale = lerp(0.5, 1.5, length(i.noise));
+				float blendFactorFront = sin(i.noise.x*10 + _Time.x)*sin(i.noise.y*10 + _Time.x) * movementScale * hScale;
 				float blendFactorUp = abs(blendFactorFront)*0.5;
 				
 				localPos += front * blendFactorFront + expansiveForce * hScale;
@@ -118,13 +119,14 @@ Shader "SocialPoint/GrassGeneratorShader"
 				o.normal.y += blendFactorUp*4;
 				o.normal = normalize(o.normal);
 				
-				o.color = fixed4(i.noise.rg, 0, 1);
+				o.color = fixed4(i.noise.rgb, 1);
 			}
 			
 			[maxvertexcount(4*GRASS_PARTS)]
 			void geom(point v2g i[1], inout TriangleStream<g2f> oStream)
 			{
-				half3 _Size = 0.25;
+				half3 _Size = 0.3;
+				_Size.y = lerp(_Size.y*0.7, _Size.y*1.3, length(i[0].noise));
 			
 				g2f o = (g2f) 0;
 				float4 wpos;
@@ -182,7 +184,8 @@ Shader "SocialPoint/GrassGeneratorShader"
 			{
 				fixed4 albedo = tex2D(_MainTex, i.uv) * _Color;
 				albedo.a = min(albedo.a, 1-Luminance(albedo.rgb));
-				//albedo.rgb *= i.color;
+				albedo.rgb *= i.color.rgb;
+				i.normal = normalize(i.normal);
 				
 				clip(albedo.a-0.01);
 				
@@ -195,10 +198,10 @@ Shader "SocialPoint/GrassGeneratorShader"
 				half diffFactor = abs(dot(lightDir, i.normal)) * _LightProps0.x;
 				// Specular
 				half3 halfVector = (lightDir + viewDir) * 0.5;
-				half specFactor = pow(abs(dot(halfVector, i.normal)), _LightProps0.x ) * _LightProps0.z;
+				half specFactor = pow(abs(dot(halfVector, i.normal)), _LightProps0.y ) * _LightProps0.z;
 				// Final color
-				fixed4 finalColor =  _LightColor0 * (albedo*diffFactor + _SpecularColor*specFactor + _FresnelColor*fresnelFactor);
-				finalColor.a = albedo.a * (0.8+0.2*fresnelFactor);
+				fixed4 finalColor =  _LightColor0 * (albedo*diffFactor + _SpecularColor*specFactor) + albedo * _FresnelColor*(fresnelFactor);
+				finalColor.a = max(albedo.a, 0.5);
 				
 				return finalColor;
 			}

@@ -69,7 +69,7 @@ void UpdateGrassKernel (uint3 id : SV_DispatchThreadID, uint blockId : SV_GroupI
 		float3 dirToObstacle = _ObstaclesBuffer[i].pos - data.pos;
 		float obstacleRadiusSQ = _ObstaclesBuffer[i].radius*_ObstaclesBuffer[i].radius;
 		
-		float distToObstacleSQ = dirToObstacle.x*dirToObstacle + dirToObstacle.y*dirToObstacle.y + dirToObstacle.z*dirToObstacle.z;
+		float distToObstacleSQ = dirToObstacle.x*dirToObstacle.x + dirToObstacle.y*dirToObstacle.y + dirToObstacle.z*dirToObstacle.z;
 		if(distToObstacleSQ-obstacleRadiusSQ < 0)
 		{
 			float flattening = (1-smoothstep(0, 1, distToObstacleSQ)) * _DeltaTime * 4;
