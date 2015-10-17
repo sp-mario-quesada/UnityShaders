@@ -29,18 +29,18 @@ float _Height;
 RWStructuredBuffer<ObstacleData> _ObstaclesBuffer;
 int _NumObstacles;
 
-[numthreads(16,16,1)]
+[numthreads(32,32,1)]
 void InitGrassKernel (uint3 id : SV_DispatchThreadID, uint blockId : SV_GroupIndex)
 {
 	 int idx = 	id.x + id.y * _Width;
 	
 	 GrassData data;
-	 data.pos = float3(id.x, 0, id.y) * 0.2;
+	 data.pos = float3(id.x, 0, id.y) * 0.025;
 	 
-	 const float2 _noiseSampleScale = float2(1, 1);
-	 const float2 _noiseAmplitude = float2(2, 2);
+	 const float2 _noiseSampleScale = float2(100, 100);
+	 const float2 _noiseAmplitude = float2(0.1, 0.1);
 	 
-	 int2 uv = int2((id.x*_noiseSampleScale.x)%_Width.x, (id.y*_noiseSampleScale.y)%_Height);
+	 int2 uv = int2((id.x*_noiseSampleScale.x)%64, (id.y*_noiseSampleScale.y)%64);
 	 float2 noise = (_NoiseTex[uv]*2-1).xy*_noiseAmplitude;
 	 data.pos.x += noise.x;
 	 data.pos.z += noise.y;
@@ -57,7 +57,7 @@ void InitGrassKernel (uint3 id : SV_DispatchThreadID, uint blockId : SV_GroupInd
 }
 
 // Check Obstacles
-[numthreads(16,16,1)]
+[numthreads(32,32,1)]
 void UpdateGrassKernel (uint3 id : SV_DispatchThreadID, uint blockId : SV_GroupIndex)
 {
 	int idx = 	id.x + id.y * _Width;

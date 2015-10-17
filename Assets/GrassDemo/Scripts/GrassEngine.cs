@@ -10,8 +10,8 @@ public class GrassEngine : MonoBehaviour
 	private string kInitGrassKernel = "InitGrassKernel";
 	private string kUpdateGrassKernel = "UpdateGrassKernel";
 
-	private int kThreadsX = 16;
-	private int kThreadsY = 16;
+	private int kThreadsX = 32;
+	private int kThreadsY = 32;
 
 	private int kMaxObstacles = 128;
 

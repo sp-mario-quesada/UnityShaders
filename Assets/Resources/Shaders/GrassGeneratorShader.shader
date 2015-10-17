@@ -17,14 +17,13 @@ Shader "SocialPoint/GrassGeneratorShader"
 		{
 		 "RenderType"="Opaque" 
 		 "Queue" = "Geometry" 
-		 "LightMode" = "Always"
 		}
 		
 		Pass
 		{
 			LOD 100
 		
-			Blend SrcAlpha OneMinusSrcAlpha
+			//Blend SrcAlpha OneMinusSrcAlpha
 			ZWrite On Cull Off ZTest On
 		
 			CGPROGRAM
@@ -39,7 +38,7 @@ Shader "SocialPoint/GrassGeneratorShader"
 			
 			#pragma target 5.0
 			
-			#define GRASS_PARTS 8
+			#define GRASS_PARTS 1
 			
 			struct GrassData
 			{
@@ -126,8 +125,8 @@ Shader "SocialPoint/GrassGeneratorShader"
 			[maxvertexcount(4*GRASS_PARTS)]
 			void geom(point v2g i[1], inout TriangleStream<g2f> oStream)
 			{
-				half3 _Size = 0.3;
-				_Size.y = lerp(_Size.y*0.7, _Size.y*1.3, length(i[0].noise));
+				half3 _Size = half3(0.065, 0.15, 0.065);
+				_Size.y *= lerp(0.5, 1.5, length(i[0].noise));
 			
 				g2f o = (g2f) 0;
 				float4 wpos;
@@ -184,11 +183,14 @@ Shader "SocialPoint/GrassGeneratorShader"
 			fixed4 frag(g2f i) : COLOR
 			{
 				fixed4 albedo = tex2D(_MainTex, i.uv) * _Color;
-				albedo.a = min(albedo.a, 1-Luminance(albedo.rgb));
+				//albedo.a = min(albedo.a, 1-Luminance(albedo.rgb));
+				//albedo.a = lerp(0, 1, smoothstep(0.05, 0.1, Luminance(albedo.rgb)));
+				
+				//clip(albedo.a-0.01);
+				clip(albedo.a-0.1);
+				
 				albedo.rgb *= i.color.rgb;
 				i.normal = normalize(i.normal);
-				
-				clip(albedo.a-0.01);
 				
 				float3 lightDir = _WorldSpaceLightPos0.xyz;
 				float3 viewDir = normalize(_WorldSpaceCameraPos - i.wpos);
