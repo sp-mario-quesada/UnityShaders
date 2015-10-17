@@ -17,6 +17,7 @@ Shader "SocialPoint/GrassGeneratorShader"
 		{
 		 "RenderType"="Opaque" 
 		 "Queue" = "Geometry" 
+		 "LightMode" = "Always"
 		}
 		
 		Pass
