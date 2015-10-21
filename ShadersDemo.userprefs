@@ -1,12 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\PostProcessShaders\Glow\GlowMergePostProcess.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ImageParticlesDemo\Resources\ParticleImageCompute.compute">
     <Files>
-      <File FileName="Assets\Resources\Shaders\GrassGeneratorShader.shader" Line="109" Column="39" />
-      <File FileName="Assets\GrassDemo\Scripts\GrassEngine.cs" Line="1" Column="1" />
-      <File FileName="Assets\Resources\Shaders\GrassTerrainShader.shader" Line="1" Column="1" />
-      <File FileName="Assets\Resources\PostProcessShaders\DistanceFieldPostProcess.shader" Line="1" Column="1" />
-      <File FileName="Assets\Resources\PostProcessShaders\Glow\GlowMergePostProcess.shader" Line="1" Column="1" />
+      <File FileName="Assets\ImageParticlesDemo\ImageParticleEngine.cs" Line="95" Column="2" />
+      <File FileName="Assets\ImageParticlesDemo\Resources\ParticleImageShader.shader" Line="12" Column="34" />
+      <File FileName="Assets\ImageParticlesDemo\Resources\ParticleImageCompute.compute" Line="72" Column="12" />
+      <File FileName="Assets\ImageParticlesDemo\Resources\Noise.cginc" Line="7" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

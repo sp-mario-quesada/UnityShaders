@@ -126,7 +126,7 @@ Shader "SocialPoint/GrassGeneratorShader"
 			void geom(point v2g i[1], inout TriangleStream<g2f> oStream)
 			{
 				half3 _Size = half3(0.065, 0.15, 0.065);
-				_Size.y *= lerp(0.5, 1.5, length(i[0].noise));
+				_Size.y *= lerp(0.25, 2.0, (i[0].noise.r));
 			
 				g2f o = (g2f) 0;
 				float4 wpos;
@@ -183,10 +183,6 @@ Shader "SocialPoint/GrassGeneratorShader"
 			fixed4 frag(g2f i) : COLOR
 			{
 				fixed4 albedo = tex2D(_MainTex, i.uv) * _Color;
-				//albedo.a = min(albedo.a, 1-Luminance(albedo.rgb));
-				//albedo.a = lerp(0, 1, smoothstep(0.05, 0.1, Luminance(albedo.rgb)));
-				
-				//clip(albedo.a-0.01);
 				clip(albedo.a-0.1);
 				
 				albedo.rgb *= i.color.rgb;

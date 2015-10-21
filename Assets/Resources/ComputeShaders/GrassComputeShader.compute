@@ -37,7 +37,7 @@ void InitGrassKernel (uint3 id : SV_DispatchThreadID, uint blockId : SV_GroupInd
 	 GrassData data;
 	 data.pos = float3(id.x, 0, id.y) * 0.025;
 	 
-	 const float2 _noiseSampleScale = float2(100, 100);
+	 const float2 _noiseSampleScale = float2(50, 50);
 	 const float2 _noiseAmplitude = float2(0.1, 0.1);
 	 
 	 int2 uv = int2((id.x*_noiseSampleScale.x)%64, (id.y*_noiseSampleScale.y)%64);

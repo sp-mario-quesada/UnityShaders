@@ -1,0 +1,139 @@
+﻿#include "Noise.cginc"
+
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel InitParticlesKernel
+#pragma kernel UpdateParticlesKernel
+
+struct ParticleData
+{
+	float3 position;
+	float4 color;
+};
+
+struct ParticlePhysicsData
+{
+	float3 velocity;
+};
+
+Texture2D<float4> _Image;
+float4 _ImageSize;
+float4 _ParticleHalfSize;
+
+RWStructuredBuffer<ParticleData> _ParticlesBuffer;
+RWStructuredBuffer<ParticlePhysicsData> _ParticlesPhysicsBuffer;
+
+float _Time;
+float _DeltaTime;
+float4 _Explosion;
+float3 _Position;
+int _ImageLayers;
+
+float3 CalculatePositionById(uint3 id)
+{
+	return _Position + float3(id.x, id.y, id.z)*_ParticleHalfSize.xyz*2.0;
+}
+
+float GetIdx(uint3 id)
+{
+	return (_ImageSize.x * id.y + id.x) + _ImageSize.x*_ImageSize.y*id.z;
+}
+
+float4 CalculateColor(uint3 id, float4 backgroundColor)
+{
+	float2 p = ((float2)id.xy)/_ImageSize.xy;
+	p = p*2 -1;
+	
+	float4 color = lerp(float4(0, 0, 1, 1), float4(0.5, 0, 0.5, 1), smoothstep(0.2, 0.8, fbm2(p*3.16 + float2(0, -_Time))) );
+	
+	
+	// circles
+	int i = 0;
+	for(i = 0; i < 100; i++)
+	{
+		float rad = 0.01 + hash1( ((float)i)*9900.0)*0.1;
+		float speed = 0.001 + hash1(( (float)i)*9142.0)*2.0;
+		float posLerp = hash1( ((float)i)*9990.0);
+		float2 pos = lerp(float2(-0.9, -1.5), float2(0.9, -1.5), posLerp);
+		pos.y += fmod(_Time * speed, 2.5);
+		
+		float d = length(p - pos) - rad;
+		
+		float4 ballColor = lerp(float4(sin(rad*999),cos(speed*999),sin(i*99),1), float4(0,0,0,1), smoothstep(-0.01, 0.01, d));
+		ballColor = lerp(ballColor, float4(speed*0.5, sin(pos.x*10), sin(pos.y*10), 1), smoothstep(-rad*0.8, 0.1, d) );
+		color = lerp(ballColor, color, smoothstep(0.0, 0.01, d));
+	}
+	
+	//fog
+	color = lerp(color, float4(1, 1, 0, 1), smoothstep(0.0, 1.0, fbm2(p*0.81 + float2(0, +_Time))) );
+	
+	//Fire
+	float d = -(length(p) - 1.2);
+	float t = atan2(p.y, p.x) * 6 + fbm2(p*10 + _Time);
+	d -= fbm2( float2(t, t) )* 0.8;
+
+	float4 fireColor = lerp(float4(1, 0, 0, 1), (color + float4(1, 0, 0, 1))*0.5, smoothstep(-0.2, 0.0, d));
+	color = lerp(fireColor, color, smoothstep(0, 0.1, d));
+	
+	//color = fireColor*fireColor.a + color*(1-fireColor.a);
+	//color.a = 1;
+	
+	//vigneting
+	//color.rgb = lerp( color, float4(color.rgb*0.2, 1), smoothstep(0.0, 2.0, pow(length(p), 3)) ).rgb;
+	color.a *= lerp( 1, 0, smoothstep(0.9, 1.0, length(p)) );
+	
+	return color;
+}
+
+[numthreads(16,16,1)]
+void InitParticlesKernel (uint3 id : SV_DispatchThreadID)
+{
+	if(id.x >= _ImageSize.x || id.y >= _ImageSize.y || id.z >= _ImageLayers)
+	{
+		return;
+	}
+	
+	float4 color = _Image[id.xy];
+	
+	int idx = GetIdx(id);
+    _ParticlesBuffer[idx].color = CalculateColor(id, color);
+    _ParticlesBuffer[idx].position = CalculatePositionById(id);
+    
+    float lum = dot(color, float3(0.2126, 0.7152, 0.0722));
+    _ParticlesBuffer[idx].position.z += lum;
+    
+    _ParticlesPhysicsBuffer[idx].velocity = float3(0, 0, 0);
+}
+
+[numthreads(16,16,1)]
+void UpdateParticlesKernel (uint3 id : SV_DispatchThreadID)
+{
+	if(id.x >= _ImageSize.x || id.y >= _ImageSize.y || id.z >= _ImageLayers)
+	{
+		return;
+	}
+	
+	// Check all objects impacting here !!
+	int idx = GetIdx(id);
+	
+	ParticlePhysicsData physicsData = _ParticlesPhysicsBuffer[idx];
+	if(_Explosion.w > 0)
+	{
+		float2 dirToExplosion = -(_Explosion.xy - _ParticlesBuffer[idx].position.xy);
+		float distToExplosion = length(dirToExplosion);
+		
+		float forceScale = smoothstep(2.0, 0, distToExplosion);
+		dirToExplosion /= distToExplosion;
+		physicsData.velocity.xy += dirToExplosion * (20 * forceScale) * (0.5+0.5*sin(idx));
+	}
+	
+    _ParticlesBuffer[idx].position += physicsData.velocity * _DeltaTime;
+    _ParticlesBuffer[idx].color = CalculateColor(id, _Image[id.xy]);
+    physicsData.velocity *= 0.9;
+    
+    if(length(physicsData.velocity.xz) < 1e-2)
+    {
+    	_ParticlesBuffer[idx].position = lerp(_ParticlesBuffer[idx].position, CalculatePositionById(id), 0.1);
+    }
+    
+    _ParticlesPhysicsBuffer[idx] = physicsData;
+}

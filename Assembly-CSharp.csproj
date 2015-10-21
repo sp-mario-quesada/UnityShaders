@@ -56,6 +56,8 @@
      <Compile Include="Assets\GrassDemo\Scripts\GrassEngine.cs" />
      <Compile Include="Assets\GrassDemo\Scripts\Obstacle.cs" />
      <Compile Include="Assets\GrassDemo\Scripts\ObstaclesSpawner.cs" />
+     <Compile Include="Assets\ImageParticlesDemo\ImageParticleEngine.cs" />
+     <Compile Include="Assets\ImageParticlesDemo\MeshParticleEngine.cs" />
      <Compile Include="Assets\LightRotation.cs" />
      <Compile Include="Assets\PostProcessesDemo\Scripts\BlurTargets.cs" />
      <Compile Include="Assets\PostProcessesDemo\Scripts\CellsPostProcess.cs" />
@@ -110,15 +112,19 @@
      <None Include="Assets\Resources\PostProcessShaders\Glow\GlowFilterPostProcess.shader" />
      <None Include="Assets\Resources\Shaders\Particle Add.shader" />
      <None Include="Assets\Resources\PostProcessShaders\DepthDistorsionPostProcess.shader" />
+     <None Include="Assets\ImageParticlesDemo\Resources\ParticleInstancingShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\ImageParticlesDemo\Resources\ParticleImageCompute.compute" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\ImageParticlesDemo\Resources\ParticleImageShader.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\ImageParticlesDemo\Resources\Noise.cginc" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
@@ -153,6 +159,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\ImageParticlesDemo\Resources\ParticleMeshCompute.compute" />
      <None Include="Assets\Resources\PostProcessShaders\DistanceFieldPostProcess.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
      <None Include="Assets\Resources\Shaders\UnderWaterShader.shader" />
