@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ImageParticlesDemo\Resources\ParticleImageCompute.compute">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\sp-unity-ChampionsArena\ChampionsArena\Assets\Scripts\AnimationLibrary\Editor\SPAnimationBoxEditorContainer.cs">
     <Files>
-      <File FileName="Assets\ImageParticlesDemo\ImageParticleEngine.cs" Line="95" Column="2" />
-      <File FileName="Assets\ImageParticlesDemo\Resources\ParticleImageShader.shader" Line="12" Column="34" />
-      <File FileName="Assets\ImageParticlesDemo\Resources\ParticleImageCompute.compute" Line="72" Column="12" />
-      <File FileName="Assets\ImageParticlesDemo\Resources\Noise.cginc" Line="7" Column="15" />
+      <File FileName="..\sp-unity-ChampionsArena\ChampionsArena\Assets\Scripts\AnimationLibrary\Editor\SPAnimationBoxEditorContainer.cs" Line="321" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
